@@ -1,0 +1,237 @@
+dn: CN=111135,ou=People,dc=fabrikam,dc=com
+changetype: add
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+displayName: Goldstein, Brian Richard
+employeeNumber: 111135
+givenName: Brian Richard
+mail: brianricg@fabrikam.com
+sn: Goldstein
+cn: 111135
+description: Fabrikam
+
+dn: CN=445021,ou=People,dc=fabrikam,dc=com
+changetype: add
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+displayName: Earls, Terry
+employeeNumber: 445021
+givenName: Terrence (Terry)
+mail: terrencee@fabrikam.com
+sn: Earls
+cn: 445021
+description: Fabrikam
+
+dn: CN=68108,ou=People,dc=fabrikam,dc=com
+changetype: add
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+displayName: Trenary, Jean
+employeeNumber: 68108
+mail: jtrenary@fabrikam.com
+givenName: Jean
+sn: Trenary
+cn: 68108
+description: Fabrikam
+
+dn: CN=569278,ou=People,dc=fabrikam,dc=com
+changetype: add
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+displayName: Smith-Bates, Lorrin
+employeeNumber: 569278
+mail: lsmithbat@fabrikam.com
+givenName: Lorrin
+sn: Smith-Bates
+cn: 569278
+description: Fabrikam
+
+dn: CN=139591,ou=People,dc=fabrikam,dc=com
+changetype: add
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+displayName: Ptaszynski, Jim
+employeeNumber: 139591
+mail: jptaszyns@fabrikam.com
+givenName: James (Jim)
+sn: Ptaszynski
+cn: 139591
+description: Fabrikam
+
+dn: CN=514603,ou=People,dc=fabrikam,dc=com
+changetype: add
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+displayName: Browne, Kevin
+employeeNumber: 514603
+mail: kbrowne@fabrikam.com
+givenName: Kevin
+sn: Browne
+cn: 514603
+description: Fabrikam
+
+dn: CN=246761,ou=People,dc=fabrikam,dc=com
+changetype: add
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+displayName: Zwilling, Michael
+employeeNumber: 246761
+mail: mzwilling@fabrikam.com
+givenName: Michael
+sn: Zwilling
+cn: 246761
+description: Fabrikam
+
+dn: CN=772121,ou=People,dc=fabrikam,dc=com
+changetype: add
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+displayName: Murray, Billie Jo
+employeeNumber: 772121
+mail: billiejom@fabrikam.com
+givenName: Billie Jo
+sn: Murray
+cn: 772121
+description: Fabrikam
+
+dn: CN=171880,ou=People,dc=fabrikam,dc=com
+changetype: add
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+displayName: Tejani, Sameer
+employeeNumber: 171880
+mail: sameert@fabrikam.com
+givenName: Sameer
+sn: Tejani
+cn: 171880
+description: Fabrikam
+
+dn: CN=700200,ou=People,dc=fabrikam,dc=com
+changetype: add
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+displayName: Kelly, Bob
+employeeNumber: 700200
+mail: robertk@fabrikam.com
+givenName: Robert (Bob)
+sn: Kelly
+cn: 700200
+description: Fabrikam
+
+dn: CN=89171,ou=People,dc=fabrikam,dc=com
+changetype: add
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+displayName: Eaton, Susan
+employeeNumber: 0089171
+mail: susane@fabrikam.com
+givenName: Susan
+sn: Eaton
+cn: 89171
+description: Fabrikam
+
+dn: CN=16649,ou=People,dc=fabrikam,dc=com
+changetype: add
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+displayName: Steele, Laura
+employeeNumber: 16649
+mail: lsteele@fabrikam.com
+givenName: Laura
+sn: Steele
+cn: 16649
+description: Fabrikam
+
+dn: CN=140316,ou=People,dc=fabrikam,dc=com
+changetype: add
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+displayName: Wright, A. Scott
+employeeNumber: 140316
+mail: ascottw@fabrikam.com
+givenName: A. Scott
+sn: Wright
+cn: 140316
+description: Fabrikam
+
+dn: CN=681581,ou=People,dc=fabrikam,dc=com
+changetype: add
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+displayName: Byham, Richard
+employeeNumber: 0681581
+mail: richardb@fabrikam.com
+givenName: Richard
+sn: Byham
+cn: 681581
+description: Fabrikam
+
+dn: CN=729845,ou=People,dc=fabrikam,dc=com
+changetype: add
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+displayName: Ray, Michael
+employeeNumber: 729845
+mail: michaelr@fabrikam.com
+givenName: Michael
+sn: Ray
+cn: 729845
+description: Fabrikam
+
+dn: CN=871357,ou=People,dc=fabrikam,dc=com
+changetype: add
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+displayName: Barker, Robert
+employeeNumber: 0871357
+mail: robertb@fabrikam.com
+givenName: Robert
+sn: Barker
+cn: 871357
+description: Fabrikam
+
+dn: CN=578041,ou=People,dc=fabrikam,dc=com
+changetype: add
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+displayName: Cheng, Yao-Qiang
+employeeNumber: 578041
+mail: yaoqiangc@fabrikam.com
+givenName: Yao-Qiang
+sn: Cheng
+cn: 578041
+description: Fabrikam

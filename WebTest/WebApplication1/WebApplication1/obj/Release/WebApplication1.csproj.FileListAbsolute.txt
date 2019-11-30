@@ -1,0 +1,10 @@
+D:\MyWork\代码\C#\Test\WebTest\WebApplication1\WebApplication1\bin\WebApplication1.dll
+D:\MyWork\代码\C#\Test\WebTest\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+D:\MyWork\代码\C#\Test\WebTest\WebApplication1\WebApplication1\obj\Release\ResolveAssemblyReference.cache
+D:\MyWork\代码\C#\Test\WebTest\WebApplication1\WebApplication1\obj\Release\WebApplication1.dll
+D:\MyWork\代码\C#\Test\WebTest\WebApplication1\WebApplication1\obj\Release\WebApplication1.pdb
+D:\MyWork\代码\C\Test\WebTest\WebApplication1\WebApplication1\bin\WebApplication1.dll
+D:\MyWork\代码\C\Test\WebTest\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+D:\MyWork\代码\C\Test\WebTest\WebApplication1\WebApplication1\obj\Release\ResolveAssemblyReference.cache
+D:\MyWork\代码\C\Test\WebTest\WebApplication1\WebApplication1\obj\Release\WebApplication1.dll
+D:\MyWork\代码\C\Test\WebTest\WebApplication1\WebApplication1\obj\Release\WebApplication1.pdb

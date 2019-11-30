@@ -1,0 +1,8 @@
+D:\MyWork\代码\C\Test\Addin\MyAddin1\bin\Project1.dll
+D:\MyWork\代码\C\Test\Addin\MyAddin1\bin\Project1.pdb
+D:\MyWork\代码\C\Test\Addin\MyAddin1\obj\Debug\ResolveAssemblyReference.cache
+D:\MyWork\代码\C\Test\Addin\MyAddin1\obj\Debug\MyAddin1.csproj.ResolveComReference.cache
+D:\MyWork\代码\C\Test\Addin\MyAddin1\obj\Debug\MyAddin1.CommandBar.resources
+D:\MyWork\代码\C\Test\Addin\MyAddin1\obj\Debug\MyAddin1.csproj.GenerateResource.Cache
+D:\MyWork\代码\C\Test\Addin\MyAddin1\obj\Debug\Project1.dll
+D:\MyWork\代码\C\Test\Addin\MyAddin1\obj\Debug\Project1.pdb

@@ -1,0 +1,17 @@
+d:\MyWork\代码\VB\平台解决方案\项目个性化\深圳龙光\Core\Mysoft.Map.Core\bin\Mysoft.Map.Core.dll.config
+d:\MyWork\代码\VB\平台解决方案\项目个性化\深圳龙光\Core\Mysoft.Map.Core\bin\Mysoft.Map.Core.dll
+d:\MyWork\代码\VB\平台解决方案\项目个性化\深圳龙光\Core\Mysoft.Map.Core\bin\Mysoft.Map.Core.pdb
+d:\MyWork\代码\VB\平台解决方案\项目个性化\深圳龙光\Core\Mysoft.Map.Core\obj\Debug\ResolveAssemblyReference.cache
+d:\MyWork\代码\VB\平台解决方案\项目个性化\深圳龙光\Core\Mysoft.Map.Core\obj\Debug\Mysoft.Map.Core.dll
+d:\MyWork\代码\VB\平台解决方案\项目个性化\深圳龙光\Core\Mysoft.Map.Core\obj\Debug\Mysoft.Map.Core.pdb
+D:\MyWork\代码\C\Test\WebTest\WebApplication1\Mysoft.Map.Core\bin\Mysoft.Map.Core.dll.config
+D:\MyWork\代码\C\Test\WebTest\WebApplication1\Mysoft.Map.Core\bin\Mysoft.Map.Core.dll
+D:\MyWork\代码\C\Test\WebTest\WebApplication1\Mysoft.Map.Core\bin\Mysoft.Map.Core.pdb
+D:\MyWork\代码\C\Test\WebTest\WebApplication1\Mysoft.Map.Core\obj\Debug\ResolveAssemblyReference.cache
+D:\MyWork\代码\C\Test\WebTest\WebApplication1\Mysoft.Map.Core\obj\Debug\Mysoft.Map.Core.dll
+D:\MyWork\代码\C\Test\WebTest\WebApplication1\Mysoft.Map.Core\obj\Debug\Mysoft.Map.Core.pdb
+F:\C\Test\WebTest\WebApplication1\Mysoft.Map.Core\bin\Mysoft.Map.Core.dll.config
+F:\C\Test\WebTest\WebApplication1\Mysoft.Map.Core\bin\Mysoft.Map.Core.dll
+F:\C\Test\WebTest\WebApplication1\Mysoft.Map.Core\bin\Mysoft.Map.Core.pdb
+F:\C\Test\WebTest\WebApplication1\Mysoft.Map.Core\obj\Debug\Mysoft.Map.Core.dll
+F:\C\Test\WebTest\WebApplication1\Mysoft.Map.Core\obj\Debug\Mysoft.Map.Core.pdb

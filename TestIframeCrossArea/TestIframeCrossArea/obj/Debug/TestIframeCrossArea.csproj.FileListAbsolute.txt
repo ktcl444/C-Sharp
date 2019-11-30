@@ -1,0 +1,5 @@
+D:\MyWork\代码\C#\Test\TestIframeCrossArea\TestIframeCrossArea\bin\TestIframeCrossArea.dll
+D:\MyWork\代码\C#\Test\TestIframeCrossArea\TestIframeCrossArea\bin\TestIframeCrossArea.pdb
+D:\MyWork\代码\C#\Test\TestIframeCrossArea\TestIframeCrossArea\obj\Debug\ResolveAssemblyReference.cache
+D:\MyWork\代码\C#\Test\TestIframeCrossArea\TestIframeCrossArea\obj\Debug\TestIframeCrossArea.dll
+D:\MyWork\代码\C#\Test\TestIframeCrossArea\TestIframeCrossArea\obj\Debug\TestIframeCrossArea.pdb

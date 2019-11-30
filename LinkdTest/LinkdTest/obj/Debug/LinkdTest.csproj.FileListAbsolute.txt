@@ -1,0 +1,5 @@
+D:\MyWork\LinkdTest\LinkdTest\bin\LinkdTest.dll
+D:\MyWork\LinkdTest\LinkdTest\bin\LinkdTest.pdb
+D:\MyWork\LinkdTest\LinkdTest\obj\Debug\ResolveAssemblyReference.cache
+D:\MyWork\LinkdTest\LinkdTest\obj\Debug\LinkdTest.dll
+D:\MyWork\LinkdTest\LinkdTest\obj\Debug\LinkdTest.pdb

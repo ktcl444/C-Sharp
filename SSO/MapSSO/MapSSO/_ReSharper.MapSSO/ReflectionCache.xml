@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Assemblies Version="1073741836">
+  <Assembly Name="System.Core, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Image="e982dfdd-e98e-4729-9156-3ac73fa8363d" Timestamp="633529428480000000" />
+  <Assembly Name="System.Xml.Linq, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Image="3d88d7e9-2de2-43c1-a2b5-6f1eb122a150" Timestamp="633529428480000000" />
+  <Assembly Name="System.Data.DataSetExtensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Image="4d943c6f-ea55-4668-be48-37bd838ad38d" Timestamp="633529428480000000" />
+  <Assembly Name="System.WorkflowServices, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" Image="74505ba1-cee7-475a-9726-c5db62ba714e" Timestamp="633529428480000000" />
+  <Assembly Name="System.Web.Extensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" Image="4aa62451-907e-4181-86aa-0b38e43200d4" Timestamp="633640785300000000" />
+  <Assembly Name="System.ServiceModel.Web, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" Image="35b639bb-bfa6-4c6f-a86c-468a0bdc4e8b" Timestamp="633529428480000000" />
+  <Assembly Name="System.ServiceModel, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Image="eb06872d-71ce-46b2-b0d8-43ba04bd8f68" Timestamp="633640759320000000" />
+  <Assembly Name="System.Runtime.Serialization, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Image="cf902103-9024-49ac-89a5-b32f28715e00" Timestamp="633529269980000000" />
+  <Assembly Name="System.IdentityModel, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Image="2e5137ad-2d2b-489b-8b1d-012a88d9f5b3" Timestamp="633529269980000000" />
+  <Assembly Name="JetBrains.Annotations, Version=4.1.933.3, Culture=neutral, PublicKeyToken=1010a0d8d6380325" Image="ebadf588-ee4f-4e63-b6dd-f7dc90955a79" Timestamp="633559454920000000" XmlDocIndexTimestamp="633559454920000000" />
+  <Assembly Name="Newtonsoft.Json, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null" Image="9fb12954-ac92-4050-b4ed-7d24326687fa" Timestamp="633771720860819129" XmlDocIndexTimestamp="633802144311308114" />
+  <Assembly Name="Mysoft.Map.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" Image="878a3674-bd74-43ad-b8a5-a46513b6ca1e" Timestamp="633802038323715522" />
+  <Assembly Name="Mysoft.Map.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" Image="e32eab76-e9bc-44a3-8acc-09c82ae1c679" Timestamp="633802038469027092" />
+  <Assembly Name="Mysoft.Map.ServiceAdapter, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" Image="9e1c3452-f69c-4d90-9d0b-74f94f772550" Timestamp="633802038521526756" />
+  <Assembly Name="Mysoft.Map.PersistenceLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" Image="e1983914-d140-4cc0-bae7-b4098023c942" Timestamp="633802038380121411" />
+  <Assembly Name="Mysoft.Map.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" Image="a5baadf9-6fe8-4a5f-ae5a-f47e851c0508" Timestamp="633801954263076719" />
+  <Assembly Name="Mysoft.Map.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" Image="60d27249-9d8f-4098-b560-1b54a475117f" Timestamp="633802888780554510" />
+</Assemblies>

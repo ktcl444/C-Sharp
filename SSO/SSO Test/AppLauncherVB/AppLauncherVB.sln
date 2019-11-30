@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "AppLauncherVB", "http://localhost/Samples/AppLauncherVB/AppLauncherVB.vbproj", "{C446DF52-A877-4814-A5DE-B079F6F66E43}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "AppLauncherDataVB", "AppLauncherDataVB\AppLauncherDataVB.vbproj", "{06309604-5157-4DA6-8C15-57C088157FB9}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{C446DF52-A877-4814-A5DE-B079F6F66E43}.Debug.ActiveCfg = Debug|.NET
+		{C446DF52-A877-4814-A5DE-B079F6F66E43}.Debug.Build.0 = Debug|.NET
+		{C446DF52-A877-4814-A5DE-B079F6F66E43}.Release.ActiveCfg = Release|.NET
+		{C446DF52-A877-4814-A5DE-B079F6F66E43}.Release.Build.0 = Release|.NET
+		{06309604-5157-4DA6-8C15-57C088157FB9}.Debug.ActiveCfg = Debug|.NET
+		{06309604-5157-4DA6-8C15-57C088157FB9}.Debug.Build.0 = Debug|.NET
+		{06309604-5157-4DA6-8C15-57C088157FB9}.Release.ActiveCfg = Release|.NET
+		{06309604-5157-4DA6-8C15-57C088157FB9}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

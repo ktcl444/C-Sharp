@@ -1,0 +1,29 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="dsGroupDefinitions" targetNamespace="http://www.tempuri.org/dsGroupDefinitions.xsd" xmlns:mstns="http://www.tempuri.org/dsGroupDefinitions.xsd" xmlns="http://www.tempuri.org/dsGroupDefinitions.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="dsGroupDefinitions" msdata:IsDataSet="true">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="groupDefinitions">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="objectUID" type="xs:string" />
+              <xs:element name="objectType" type="xs:string" minOccurs="0" />
+              <xs:element name="displayName" type="xs:string" minOccurs="0" />
+              <xs:element name="clauseLink" type="xs:string" minOccurs="0" />
+              <xs:element name="enabledFlag" type="xs:string" minOccurs="0" />
+              <xs:element name="maxExcept" type="xs:string" minOccurs="0" />
+              <xs:element name="groupType" type="xs:int" minOccurs="0" />
+              <xs:element name="description" type="xs:string" minOccurs="0" />
+              <xs:element name="mailNickName" type="xs:string" minOccurs="0" />
+              <xs:element name="preserveMembers" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:groupDefinitions" />
+      <xs:field xpath="mstns:objectUID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,5 @@
+F:\C\Test\MySqlBackUpRestore\MySqlBackUpRestore\MySqlOperation\bin\Debug\MySqlOperation.dll
+F:\C\Test\MySqlBackUpRestore\MySqlBackUpRestore\MySqlOperation\bin\Debug\MySqlOperation.pdb
+F:\C\Test\MySqlBackUpRestore\MySqlBackUpRestore\MySqlOperation\obj\Debug\MySqlOperation.csprojResolveAssemblyReference.cache
+F:\C\Test\MySqlBackUpRestore\MySqlBackUpRestore\MySqlOperation\obj\Debug\MySqlOperation.dll
+F:\C\Test\MySqlBackUpRestore\MySqlBackUpRestore\MySqlOperation\obj\Debug\MySqlOperation.pdb

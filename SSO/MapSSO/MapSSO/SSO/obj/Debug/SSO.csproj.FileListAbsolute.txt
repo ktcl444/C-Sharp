@@ -1,0 +1,5 @@
+D:\MyWork\代码\C#\MapSSO\MapSSO\SSO\bin\Debug\SSO.dll
+D:\MyWork\代码\C#\MapSSO\MapSSO\SSO\bin\Debug\SSO.pdb
+D:\MyWork\代码\C#\MapSSO\MapSSO\SSO\obj\Debug\ResolveAssemblyReference.cache
+D:\MyWork\代码\C#\MapSSO\MapSSO\SSO\obj\Debug\SSO.dll
+D:\MyWork\代码\C#\MapSSO\MapSSO\SSO\obj\Debug\SSO.pdb

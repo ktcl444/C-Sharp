@@ -1,0 +1,2 @@
+EmployeeID;EmployeeStartDate;EmployeeDepartureDate;EmployeeStatus;EmployeeType;Surname;MiddleName;GivenName;Country;TelephoneNumber;FacsimileTelephoneNumber;Company;Manager;Mobile;Pager;Title;Location;Department;Birthday
+9998882;20040908;00000000;1;A;Thorp;;Justin;US;124 555 6666;;Contoso;83321;;;Sales Representative;Palo Alto;Sales;19761028

@@ -1,0 +1,5 @@
+F:\C\Test\Memcache\MemcacheTest\DataAccess\bin\Debug\DataAccess.dll
+F:\C\Test\Memcache\MemcacheTest\DataAccess\bin\Debug\DataAccess.pdb
+F:\C\Test\Memcache\MemcacheTest\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+F:\C\Test\Memcache\MemcacheTest\DataAccess\obj\Debug\DataAccess.dll
+F:\C\Test\Memcache\MemcacheTest\DataAccess\obj\Debug\DataAccess.pdb

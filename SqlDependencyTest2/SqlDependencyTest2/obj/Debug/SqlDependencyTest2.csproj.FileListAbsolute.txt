@@ -1,0 +1,5 @@
+D:\MyWork\代码\C\Test\SqlDependencyTest2\SqlDependencyTest2\bin\SqlDependencyTest2.dll
+D:\MyWork\代码\C\Test\SqlDependencyTest2\SqlDependencyTest2\bin\SqlDependencyTest2.pdb
+D:\MyWork\代码\C\Test\SqlDependencyTest2\SqlDependencyTest2\obj\Debug\ResolveAssemblyReference.cache
+D:\MyWork\代码\C\Test\SqlDependencyTest2\SqlDependencyTest2\obj\Debug\SqlDependencyTest2.dll
+D:\MyWork\代码\C\Test\SqlDependencyTest2\SqlDependencyTest2\obj\Debug\SqlDependencyTest2.pdb

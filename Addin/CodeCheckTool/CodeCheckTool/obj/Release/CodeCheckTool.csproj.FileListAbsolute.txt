@@ -1,0 +1,6 @@
+D:\MyWork\代码\C\Test\Addin\CodeCheckTool\CodeCheckTool\bin\Project1.dll
+D:\MyWork\代码\C\Test\Addin\CodeCheckTool\CodeCheckTool\obj\Release\ResolveAssemblyReference.cache
+D:\MyWork\代码\C\Test\Addin\CodeCheckTool\CodeCheckTool\obj\Release\CodeCheckTool.csproj.ResolveComReference.cache
+D:\MyWork\代码\C\Test\Addin\CodeCheckTool\CodeCheckTool\obj\Release\CodeCheckTool.CommandBar.resources
+D:\MyWork\代码\C\Test\Addin\CodeCheckTool\CodeCheckTool\obj\Release\CodeCheckTool.csproj.GenerateResource.Cache
+D:\MyWork\代码\C\Test\Addin\CodeCheckTool\CodeCheckTool\obj\Release\Project1.dll

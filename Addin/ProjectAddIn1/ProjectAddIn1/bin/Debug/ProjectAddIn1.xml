@@ -1,0 +1,42 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ProjectAddIn1
+</name>
+</assembly>
+<members>
+<member name="M:ProjectAddIn1.ThisAddIn.#ctor">
+</member><member name="M:ProjectAddIn1.ThisAddIn.Initialize">
+</member><member name="M:ProjectAddIn1.ThisAddIn.FinishInitialization">
+</member><member name="M:ProjectAddIn1.ThisAddIn.InitializeDataBindings">
+</member><member name="M:ProjectAddIn1.ThisAddIn.InitializeCachedData">
+</member><member name="M:ProjectAddIn1.ThisAddIn.InitializeData">
+</member><member name="M:ProjectAddIn1.ThisAddIn.BindToData">
+</member><member name="M:ProjectAddIn1.ThisAddIn.StartCaching(System.String)">
+</member><member name="M:ProjectAddIn1.ThisAddIn.StopCaching(System.String)">
+</member><member name="M:ProjectAddIn1.ThisAddIn.IsCached(System.String)">
+</member><member name="M:ProjectAddIn1.ThisAddIn.BeginInitialization">
+</member><member name="M:ProjectAddIn1.ThisAddIn.EndInitialization">
+</member><member name="M:ProjectAddIn1.ThisAddIn.InitializeControls">
+</member><member name="M:ProjectAddIn1.ThisAddIn.InitializeComponents">
+</member><member name="M:ProjectAddIn1.ThisAddIn.NeedsFill(System.String)">
+</member><member name="T:ProjectAddIn1.ThisAddIn">
+</member><member name="M:ProjectAddIn1.Globals.#ctor">
+</member><member name="T:ProjectAddIn1.Globals">
+</member><member name="P:ProjectAddIn1.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:ProjectAddIn1.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:ProjectAddIn1.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

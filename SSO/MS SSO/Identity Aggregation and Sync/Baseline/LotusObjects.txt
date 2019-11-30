@@ -1,0 +1,610 @@
+ClntDgst:  84C421A7651B0C3D3DE493DAEE156938
+ClntDate:  01/19/2006 05:24:01 PM,01/20/2006 01:01:01 PM
+MajVer:  6,6
+MinVer:  5,5
+QMRVer:  4,4
+QMUVer:  0,0
+HotVer:  0,0
+FixPVer:  0,0
+FlagsVer:  0,0
+OriginalModTime:  01/31/2006 12:34:15 PM
+Type:  Person
+Title:  
+Suffix:  
+preferredLanguage:  
+MailSystem:  5
+MailAddress:  aalberts@contoso.com
+ccMailLocation:  
+InternetAddress:  
+MessageStorage:  1
+EncryptIncomingMail:  0
+JobTitle:  Research Assistant
+CompanyName:  Contoso
+Department:  Customer Service
+EmployeeID:  61054
+Location:  
+Manager:  rbyham
+OfficePhoneNumber:  
+OfficeFAXPhoneNumber:  
+CellPhoneNumber:  
+PhoneNumber_6:  
+Assistant:  
+OfficeStreetAddress:  
+OfficeCity:  Palo Alto
+OfficeState:  
+OfficeZIP:  
+OfficeCountry:  United States
+OfficeNumber:  
+StreetAddress:  
+City:  
+State:  
+Zip:  
+country:  
+PhoneNumber:  
+HomeFAXPhoneNumber:  
+Spouse:  
+Children:  
+PersonalID:  
+Comment:  
+CalendarDomain:  
+WebSite:  
+AltFullNameSort:  
+Certificate:  
+PublicKey:  
+RoamCleanSetting:  0
+RoamCleanPer:  1
+Owner:  CN=MIIS Administrator/O=Fabrikam
+LocalAdmin:  CN=MIIS Administrator/O=Fabrikam
+AvailableForDirSync:  1
+CheckPassword:  0
+PasswordChangeInterval:  0
+PasswordGracePeriod:  0
+PasswordDigest:  
+HTTPPasswordForceChange:  
+Policy:  
+Profiles:  
+ClientType:  
+ClntMachine:  
+ClntPltfrm:  
+ClntBld:  
+DocumentAccess:  [UserModifier]
+$Person_Main:  0
+$Person_Detail:  0
+$Person_Cert:  0
+OU:  
+PostalAddress:  
+HomePostalAddress:  
+Street:  
+audio:  
+businessCategory:  
+carLicense:  
+departmentNumber:  
+employeeNumber:  
+employeeType:  
+initials:  
+jpegPhoto:  
+labeledURI:  
+o:  
+photo:  
+roomNumber:  
+UserCertificate:  
+x500UniqueIdentifier:  
+userSMIMECertificate:  
+userPKCS12:  
+x121Address:  
+registeredAddress:  
+destinationIndicator:  
+preferredDeliveryMethod:  
+telexNumber:  
+telexTerminalIdentifier:  
+internationaliSDNNumber:  
+seeAlso:  
+FirstName:  Amy
+MiddleInitial:  
+LastName:  Alberts
+FullName:  aalberts
+AltFullName:  
+AltFullNameLanguage:  
+ShortName:  aalberts
+HTTPPassword:  
+MailDomain:  
+MailServer:  
+MailFile:  
+ccMailUserName:  
+SametimeServer:  
+x400Address:  
+RoamingUser:  0
+RoamSrvr:  
+RoamRplSrvrs:  
+RoamSubdir:  
+RoamAB:  
+BkmksFile:  
+JrnlFile:  
+RoamMode:  
+PasswordChangeDate:  
+HTTPPasswordChangeDate:  
+NetUserName:  
+$UpdatedBy:  CN=MIIS Administrator/O=Fabrikam
+
+
+OriginalModTime:  01/31/2006 12:24:47 PM
+Type:  Person
+Title:  
+Suffix:  
+preferredLanguage:  
+MailSystem:  1
+MailAddress:  
+ccMailLocation:  
+InternetAddress:  rbarker@fabrikam.com
+MessageStorage:  1
+EncryptIncomingMail:  0
+JobTitle:  Engineer II
+CompanyName:  Fabrikam
+Department:  Research and Development
+EmployeeID:  871357
+Location:  
+Manager:  rbyham
+OfficePhoneNumber:  
+OfficeFAXPhoneNumber:  
+CellPhoneNumber:  
+PhoneNumber_6:  
+Assistant:  
+OfficeStreetAddress:  
+OfficeCity:  London
+OfficeState:  
+OfficeZIP:  
+OfficeCountry:  United Kingdom
+OfficeNumber:  
+StreetAddress:  
+City:  
+State:  
+Zip:  
+country:  
+PhoneNumber:  
+HomeFAXPhoneNumber:  
+Spouse:  
+Children:  
+PersonalID:  
+Comment:  
+CalendarDomain:  
+WebSite:  
+AltFullNameSort:  
+Certificate:  
+PublicKey:  
+RoamCleanSetting:  0
+RoamCleanPer:  1
+Owner:  CN=MIIS Administrator/O=Fabrikam
+LocalAdmin:  CN=MIIS Administrator/O=Fabrikam
+AvailableForDirSync:  1
+CheckPassword:  0
+PasswordChangeInterval:  0
+PasswordGracePeriod:  0
+PasswordDigest:  
+HTTPPasswordForceChange:  
+Policy:  
+Profiles:  
+ClientType:  
+ClntMachine:  
+ClntPltfrm:  
+ClntBld:  
+DocumentAccess:  [UserModifier]
+$Person_Main:  0
+$Person_Detail:  0
+$Person_Cert:  0
+OU:  
+PostalAddress:  
+HomePostalAddress:  
+Street:  
+audio:  
+businessCategory:  
+carLicense:  
+departmentNumber:  
+employeeNumber:  
+employeeType:  
+initials:  
+jpegPhoto:  
+labeledURI:  
+o:  
+photo:  
+roomNumber:  
+UserCertificate:  
+x500UniqueIdentifier:  
+userSMIMECertificate:  
+userPKCS12:  
+x121Address:  
+registeredAddress:  
+destinationIndicator:  
+preferredDeliveryMethod:  
+telexNumber:  
+telexTerminalIdentifier:  
+internationaliSDNNumber:  
+seeAlso:  
+FirstName:  Robert
+MiddleInitial:  
+LastName:  Barker
+FullName:  CN=Robert Barker/O=Fabrikam
+AltFullName:  
+AltFullNameLanguage:  
+ShortName:  rbarker
+HTTPPassword:  
+MailDomain:  Fabrikam
+MailServer:  CN=FFL-SA-LOTUS/O=Fabrikam
+MailFile:  Robert Barker/Fabrikam
+ccMailUserName:  
+SametimeServer:  
+x400Address:  
+RoamingUser:  0
+RoamSrvr:  
+RoamRplSrvrs:  
+RoamSubdir:  
+RoamAB:  
+BkmksFile:  
+JrnlFile:  
+RoamMode:  
+PasswordChangeDate:  
+HTTPPasswordChangeDate:  
+NetUserName:  
+$UpdatedBy:  CN=MIIS Administrator/O=Fabrikam
+
+
+OriginalModTime:  01/31/2006 12:35:44 PM
+Type:  Person
+Title:  
+Suffix:  
+preferredLanguage:  
+MailSystem:  5
+MailAddress:  dbradley@contoso.com
+ccMailLocation:  
+InternetAddress:  
+MessageStorage:  1
+EncryptIncomingMail:  0
+JobTitle:  Chief Executive Officer
+CompanyName:  Contoso
+Department:  Operations
+EmployeeID:  42399
+Location:  
+Manager:  
+OfficePhoneNumber:  
+OfficeFAXPhoneNumber:  
+CellPhoneNumber:  
+PhoneNumber_6:  
+Assistant:  
+OfficeStreetAddress:  
+OfficeCity:  Palo Alto
+OfficeState:  
+OfficeZIP:  
+OfficeCountry:  United States
+OfficeNumber:  
+StreetAddress:  
+City:  
+State:  
+Zip:  
+country:  
+PhoneNumber:  
+HomeFAXPhoneNumber:  
+Spouse:  
+Children:  
+PersonalID:  
+Comment:  
+CalendarDomain:  
+WebSite:  
+AltFullNameSort:  
+Certificate:  
+PublicKey:  
+RoamCleanSetting:  0
+RoamCleanPer:  1
+Owner:  CN=MIIS Administrator/O=Fabrikam
+LocalAdmin:  CN=MIIS Administrator/O=Fabrikam
+AvailableForDirSync:  1
+CheckPassword:  0
+PasswordChangeInterval:  0
+PasswordGracePeriod:  0
+PasswordDigest:  
+HTTPPasswordForceChange:  
+Policy:  
+Profiles:  
+ClientType:  
+ClntMachine:  
+ClntPltfrm:  
+ClntBld:  
+DocumentAccess:  [UserModifier]
+$Person_Main:  0
+$Person_Detail:  0
+$Person_Cert:  0
+OU:  
+PostalAddress:  
+HomePostalAddress:  
+Street:  
+audio:  
+businessCategory:  
+carLicense:  
+departmentNumber:  
+employeeNumber:  
+employeeType:  
+initials:  
+jpegPhoto:  
+labeledURI:  
+o:  
+photo:  
+roomNumber:  
+UserCertificate:  
+x500UniqueIdentifier:  
+userSMIMECertificate:  
+userPKCS12:  
+x121Address:  
+registeredAddress:  
+destinationIndicator:  
+preferredDeliveryMethod:  
+telexNumber:  
+telexTerminalIdentifier:  
+internationaliSDNNumber:  
+seeAlso:  
+FirstName:  David
+MiddleInitial:  
+LastName:  Bradley
+FullName:  dbradley
+AltFullName:  
+AltFullNameLanguage:  
+ShortName:  dbradley
+HTTPPassword:  
+MailDomain:  
+MailServer:  
+MailFile:  
+ccMailUserName:  
+SametimeServer:  
+x400Address:  
+RoamingUser:  0
+RoamSrvr:  
+RoamRplSrvrs:  
+RoamSubdir:  
+RoamAB:  
+BkmksFile:  
+JrnlFile:  
+RoamMode:  
+PasswordChangeDate:  
+HTTPPasswordChangeDate:  
+NetUserName:  
+$UpdatedBy:  CN=MIIS Administrator/O=Fabrikam
+
+
+OriginalModTime:  01/31/2006 12:27:29 PM
+Type:  Person
+Title:  
+Suffix:  
+preferredLanguage:  
+MailSystem:  1
+MailAddress:  
+ccMailLocation:  
+InternetAddress:  rbyham@fabrikam.com
+MessageStorage:  1
+EncryptIncomingMail:  0
+JobTitle:  Manager Research and Development
+CompanyName:  Fabrikam
+Department:  Research and Development
+EmployeeID:  681581
+Location:  
+Manager:  dbradley
+OfficePhoneNumber:  
+OfficeFAXPhoneNumber:  
+CellPhoneNumber:  
+PhoneNumber_6:  
+Assistant:  
+OfficeStreetAddress:  
+OfficeCity:  London
+OfficeState:  
+OfficeZIP:  
+OfficeCountry:  United Kingdom
+OfficeNumber:  
+StreetAddress:  
+City:  
+State:  
+Zip:  
+country:  
+PhoneNumber:  
+HomeFAXPhoneNumber:  
+Spouse:  
+Children:  
+PersonalID:  
+Comment:  
+CalendarDomain:  
+WebSite:  
+AltFullNameSort:  
+Certificate:  
+PublicKey:  
+RoamCleanSetting:  0
+RoamCleanPer:  1
+Owner:  CN=MIIS Administrator/O=Fabrikam
+LocalAdmin:  CN=MIIS Administrator/O=Fabrikam
+AvailableForDirSync:  1
+CheckPassword:  0
+PasswordChangeInterval:  0
+PasswordGracePeriod:  0
+PasswordDigest:  
+HTTPPasswordForceChange:  
+Policy:  
+Profiles:  
+ClientType:  
+ClntMachine:  
+ClntPltfrm:  
+ClntBld:  
+DocumentAccess:  [UserModifier]
+$Person_Main:  0
+$Person_Detail:  0
+$Person_Cert:  0
+OU:  
+PostalAddress:  
+HomePostalAddress:  
+Street:  
+audio:  
+businessCategory:  
+carLicense:  
+departmentNumber:  
+employeeNumber:  
+employeeType:  
+initials:  
+jpegPhoto:  
+labeledURI:  
+o:  
+photo:  
+roomNumber:  
+UserCertificate:  
+x500UniqueIdentifier:  
+userSMIMECertificate:  
+userPKCS12:  
+x121Address:  
+registeredAddress:  
+destinationIndicator:  
+preferredDeliveryMethod:  
+telexNumber:  
+telexTerminalIdentifier:  
+internationaliSDNNumber:  
+seeAlso:  
+FirstName:  Richard
+MiddleInitial:  
+LastName:  Byham
+FullName:  CN=Richard Byham/O=Fabrikam
+AltFullName:  
+AltFullNameLanguage:  
+ShortName:  rbyham
+HTTPPassword:  
+MailDomain:  Fabrikam
+MailServer:  CN=FFL-SA-LOTUS/O=Fabrikam
+MailFile:  Richard Byham/Fabrikam
+ccMailUserName:  
+SametimeServer:  
+x400Address:  
+RoamingUser:  0
+RoamSrvr:  
+RoamRplSrvrs:  
+RoamSubdir:  
+RoamAB:  
+BkmksFile:  
+JrnlFile:  
+RoamMode:  
+PasswordChangeDate:  
+HTTPPasswordChangeDate:  
+NetUserName:  
+$UpdatedBy:  CN=MIIS Administrator/O=Fabrikam
+
+
+OriginalModTime:  01/31/2006 12:29:30 PM
+Type:  Person
+Title:  
+Suffix:  
+preferredLanguage:  
+MailSystem:  1
+MailAddress:  
+ccMailLocation:  
+InternetAddress:  seaton@fabrikam.com
+MessageStorage:  1
+EncryptIncomingMail:  0
+JobTitle:  Engineer
+CompanyName:  Fabrikam
+Department:  Research and Development
+EmployeeID:  89171
+Location:  
+Manager:  CN=Richard Byham/O=Fabcorp
+OfficePhoneNumber:  
+OfficeFAXPhoneNumber:  
+CellPhoneNumber:  
+PhoneNumber_6:  
+Assistant:  
+OfficeStreetAddress:  
+OfficeCity:  London
+OfficeState:  
+OfficeZIP:  
+OfficeCountry:  United Kingdom
+OfficeNumber:  
+StreetAddress:  
+City:  
+State:  
+Zip:  
+country:  
+PhoneNumber:  
+HomeFAXPhoneNumber:  
+Spouse:  
+Children:  
+PersonalID:  
+Comment:  
+CalendarDomain:  
+WebSite:  
+AltFullNameSort:  
+Certificate:  
+PublicKey:  
+RoamCleanSetting:  0
+RoamCleanPer:  1
+Owner:  CN=MIIS Administrator/O=Fabrikam
+LocalAdmin:  CN=MIIS Administrator/O=Fabrikam
+AvailableForDirSync:  1
+CheckPassword:  0
+PasswordChangeInterval:  0
+PasswordGracePeriod:  0
+PasswordDigest:  
+HTTPPasswordForceChange:  
+Policy:  
+Profiles:  
+ClientType:  
+ClntMachine:  
+ClntPltfrm:  
+ClntBld:  
+DocumentAccess:  [UserModifier]
+$Person_Main:  0
+$Person_Detail:  0
+$Person_Cert:  0
+OU:  
+PostalAddress:  
+HomePostalAddress:  
+Street:  
+audio:  
+businessCategory:  
+carLicense:  
+departmentNumber:  
+employeeNumber:  
+employeeType:  
+initials:  
+jpegPhoto:  
+labeledURI:  
+o:  
+photo:  
+roomNumber:  
+UserCertificate:  
+x500UniqueIdentifier:  
+userSMIMECertificate:  
+userPKCS12:  
+x121Address:  
+registeredAddress:  
+destinationIndicator:  
+preferredDeliveryMethod:  
+telexNumber:  
+telexTerminalIdentifier:  
+internationaliSDNNumber:  
+seeAlso:  
+FirstName:  Susan
+MiddleInitial:  
+LastName:  Eaton
+FullName:  CN=Susan Eaton/O=Fabrikam
+AltFullName:  
+AltFullNameLanguage:  
+ShortName:  seaton
+HTTPPassword:  
+MailDomain:  Fabrikam
+MailServer:  CN=FFL-SA-LOTUS/O=Fabrikam
+MailFile:  Susan Eaton/Fabrikam
+ccMailUserName:  
+SametimeServer:  
+x400Address:  
+RoamingUser:  0
+RoamSrvr:  
+RoamRplSrvrs:  
+RoamSubdir:  
+RoamAB:  
+BkmksFile:  
+JrnlFile:  
+RoamMode:  
+PasswordChangeDate:  
+HTTPPasswordChangeDate:  
+NetUserName:  
+$UpdatedBy:  CN=MIIS Administrator/O=Fabrikam
+
+
+

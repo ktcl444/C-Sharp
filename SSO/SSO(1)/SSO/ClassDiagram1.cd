@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Font Name="宋体" Size="9" />
+  <Class Name="SSO.DefaultClient" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>DefaultClient\DefaultClient.cs</FileName>
+      <HashCode>AAAAIFAAEQCQAAIABhAAAAIABoAEAAIIAQKYUAQAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SSO.LoginRequest" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>DefaultClient\LoginRequest.cs</FileName>
+      <HashCode>EAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAABA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SSO.LoginRequestContainer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>DefaultClient\LoginRequestContainer.cs</FileName>
+      <HashCode>BAIAAAgAAAAAAAAAAAAABAAAAABAAAAAQAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SSO.UserState" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>DefaultClient\UserState.cs</FileName>
+      <HashCode>IAIAAEgAAAAAAAAAAAAABAAAAABAAAAAQAAAAAAAAAI=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SSO.DefaultServer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>DefaultServer\DefaultServer.cs</FileName>
+      <HashCode>AAAAAAAAAgAAgAAAApAIAQIABAkAAQAAAAAAAAAAAAE=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SSO.DefaultSite" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>DefaultServer\DefaultSite.cs</FileName>
+      <HashCode>AAISABIVEACAoAIAAAAIIAQAgIAIQAAAAACAQBAAAgE=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SSO.DefaultUser" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>DefaultServer\DefaultUser.cs</FileName>
+      <HashCode>AAAAAAAAAACAAAAAgBAIAAAABAABAAAAAIAAAAAAAAE=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SSO.Helper" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>DefaultServer\Helper.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SSO.UserLoginLog" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>DefaultServer\UserLoginLog.cs</FileName>
+      <HashCode>AAIABAAAAAAAAABEAAAAAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SSO.DESCryption" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Encryptor\DESCryption.cs</FileName>
+      <HashCode>AQAAAAAAACAAAAAQAAAAgAAEAAAAAIAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SSO.RSACryption" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Encryptor\RSACryption.cs</FileName>
+      <HashCode>gAAAACAAAAAAAEAAAAAAAAAAAAGAAAACAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SSO.UrlOper" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helpers\UrlOper.cs</FileName>
+      <HashCode>AQAAAAAAAAAAAEAQAAABAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="SSO.IClient">
+    <Position X="8.5" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <FileName>Interface\IClient.cs</FileName>
+      <HashCode>AAAAAAAAEQAAAAIAAhAAAAAAAIAAAAIAAQAQEAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SSO.ILoginRequest" Collapsed="true">
+    <Position X="2.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Interface\ILoginRequest.cs</FileName>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SSO.ILoginRequestContainer" Collapsed="true">
+    <Position X="4" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Interface\ILoginRequestContainer.cs</FileName>
+      <HashCode>AAIAAAgAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SSO.IServer" Collapsed="true">
+    <Position X="5.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Interface\IServer.cs</FileName>
+      <HashCode>AAAAAAAAAgAAgAAAAhAAAAIAAAkAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SSO.ISite" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Interface\ISite.cs</FileName>
+      <HashCode>AAIQAAAFEACAIAAAAAAAAAQAAIAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SSO.IUser" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Interface\IUser.cs</FileName>
+      <HashCode>AAAAAAAAAACAAAAAABAAAAAAAAABAAAAAIAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SSO.IUserLoginList" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Interface\IUserLoginList.cs</FileName>
+      <HashCode>AAIAAAAAAAAAAAAEAAAAAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SSO.IUserStateContainer" Collapsed="true">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Interface\IUserStateContainer.cs</FileName>
+      <HashCode>AAIAAEgAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="SSO.SecurityType" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enum\SecurityType.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAIAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+</ClassDiagram>

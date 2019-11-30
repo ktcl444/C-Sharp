@@ -1,0 +1,100 @@
+EmployeeID;EmployeeStartDate;EmployeeDepartureDate;EmployeeStatus;EmployeeType;Surname;MiddleName;GivenName;Country;TelephoneNumber;FacsimileTelephoneNumber;Company;Manager;Mobile;Pager;Title;Location;Department;Birthday
+16649;20040101;0;3;A;Steele;;Laura;GB;1223 555 656;;Fabrikam;537701;;;Engineer;Cambridge;Research & Development;19761030
+36683;20040101;0;3;A;Wilson;;James (Jim);US;6505554356;6505554000;Contoso;501416;9175556843;8885557049;Customer Service Representative;Palo Alto;Customer Service;19631212
+42391;20040101;0;3;A;Argrow;;Neketa;US;6505558918;6505554000;Contoso;501416;9175553444;8885559863;Customer Service Representative;Palo Alto;Customer Service;19710416
+42399;20040101;0;3;A;Bradley;;David;US;6505553542;6505559800;Contoso;42399;9175554443;8885556546;Chief Executive Officer;Palo Alto;Operations;19600101
+51371;20040101;0;3;A;Michaels;;Thomas;US;6505554644;6505559800;Contoso;57339;9175555656;8885555469;Facilities Associate;Palo Alto;Operations;19800530
+52379;20040101;0;3;A;Valentine;;Brian;US;6505556576;6505559800;Contoso;42399;9175555660;8885556548;Chief Financial Officer;Palo Alto;Operations;19961006
+57339;20040101;0;3;A;Bueno;;Janaina;US;2145556929;2145556000;Contoso;42399;2145553974;;Facilities Manager;Dallas;Operations;19700504
+61054;20040101;0;3;A;Alberts;;Amy;US;6505556865;6505554000;Contoso;501416;9175556777;8885553242;Customer Service Representative;Palo Alto;Customer Service;19440201
+68108;20040101;0;3;A;Trenary;;Jean;GB;1223 555 655;;Fabrikam;537701;;;Research Assistant;Cambridge;Research & Development;19700404
+83321;20040101;0;3;A;Carlson;;Ty;US;6505555645;6505554000;Contoso;647441;9175557878;8885555675;Research & Development Manager;Palo Alto;Research & Development;19700424
+85814;20040101;0;3;A;Velez Amezaga;;Elena;US;6505556576;6505554500;Contoso;83321;9175557888;8885555676;Research Assistant;Palo Alto;Research & Development;19650513
+89171;20040101;0;3;A;Eaton;;Susan;GB;1223 555 773;;Fabrikam;537701;;;Engineer;Cambridge;Research & Development;19540615
+96023;20040101;0;3;A;Valdez;;Rachel;US;6505559786;6505554000;Contoso;501416;9175551897;8885556576;Group Customer Service Representative;Palo Alto;Customer Service;19780130
+110724;20040101;0;3;A;Erickson;;Gail;US;2125555557;2125553204;Contoso;57339;9175555725;8665557730;Human Resources Manager;New York;Human Resources;19700404
+111135;20040101;0;3;A;Goldstein;;Brian Richard;;;;Fabrikam;537701;;;IT Assistant;Cambridge;Research & Development;19700404
+114737;20040101;0;3;A;Leonetti;;Francesca;US;6505551247;6505554000;Contoso;501416;9175551896;8885552487;Customer Service Representative;Palo Alto;Customer Service;19600813
+122999;20040101;0;3;A;Ajenstat;;Francois;US;6505550344;6505554500;Contoso;83321;9175550331;8885558963;Engineer;Palo Alto;Research & Development;19800714
+127168;20040101;0;3;A;Venugopal;;Raja;US;6505552088;6505554500;Contoso;83321;9175555466;8885555893;Lead Engineer;Palo Alto;Research & Development;19811212
+139591;20040101;0;3;A;Ptaszynski;;James (Jim);GB;1223 555 026;;Fabrikam;537701;;;Lead Engineer;Cambridge;Research & Development;19701212
+140316;20040101;0;3;A;Wright;;Scott;GB;1223 555 643;;Fabrikam;537701;;;Engineer;Cambridge;Research & Development;19631212
+156133;20040101;0;3;A;Skelly;;Bonnie;US;2145551662;2145556000;Contoso;42399;2145551304;8885559896;Director:IT;Dallas;Information Technology;19631209
+167569;20040101;0;3;A;Blythe;;Michael;US;4255557142;4255557100;Contoso;501416;4255559525;8005557901;Customer Service Representative;Redmond;Customer Service;19460303
+171037;20040101;0;3;A;Richards;;David (Dave);US;6505554543;6505554000;Contoso;501416;9175557878;8885559832;Lead Customer Service Representative;Palo Alto;Customer Service;19800402
+171880;20040101;0;3;A;Tejani;;Sameer;GB;1223 555 456;;Fabrikam;537701;;;Lead Engineer;Cambridge;Research & Development;19700404
+174015;20040101;0;3;A;Saravan;;K;US;2125554485;2125553204;Contoso;501416;9175558925;8665553154;Customer Service Representative;New York;Customer Service;19700803
+193382;20040101;0;3;A;Smith;;Ronaldo;US;2125551991;2125553204;Contoso;502345;9175555551;8665554342;Marketing Associate;New York;Marketing;19540504
+196257;20040101;0;3;A;Hill;;Christopher (Chris);GB;1223 555 780;;Fabrikam;537701;;;Engineer I;Cambridge;Research & Development;19670414
+216543;20040101;0;3;A;Jiang;;Stephen;US;4255552597;4255557100;Contoso;501416;4255555961;8005553484;Customer Service Representative;Redmond;Customer Service;19560413
+234084;20040101;0;3;A;Dawson;;Matt;;;;Contoso;589765;;;Sales Representative;Palo Alto;Sales;19601006
+246761;20040101;0;3;A;Zwilling;;Michael;US;6505556786;6505554000;Contoso;42399;;;Director: Customer Service;Palo Alto;Customer Service;19720108
+288071;20040101;0;3;A;Ingle;;Marc;US;3125554565;3125552500;Contoso;502345;3125550998;3125552244;Marketing Associate;Chicago;Marketing;19700221
+305446;20040101;0;3;A;Straatsma;;Gerrit;US;6505554788;6505554500;Contoso;83321;9175553243;8885555614;Engineer;Palo Alto;Research & Development;19631212
+322655;20040101;0;3;A;Wong;;Y;US;6505550568;6505551000;Contoso;820313;9175556767;8885556767;Security Associate;Palo Alto;Facilities;19540709
+337513;20040101;0;3;A;Canuto;;Suzana;US;6505558709;6505554500;Contoso;83321;9175553682;8885557920;Engineer I;Palo Alto;Research & Development;19621209
+348529;20040101;0;3;A;Cook;;Patrick;US;6505551579;6505554000;Contoso;501416;9175553598;8885551913;Customer Service Representative;Palo Alto;Customer Service;19690909
+371698;20040101;0;3;A;Hill;;Andrew (Andy);US;6505559878;6505551000;Contoso;110724;9175558234;8885557250;Human Resources Assistant;Palo Alto;Human Resources;19590101
+372765;20040101;0;3;A;ODell;;Tina;US;6505558600;6505554500;Contoso;83321;9175556833;8885556283;Bio-Chem Engineer;Palo Alto;Research & Development;19541230
+376127;20040101;0;3;A;Glynn;;James (Jim);US;6505558789;6505554500;Contoso;83321;9175557687;8885558447;Senior Engineer;Palo Alto;Research & Development;19780123
+387459;20040101;0;3;A;Keyser;;Elizabeth (Liz);US;6505554365;6505554000;Contoso;501416;9175557684;8885552436;Customer Service Representative;Palo Alto;Customer Service;19651204
+400686;20040101;0;3;A;Auricchio;;Jose Luis;US;6505552904;6505554000;Contoso;501416;9175556574;8885554060;Lead Customer Service Representative;Palo Alto;Customer Service;19600504
+420074;20040101;0;3;A;Taylor;;Daniel;US;6505553433;6505554000;Contoso;501416;9175555655;8885555548;Group Customer Service Representative;Palo Alto;Customer Service;19680202
+445021;20040101;0;3;A;Earls;;Terrence (Terry);GB;1223 555 234;;Fabrikam;537701;;;Engineer I;Cambridge;Research & Development;19600720
+453576;20040101;0;3;A;Malone;;William;US;6505553434;6505552100;Contoso;589765;9175554568;8885554990;Sales Assistant;Palo Alto;Sales;19800909
+455811;20040101;0;3;A;Ledyard;;Kenneth (Ken);US;6505556854;6505554500;Contoso;83321;9175556575;8885557800;Research Assistant;Palo Alto;Research & Development;19550130
+464092;20040101;0;3;A;Reategui Alayo;;Sandra;US;6505553678;6505559800;Contoso;57339;9175555678;8885553170;Security Officer;Palo Alto;Contoso;19700404
+473311;20040101;0;3;A;Bacon;;Dan;US;4255555892;4255557100;Contoso;83321;8005552983;8005556940;Engineer I;Redmond;Research & Development;19590523
+481474;20040101;0;3;A;Martinez;;Frank;US;2125553671;2125553204;Contoso;156133;9175556085;8665551263;Lead IT Technician;New York;Information Technology;19650813
+501416;20040101;0;3;A;Lawrence;;David Oliver;US;2145552927;2145556000;Contoso;246761;9175559297;;Customer Service Manager;Dallas;Customer Service;19811202
+502345;20040101;0;3;A;Williams;;Jill;US;6505552399;6505552300;Contoso;589765;9175558540;8885553854;Marketing Manager;Palo Alto;Marketing;19650127
+504082;20040101;0;3;A;Willett;;Benjamin;US;6505554540;6505554000;Contoso;501416;9175551844;8885551372;Customer Service Representative;Palo Alto;Customer Service;19670509
+508522;20040101;0;3;A;Hurtado;;Begona;US;6505558890;6505559800;Contoso;57339;9175551837;8885559287;Sanitation Associate;Palo Alto;Operations;19550514
+514603;20040101;0;3;A;Browne;;Kevin;GB;1223 555 719;;Fabrikam;537701;;;Bio-Chem Engineer;Cambridge;Research & Development;19430731
+516825;20040101;0;3;A;Dempsey;;Mary (Molly);US;4255557128;4255557100;Contoso;580576;4255552129;8005551006;Administrative Associate;Redmond;Operations;19650923
+516921;20040101;0;3;A;Hummer;;Michael;US;4255553023;4255557100;Contoso;83321;4255557021;8005551909;Assoc. Engineer;Redmond;Research & Development;19580913
+521976;20040101;0;3;A;Saraiva;;Jose;US;6505556587;6505555500;Contoso;156133;9175559456;8885553755;IT Technician;Palo Alto;Information Technology;19590701
+524900;20040101;0;3;A;Untch;;Hans-Walter;US;6505553580;6505552100;Contoso;589765;9175554650;8885555900;Sales Representative;Palo Alto;Sales;19430312
+534135;20040101;0;3;A;Varkev Chudukatil;;Ranjit;US;2125557471;2125553204;Contoso;156133;9175553246;8665552606;Lead IT Analyst;New York;Information Technology;19700214
+537701;20040101;0;3;A;Posti;;Juha-Pekka;US;2145552339;2145556000;Contoso;647441;2145556966;;Research & Development Manager;Dallas;Research & Development;19700404
+538935;20040101;0;3;A;Campbell;;John;US;6505552837;6505554000;Contoso;501416;9175550058;8885552500;Group Customer Service Representative;Palo Alto;Customer Service;19651212
+545427;20040101;20050117;1;A;Berger;;Katherine (Kate);US;6505553092;6505554500;Contoso;83321;9175553457;8885558707;Senior Engineer;Palo Alto;Research & Development;19450423
+569278;20040101;0;3;A;Smith-Bates;;Lorrin;GB;1223 555 568;;Fabrikam;537701;;;Engineer;Cambridge;Research & Development;19700202
+569642;20040101;0;3;A;Ting;;Hung-Fu (Tony);US;6505558578;6505554000;Contoso;501416;9175555932;8885553494;Customer Service Representative;Palo Alto;Customer Service;19620123
+578041;20040101;0;3;A;Cheng;;Yao-Qiang;GB;1223 555 342;;Fabrikam;537701;;;Engineer I;Cambridge;Research & Development;19680920
+580576;20040101;0;3;A;Sneath;;Timothy (Tim);US;2125552867;2125553204;Contoso;57339;9175558907;8665558393;Manager Administrative Operations;New York;Operations;19670303
+589765;20040101;0;3;A;Singh;;Surinder (Paul);US;2125554344;2125553204;Contoso;42399;9175552695;8665556967;Director: Sales;New York;Sales;19571112
+593445;20040101;0;3;A;McAskill-White;;Katie;US;2125552883;2125553204;Contoso;501416;9175554800;8665559907;Customer Service Representative;New York;Customer Service;19730625
+593570;20040101;0;3;A;Homer;;Kevin;US;6505551007;6505554000;Contoso;501416;9175552004;8885556320;Customer Service Representative;Palo Alto;Contoso;19700404
+598298;20040101;0;3;A;Heidepriem;;Brandon;US;6505550654;6505554500;Contoso;83321;9175553446;8885558210;Senior Engineer;Palo Alto;Research & Development;19671204
+607466;20040101;0;3;A;Reiter;;Tsvi;US;2125559536;2125553204;Contoso;110724;9175556513;8665558638;Human Resources Associate;New York;Human Resources;19741023
+634220;20040101;0;3;A;Hite;;Douglas (Doug);US;6505554933;6505554500;Contoso;83321;9175556271;8885554860;Assoc. Engineer;Palo Alto;Research & Development;19631129
+647441;20040101;0;3;A;Pinto;;Paulo;US;6505552348;6505554500;Contoso;42399;9175553589;8885559986;Director: Research & Development;Palo Alto;Research & Development;19780706
+650059;20040101;0;3;A;Alderson;;Gregory (Greg);US;6505552347;6505555500;Contoso;156133;9175556185;8885553292;IT Analyst I;Palo Alto;Information Technology;19591202
+662156;20040101;0;3;A;Henshaw;;Jeff;US;6505553476;6505554500;Contoso;83321;9175555456;8885558385;Senior Engineer;Palo Alto;Research & Development;19751015
+681581;20040101;0;3;A;Byham;;Richard;GB;1223 555 675;;Fabrikam;537701;;;Engineer II;Cambridge;Research & Development;19700404
+686305;20040101;0;3;A;Borba;;Liana;US;6505550944;6505559800;Contoso;580576;9175552328;8885558789;Group Administrative Associate;Palo Alto;Operations;19450323
+693943;20040101;0;3;A;Campbell;;John;US;6505553478;6505554500;Contoso;83321;9175555614;8885558311;Engineer II;Palo Alto;Research & Development;19650419
+694788;20040101;0;3;A;Campbell;;John;US;6505550954;6505554000;Contoso;501416;9175555487;8885555037;Lead Customer Service Representative;Palo Alto;Customer Service;19811212
+696927;20040101;0;3;A;Chia;;Lee;US;6505553458;6505559800;Contoso;57339;9175555649;8885559818;MailRoom Associate;Palo Alto;Operations;19730101
+700200;20040101;0;3;A;Kelly;;Robert (Bob);GB;1223 555 576;;Fabrikam;537701;;;Engineer;Cambridge;Research & Development;19700404
+709772;20040101;0;3;A;Burnell;;Dana;US;6505554589;6505554000;Contoso;501416;9175556787;8885557347;Customer Service Representative;Palo Alto;Customer Service;19831104
+722805;20040101;0;3;A;Loh;;Kok-Ho;US;6505553478;6505554000;Contoso;501416;9175553455;8885555452;Customer Service Representative;Palo Alto;Customer Service;19700404
+726490;20040101;0;3;A;Vargas;;Garrett;US;6505553578;6505554000;Contoso;501416;9175552426;8885558227;Customer Service Representative;Palo Alto;Customer Service;19700404
+729845;20040101;0;3;A;Ray;;Michael;GB;1223 55 110;;Fabrikam;537701;;;Engineer I;Cambridge;Research & Development;19700404
+745104;20040101;0;3;A;Keiser;;Debra;US;4255556174;4255557100;Contoso;83321;4255555454;8005552411;Engineer;Redmond;Research & Development;19830918
+759939;20040101;0;3;A;Liu;;David;US;6505553458;6505554500;Contoso;83321;9175553493;8885558252;Lead Bio-Chem Engineer;Palo Alto;Research & Development;19810809
+760513;20040101;0;3;A;Combel;;Craig;US;6505550098;6505552100;Contoso;589765;9175555485;8885555900;Sales Representative;Palo Alto;Sales;19790909
+772121;20040101;0;3;A;Murray;;Billie Jo;GB;1223 555 769;;Fabrikam;537701;;;Bio-Chem Engineer;Cambridge;Research & Development;19700404
+778097;20040101;0;3;A;Ryan;;David (Dave);US;6505553194;6505554000;Contoso;501416;9175553546;8885556968;Group Customer Service Representative;Palo Alto;Customer Service;19730915
+784786;20040101;0;3;A;Kahn;;Wendy;US;6505551299;6505554500;Contoso;83321;9175559873;8885553738;Bio-Chem Engineer II;Palo Alto;Research & Development;19630330
+812402;20040101;0;3;A;Salmre;;Ivo;US;6505553546;6505555500;Contoso;156133;9175556549;8885559500;IT Technician II;Palo Alto;Information Technology;19630504
+820313;20040101;0;3;A;Sandoval;;Giraldo;US;6505553458;6505551000;Contoso;57339;9175559832;8885559830;Security Manager;Palo Alto;Facilities;19680924
+869138;20040101;0;3;A;Mirchindani;;Nitin;US;6505553547;6505554500;Contoso;83321;9175556842;8885551796;Engineer;Palo Alto;Research & Development;19701223
+871357;20040101;0;3;A;Barker;;Robert;GB;1223 555 105;;Fabrikam;537701;;;Lead Bio-Chem Engineer;Cambridge;Research & Development;19700404
+895252;20040101;0;3;A;Graff;;Eliot;US;6505554560;6505559800;Contoso;580576;9175558973;8885551666;Administrative Associate;Palo Alto;Operations;19540909
+926993;20040101;0;3;A;Altman;;Gary;US;6505551004;6505554500;Contoso;83321;9175556873;8885558881;Engineer I;Palo Alto;Research & Development;19700613
+931181;20040101;0;3;A;Kastner;;Steven;US;6505553546;6505554000;Contoso;501416;9175553434;8885551989;Customer Service Representative;Palo Alto;Customer Service;19670504
+938103;20040101;0;3;A;Hagens;;Erin;US;6505550098;6505559800;Contoso;580576;9175558434;8885556884;Lead Administrative Associate;Palo Alto;Operations;19700412
+949529;20040101;0;3;A;Hines;;Michael (Mike);US;6505553444;6505554500;Contoso;83321;9175559863;8885559561;Engineer II;Palo Alto;Research & Development;19450606
+997660;20040101;0;3;A;Rao;;Arvind;US;6505555916;6505555500;Contoso;156133;9175553433;8885556643;Lead IT Technician;Palo Alto;Information Technology;19670505

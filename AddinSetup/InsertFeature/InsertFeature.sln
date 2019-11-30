@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsertFeature", "InsertFeature.csproj", "{87AEB73C-6009-402D-A6E9-03C2696CF043}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SetupInsertFeature", "SetupInsertFeature\SetupInsertFeature.vdproj", "{A67A4744-9647-4577-B13A-168550ABE66C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87AEB73C-6009-402D-A6E9-03C2696CF043}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87AEB73C-6009-402D-A6E9-03C2696CF043}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87AEB73C-6009-402D-A6E9-03C2696CF043}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87AEB73C-6009-402D-A6E9-03C2696CF043}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A67A4744-9647-4577-B13A-168550ABE66C}.Debug|Any CPU.ActiveCfg = Debug
+		{A67A4744-9647-4577-B13A-168550ABE66C}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

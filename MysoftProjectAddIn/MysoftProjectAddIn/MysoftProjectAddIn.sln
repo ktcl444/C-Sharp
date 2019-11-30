@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "MysoftProjectAddIn", "MysoftProjectAddIn\MysoftProjectAddIn.vbproj", "{A261DFB6-82BA-4E76-ADEE-703A8DD4CA57}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "MysoftProjectAddIn安装程序", "MysoftProjectAddIn安装程序\MysoftProjectAddIn安装程序", "{27E15703-3330-42DF-B401-7466866E3E20}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "MysoftSetupHelper", "MysoftSetupHelper\MysoftSetupHelper.vbproj", "{D07B55C7-B382-418A-B562-C4CF7B86C8F2}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ProjectEditor", "ProjectEditor\ProjectEditor.vbproj", "{3E54F526-B237-4BDD-9D97-1EAC1F87B605}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 5
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = MysoftProjectAddIn\\MysoftProjectAddIn.vbproj
+		SccLocalPath1 = .
+		SccProjectFilePathRelativizedFromConnection1 = MysoftProjectAddIn\\
+		SccProjectUniqueName2 = MysoftProjectAddIn安装程序\\MysoftProjectAddIn安装程序
+		SccLocalPath2 = .
+		SccProjectFilePathRelativizedFromConnection2 = MysoftProjectAddIn安装程序\\
+		SccProjectUniqueName3 = MysoftSetupHelper\\MysoftSetupHelper.vbproj
+		SccLocalPath3 = .
+		SccProjectFilePathRelativizedFromConnection3 = MysoftSetupHelper\\
+		SccProjectUniqueName4 = ProjectEditor\\ProjectEditor.vbproj
+		SccLocalPath4 = .
+		SccProjectFilePathRelativizedFromConnection4 = ProjectEditor\\
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A261DFB6-82BA-4E76-ADEE-703A8DD4CA57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A261DFB6-82BA-4E76-ADEE-703A8DD4CA57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A261DFB6-82BA-4E76-ADEE-703A8DD4CA57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A261DFB6-82BA-4E76-ADEE-703A8DD4CA57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27E15703-3330-42DF-B401-7466866E3E20}.Debug|Any CPU.ActiveCfg = Debug
+		{27E15703-3330-42DF-B401-7466866E3E20}.Release|Any CPU.ActiveCfg = Release
+		{D07B55C7-B382-418A-B562-C4CF7B86C8F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D07B55C7-B382-418A-B562-C4CF7B86C8F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D07B55C7-B382-418A-B562-C4CF7B86C8F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D07B55C7-B382-418A-B562-C4CF7B86C8F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E54F526-B237-4BDD-9D97-1EAC1F87B605}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E54F526-B237-4BDD-9D97-1EAC1F87B605}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E54F526-B237-4BDD-9D97-1EAC1F87B605}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E54F526-B237-4BDD-9D97-1EAC1F87B605}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,16 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectView>ShowAllFiles</ProjectView>
+  </PropertyGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{BAA0C2D2-18E2-41B9-852F-F413020CAA33}" xmlns="">
+        <ProjectClient>
+          <VSTO_CompatibleProducts ErrorProduct="此项目需要 Microsoft Office Project 2003，但是尚未安装此应用程序。" ErrorPIA="此项目引用 Microsoft Office Project 2003 的主互操作程序集，但是尚未安装此主互操作程序集。">
+            <Product Code="{XXXXXXXX-6000-11D3-8CFE-0150048383C9}" Feature="PROJECTFiles" PIAFeature="Project_PIA" />
+          </VSTO_CompatibleProducts>
+        </ProjectClient>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

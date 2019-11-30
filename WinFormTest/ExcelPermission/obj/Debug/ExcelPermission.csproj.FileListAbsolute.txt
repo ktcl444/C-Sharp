@@ -1,0 +1,8 @@
+D:\MyWork\代码\C\Test\WinFormTest\ExcelPermission\bin\Debug\ExcelPermission.dll
+D:\MyWork\代码\C\Test\WinFormTest\ExcelPermission\bin\Debug\ExcelPermission.pdb
+D:\MyWork\代码\C\Test\WinFormTest\ExcelPermission\bin\Debug\Microsoft.Office.Interop.Excel.dll
+D:\MyWork\代码\C\Test\WinFormTest\ExcelPermission\bin\Debug\Office.dll
+D:\MyWork\代码\C\Test\WinFormTest\ExcelPermission\bin\Debug\Microsoft.Vbe.Interop.dll
+D:\MyWork\代码\C\Test\WinFormTest\ExcelPermission\obj\Debug\ResolveAssemblyReference.cache
+D:\MyWork\代码\C\Test\WinFormTest\ExcelPermission\obj\Debug\ExcelPermission.dll
+D:\MyWork\代码\C\Test\WinFormTest\ExcelPermission\obj\Debug\ExcelPermission.pdb

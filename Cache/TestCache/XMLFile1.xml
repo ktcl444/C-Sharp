@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<page>
+    <appTextBox id="AppTextBox1" value="测试" display="true" disabled="false" iconAlign="right"
+        required="true" readOnly="true" showIcon="true" forbiddenChars="123" allowChars="123456" maxLength="10">
+        <ClientEvents>
+            <ClientValidation>
+                <![CDATA[
+                function(s,e)
+                {
+                    if(s.getValue()=="")
+                    {
+                        e.returnValue=false;
+                        e.message="必填字段不能为空XML";
+                        return;
+                    }
+                    
+                    if (s.length >5)
+                    {
+                        e.returnValue=false;
+                        e.message = "录入的字符超过最大数量：10XML";
+                        return;
+                    }                    
+                    e.returnValue=true;
+                }
+        ]]>
+            </ClientValidation>
+            <IconClick>
+                <![CDATA[
+                function(s,e)
+                {
+                    alert("点击了TextBox上的按钮");
+                    //window.open("/default.aspx");
+                }
+        ]]>
+            </IconClick>
+            <BeforeValueChange>
+                <![CDATA[
+                  function(s, e) {
+                    if(s.getValue().indexOf("1")>=0)
+                    e.returnValue=false;
+                  }
+                  ]]>
+            </BeforeValueChange>
+        </ClientEvents>
+    </appTextBox>
+
+
+    <appPassword id="AppPassword1" value="abcde" display="true" disabled="false"
+    required="true" readOnly="true" enableHelper="true" forbiddenChars="123" allowChars="123456" maxLength="10">
+        <ClientEvents>
+            <ClientValidation>
+                <![CDATA[
+                function(s,e)
+                {
+                    if(s.getValue()=="")
+                    {
+                        e.returnValue=false;
+                        e.message="必填字段不能为空XML";
+                        return;
+                    }
+                    
+                    if (s.getValue().length >5)
+                    {
+                        e.returnValue=false;
+                        e.message = "录入的字符超过最大数量：10XML";
+                        return;
+                    }                    
+                    e.returnValue=true;
+                }
+        ]]>
+            </ClientValidation>
+            <BeforeValueChange>
+                <![CDATA[
+                  function(s, e) {
+                    if(s.getValue().indexOf("1")>=0)
+                    e.returnValue=false;
+                  }
+                  ]]>
+            </BeforeValueChange>
+        </ClientEvents>
+    </appPassword>
+    <appTextArea id="AppTextArea1" width="100" height="10"  value="abcde" display="true" disabled="false"
+        required="true" readOnly="true" enableHelper="true" forbiddenChars="123"
+         allowChars="1234567890" maxLength="10">
+        <ClientEvents>
+            <ClientValidation>
+                <![CDATA[
+                function(s,e)
+                {
+                    if(s.getValue()=="")
+                    {
+                        e.returnValue=false;
+                        e.message="必填字段不能为空XML";
+                        return;
+                    }
+                    
+                    if (s.length >5)
+                    {
+                        e.returnValue=false;
+                        e.message = "录入的字符超过最大数量：10XML";
+                        return;
+                    }                    
+                    e.returnValue=true;
+                }
+        ]]>
+            </ClientValidation>
+            <BeforeValueChange>
+                <![CDATA[
+                  function(s, e) {
+                    if(s.getValue().indexOf("1")>=0)
+                    e.returnValue=false;
+                  }
+                  ]]>
+            </BeforeValueChange>
+        </ClientEvents>
+    </appTextArea>
+
+    <appTextArea id="AppTextArea2" width="100" height="10"  value="abcde" display="true" disabled="false"
+        required="true" readOnly="true" enableHelper="true" forbiddenChars="123456789"
+        validationExpression="\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"  maxLength="10">
+        <ClientEvents>
+            <ClientValidation>
+                <![CDATA[
+                function(s,e)
+                {
+                    if(s.getValue()=="")
+                    {
+                        e.returnValue=false;
+                        e.message="必填字段不能为空XML";
+                        return;
+                    }
+                    
+                    if (s.length >5)
+                    {
+                        e.returnValue=false;
+                        e.message = "录入的字符超过最大数量：10XML";
+                        return;
+                    }                    
+                    e.returnValue=true;
+                }
+        ]]>
+            </ClientValidation>
+            <BeforeValueChange>
+                <![CDATA[
+                  function(s, e) {
+                    if(s.getValue().indexOf("1")>=0)
+                    e.returnValue=false;
+                  }
+                  ]]>
+            </BeforeValueChange>
+        </ClientEvents>
+    </appTextArea>
+
+    <appNumber id="AppNumber1" value="1258.025" display="true" disabled="false"
+        required="true" readOnly="true"  grp="true" aac="4" showIcon="true"
+         minValue="-125845123" maxValue="125845123" allowMinValue="true" allowMaxValue="false">
+        <ClientEvents>
+            <ClientValidation>
+                <![CDATA[
+                function(s,e)
+                {
+                    if(s.getValue()=="")
+                    {
+                        e.returnValue=false;
+                        e.message="必填字段不能为空XML";
+                        return;
+                    }
+                    
+                    if (s.length >5)
+                    {
+                        e.returnValue=false;
+                        e.message = "录入的字符超过最大数量：10XML";
+                        return;
+                    }                    
+                    e.returnValue=true;
+                }
+        ]]>
+            </ClientValidation>
+            <IconClick>
+                <![CDATA[
+                function(s,e)
+                {
+                    alert("点击了Number上的按钮");
+                    //window.open("/default.aspx");
+                }
+        ]]>
+            </IconClick>
+            <BeforeValueChange>
+                <![CDATA[
+                  function(s, e) {
+                    if(s.getValue().indexOf("1")>=0)
+                    e.returnValue=false;
+                  }
+                  ]]>
+            </BeforeValueChange>
+        </ClientEvents>
+    </appNumber>
+
+
+    <appHyperlink id="AppHyperlink1" value="测试链接" display="true" href="/default.aspx"
+        disabled="true" target="_blank"  onclick="" >
+        <ClientEvents>
+            <OnClick>
+                <![CDATA[    
+         function(s, e) 
+         {    
+            event.returnValue=false;
+            alert("单击事件");    
+         }    
+        ]]>
+            </OnClick>
+            <BeforeValueChange>
+                <![CDATA[
+                  function(s, e) {
+                  alert("TextChanged!\n" + s.GetValue());
+                  }
+                  ]]>
+            </BeforeValueChange>
+        </ClientEvents>
+    </appHyperlink>
+
+
+    <appHtmlLabel id="AppHtmlLabel1" value="测试Label" display="true"    >
+    </appHtmlLabel>
+
+    <appTextLabel id="appTextLabel1" value="2006-11-5 13:47:04" display="true"  format="yyyy-MM-dd hh:mm" appendString="签订合同时间："  >
+        累计总金额为：#,##0.000
+    </appTextLabel>
+</page>

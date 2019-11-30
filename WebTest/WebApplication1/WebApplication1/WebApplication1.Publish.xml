@@ -1,0 +1,25 @@
+<publishData>
+  <publishTarget publishUrl="d:\Users\kongy\Desktop\WindowsLoginTest\">
+    <file relUrl="RMSTest.aspx" publishTime="09/08/2013 14:22:49" />
+    <file relUrl="bin/Mysoft.Map.Core.dll" publishTime="09/06/2013 10:44:18" />
+    <file relUrl="Global.asax" publishTime="12/31/2011 10:00:59" />
+    <file relUrl="bin/Mysoft.Map.Core.pdb" publishTime="09/06/2013 10:44:18" />
+    <file relUrl="Web.config" publishTime="10/10/2012 11:47:16" />
+    <file relUrl="Mysoft.Map.Core.vbproj" publishTime="03/19/2013 10:42:11" />
+    <file relUrl="bin/WebApplication1.dll" publishTime="09/08/2013 17:11:16" />
+    <file relUrl="WebForm1.aspx" publishTime="10/11/2012 11:29:06" />
+    <file relUrl="Pub_XmlHttp.aspx" publishTime="08/03/2011 10:20:02" />
+    <file relUrl="RMSFile_Simulation/Web.config" publishTime="09/08/2013 11:51:38" />
+    <file relUrl="bin/Microsoft.Office.Interop.Excel.dll" publishTime="10/10/2007 09:49:04" />
+    <file relUrl="bin/Microsoft.Vbe.Interop.dll" publishTime="10/10/2007 09:49:08" />
+    <file relUrl="WebForm2.aspx" publishTime="04/08/2012 17:32:53" />
+    <file relUrl="bin/License.xml" publishTime="03/19/2013 10:43:27" />
+    <file relUrl="Index.aspx" publishTime="11/07/2012 16:23:12" />
+    <file relUrl="bin/WebApplication1.pdb" publishTime="09/08/2013 17:11:16" />
+    <file relUrl="Default.aspx" publishTime="09/06/2013 17:00:04" />
+    <file relUrl="bin/Office.dll" publishTime="10/10/2007 09:49:08" />
+    <file relUrl="lib/Mysoft.Map.Excel.dll" publishTime="09/08/2013 11:46:57" />
+    <file relUrl="WebForm3.aspx" publishTime="03/21/2012 15:16:08" />
+    <file relUrl="bin/Mysoft.Map.Excel.dll" publishTime="09/08/2013 11:46:57" />
+  </publishTarget>
+</publishData>

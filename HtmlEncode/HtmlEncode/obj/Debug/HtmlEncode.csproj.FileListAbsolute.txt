@@ -1,0 +1,15 @@
+d:\Users\kongy\AppData\Local\Temporary Projects\HtmlEncode\bin\Debug\HtmlEncode.exe
+d:\Users\kongy\AppData\Local\Temporary Projects\HtmlEncode\bin\Debug\HtmlEncode.pdb
+d:\Users\kongy\AppData\Local\Temporary Projects\HtmlEncode\obj\Debug\HtmlEncode.Form1.resources
+d:\Users\kongy\AppData\Local\Temporary Projects\HtmlEncode\obj\Debug\HtmlEncode.Properties.Resources.resources
+d:\Users\kongy\AppData\Local\Temporary Projects\HtmlEncode\obj\Debug\HtmlEncode.csproj.GenerateResource.Cache
+d:\Users\kongy\AppData\Local\Temporary Projects\HtmlEncode\obj\Debug\HtmlEncode.exe
+d:\Users\kongy\AppData\Local\Temporary Projects\HtmlEncode\obj\Debug\HtmlEncode.pdb
+F:\C\Test\HtmlEncode\HtmlEncode\obj\Debug\HtmlEncode.exe
+F:\C\Test\HtmlEncode\HtmlEncode\obj\Debug\HtmlEncode.pdb
+F:\C\Test\HtmlEncode\HtmlEncode\bin\Debug\HtmlEncode.exe
+F:\C\Test\HtmlEncode\HtmlEncode\bin\Debug\HtmlEncode.pdb
+F:\C\Test\HtmlEncode\HtmlEncode\obj\Debug\HtmlEncode.csprojResolveAssemblyReference.cache
+F:\C\Test\HtmlEncode\HtmlEncode\obj\Debug\HtmlEncode.Form1.resources
+F:\C\Test\HtmlEncode\HtmlEncode\obj\Debug\HtmlEncode.Properties.Resources.resources
+F:\C\Test\HtmlEncode\HtmlEncode\obj\Debug\HtmlEncode.csproj.GenerateResource.Cache

@@ -1,0 +1,4 @@
+d:\MyWork\代码\VB\平台解决方案\项目个性化\深圳龙光\Core\Mysoft.Map.Core\bin\Mysoft.Map.Core.dll.config
+d:\MyWork\代码\VB\平台解决方案\项目个性化\深圳龙光\Core\Mysoft.Map.Core\bin\Mysoft.Map.Core.dll
+d:\MyWork\代码\VB\平台解决方案\项目个性化\深圳龙光\Core\Mysoft.Map.Core\obj\Release\ResolveAssemblyReference.cache
+d:\MyWork\代码\VB\平台解决方案\项目个性化\深圳龙光\Core\Mysoft.Map.Core\obj\Release\Mysoft.Map.Core.dll

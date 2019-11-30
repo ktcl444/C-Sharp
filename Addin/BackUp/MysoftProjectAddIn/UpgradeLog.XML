@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="MysoftProjectAddIn">
+</Property><Property Name="解决方案文件" Value="D:\MyWork\代码\C\Test\Addin\MysoftProjectAddIn\MysoftProjectAddIn.sln">
+</Property><Property Name="用户选项文件" Value="D:\MyWork\代码\C\Test\Addin\MysoftProjectAddIn\MysoftProjectAddIn.suo">
+</Property><Property Name="Date" Value="2012年5月29日">
+</Property><Property Name="Time" Value="9:37">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="MysoftProjectAddIn.sln" Description="文件已成功备份为 D:\MyWork\代码\C\Test\Addin\MysoftProjectAddIn\Backup\MysoftProjectAddIn.sln">
+</Event><Event ErrorLevel="0" Project="" Source="MysoftProjectAddIn.suo" Description="文件已成功备份为 D:\MyWork\代码\C\Test\Addin\MysoftProjectAddIn\Backup\MysoftProjectAddIn.suo">
+</Event><Event ErrorLevel="0" Project="MysoftProjectAddIn" Source="MysoftProjectAddIn\MysoftProjectAddIn.vbproj" Description="项目文件已成功备份为 D:\MyWork\代码\C\Test\Addin\MysoftProjectAddIn\Backup\MysoftProjectAddIn\MysoftProjectAddIn.vbproj">
+</Event><Event ErrorLevel="0" Project="MysoftProjectAddIn" Source="MysoftProjectAddIn\MysoftProjectAddIn.vbproj.user" Description="项目用户文件成功备份为 D:\MyWork\代码\C\Test\Addin\MysoftProjectAddIn\Backup\MysoftProjectAddIn\MysoftProjectAddIn.vbproj.user">
+</Event><Event ErrorLevel="0" Project="MysoftProjectAddIn" Source="MysoftProjectAddIn\Dialog.designer.vb" Description="文件已成功备份为 D:\MyWork\代码\C\Test\Addin\MysoftProjectAddIn\Backup\MysoftProjectAddIn\Dialog.designer.vb">
+</Event><Event ErrorLevel="0" Project="MysoftProjectAddIn" Source="MysoftProjectAddIn\Dialog.vb" Description="文件已成功备份为 D:\MyWork\代码\C\Test\Addin\MysoftProjectAddIn\Backup\MysoftProjectAddIn\Dialog.vb">
+</Event><Event ErrorLevel="0" Project="MysoftProjectAddIn" Source="MysoftProjectAddIn\ThisAddIn.vb" Description="文件已成功备份为 D:\MyWork\代码\C\Test\Addin\MysoftProjectAddIn\Backup\MysoftProjectAddIn\ThisAddIn.vb">
+</Event><Event ErrorLevel="0" Project="MysoftProjectAddIn" Source="MysoftProjectAddIn\ThisAddIn.Designer.vb" Description="文件已成功备份为 D:\MyWork\代码\C\Test\Addin\MysoftProjectAddIn\Backup\MysoftProjectAddIn\ThisAddIn.Designer.vb">
+</Event><Event ErrorLevel="0" Project="MysoftProjectAddIn" Source="MysoftProjectAddIn\My Project\AssemblyInfo.vb" Description="文件已成功备份为 D:\MyWork\代码\C\Test\Addin\MysoftProjectAddIn\Backup\MysoftProjectAddIn\My Project\AssemblyInfo.vb">
+</Event><Event ErrorLevel="0" Project="MysoftProjectAddIn" Source="MysoftProjectAddIn\My Project\Resources.Designer.vb" Description="文件已成功备份为 D:\MyWork\代码\C\Test\Addin\MysoftProjectAddIn\Backup\MysoftProjectAddIn\My Project\Resources.Designer.vb">
+</Event><Event ErrorLevel="0" Project="MysoftProjectAddIn" Source="MysoftProjectAddIn\My Project\Settings.Designer.vb" Description="文件已成功备份为 D:\MyWork\代码\C\Test\Addin\MysoftProjectAddIn\Backup\MysoftProjectAddIn\My Project\Settings.Designer.vb">
+</Event><Event ErrorLevel="0" Project="MysoftProjectAddIn" Source="MysoftProjectAddIn\ThisAddIn.Designer.xml" Description="文件已成功备份为 D:\MyWork\代码\C\Test\Addin\MysoftProjectAddIn\Backup\MysoftProjectAddIn\ThisAddIn.Designer.xml">
+</Event><Event ErrorLevel="0" Project="MysoftProjectAddIn" Source="MysoftProjectAddIn\My Project\Settings.settings" Description="文件已成功备份为 D:\MyWork\代码\C\Test\Addin\MysoftProjectAddIn\Backup\MysoftProjectAddIn\My Project\Settings.settings">
+</Event><Event ErrorLevel="0" Project="MysoftProjectAddIn" Source="MysoftProjectAddIn\Dialog.resx" Description="文件已成功备份为 D:\MyWork\代码\C\Test\Addin\MysoftProjectAddIn\Backup\MysoftProjectAddIn\Dialog.resx">
+</Event><Event ErrorLevel="0" Project="MysoftProjectAddIn" Source="MysoftProjectAddIn\My Project\Resources.resx" Description="文件已成功备份为 D:\MyWork\代码\C\Test\Addin\MysoftProjectAddIn\Backup\MysoftProjectAddIn\My Project\Resources.resx">
+</Event><Event ErrorLevel="0" Project="MysoftProjectAddIn" Source="MysoftProjectAddIn\MysoftProjectAddIn.vbproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="MysoftProjectAddIn" Source="MysoftProjectAddIn\MysoftProjectAddIn.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="MysoftProjectAddIn安装程序" Source="MysoftProjectAddIn安装程序\MysoftProjectAddIn安装程序" Description="项目文件已成功备份为 D:\MyWork\代码\C\Test\Addin\MysoftProjectAddIn\Backup\MysoftProjectAddIn安装程序\MysoftProjectAddIn安装程序">
+</Event><Event ErrorLevel="0" Project="MysoftSetupHelper" Source="MysoftSetupHelper\MysoftSetupHelper.vbproj" Description="项目文件已成功备份为 D:\MyWork\代码\C\Test\Addin\MysoftProjectAddIn\Backup\MysoftSetupHelper\MysoftSetupHelper.vbproj">
+</Event><Event ErrorLevel="0" Project="MysoftSetupHelper" Source="MysoftSetupHelper\MysoftSetupHelper.vbproj.user" Description="项目用户文件成功备份为 D:\MyWork\代码\C\Test\Addin\MysoftProjectAddIn\Backup\MysoftSetupHelper\MysoftSetupHelper.vbproj.user">
+</Event><Event ErrorLevel="0" Project="MysoftSetupHelper" Source="MysoftSetupHelper\My Project\AssemblyInfo.vb" Description="文件已成功备份为 D:\MyWork\代码\C\Test\Addin\MysoftProjectAddIn\Backup\MysoftSetupHelper\My Project\AssemblyInfo.vb">
+</Event><Event ErrorLevel="0" Project="MysoftSetupHelper" Source="MysoftSetupHelper\My Project\Application.Designer.vb" Description="文件已成功备份为 D:\MyWork\代码\C\Test\Addin\MysoftProjectAddIn\Backup\MysoftSetupHelper\My Project\Application.Designer.vb">
+</Event><Event ErrorLevel="0" Project="MysoftSetupHelper" Source="MysoftSetupHelper\My Project\Resources.Designer.vb" Description="文件已成功备份为 D:\MyWork\代码\C\Test\Addin\MysoftProjectAddIn\Backup\MysoftSetupHelper\My Project\Resources.Designer.vb">
+</Event><Event ErrorLevel="0" Project="MysoftSetupHelper" Source="MysoftSetupHelper\My Project\Settings.Designer.vb" Description="文件已成功备份为 D:\MyWork\代码\C\Test\Addin\MysoftProjectAddIn\Backup\MysoftSetupHelper\My Project\Settings.Designer.vb">
+</Event><Event ErrorLevel="0" Project="MysoftSetupHelper" Source="MysoftSetupHelper\MyInstaller.Designer.vb" Description="文件已成功备份为 D:\MyWork\代码\C\Test\Addin\MysoftProjectAddIn\Backup\MysoftSetupHelper\MyInstaller.Designer.vb">
+</Event><Event ErrorLevel="0" Project="MysoftSetupHelper" Source="MysoftSetupHelper\MyInstaller.vb" Description="文件已成功备份为 D:\MyWork\代码\C\Test\Addin\MysoftProjectAddIn\Backup\MysoftSetupHelper\MyInstaller.vb">
+</Event><Event ErrorLevel="0" Project="MysoftSetupHelper" Source="MysoftSetupHelper\My Project\Application.myapp" Description="文件已成功备份为 D:\MyWork\代码\C\Test\Addin\MysoftProjectAddIn\Backup\MysoftSetupHelper\My Project\Application.myapp">
+</Event><Event ErrorLevel="0" Project="MysoftSetupHelper" Source="MysoftSetupHelper\My Project\Settings.settings" Description="文件已成功备份为 D:\MyWork\代码\C\Test\Addin\MysoftProjectAddIn\Backup\MysoftSetupHelper\My Project\Settings.settings">
+</Event><Event ErrorLevel="0" Project="MysoftSetupHelper" Source="MysoftSetupHelper\My Project\Resources.resx" Description="文件已成功备份为 D:\MyWork\代码\C\Test\Addin\MysoftProjectAddIn\Backup\MysoftSetupHelper\My Project\Resources.resx">
+</Event><Event ErrorLevel="0" Project="MysoftSetupHelper" Source="MysoftSetupHelper\MysoftSetupHelper.vbproj" Description="项目文件不需要转换。">
+</Event><Event ErrorLevel="3" Project="MysoftSetupHelper" Source="MysoftSetupHelper\MysoftSetupHelper.vbproj" Description="无需转换">
+</Event><Event ErrorLevel="0" Project="ProjectEditor" Source="ProjectEditor\ProjectEditor.vbproj" Description="项目文件已成功备份为 D:\MyWork\代码\C\Test\Addin\MysoftProjectAddIn\Backup\ProjectEditor\ProjectEditor.vbproj">
+</Event><Event ErrorLevel="0" Project="ProjectEditor" Source="ProjectEditor\My Project\AssemblyInfo.vb" Description="文件已成功备份为 D:\MyWork\代码\C\Test\Addin\MysoftProjectAddIn\Backup\ProjectEditor\My Project\AssemblyInfo.vb">
+</Event><Event ErrorLevel="0" Project="ProjectEditor" Source="ProjectEditor\My Project\Application.Designer.vb" Description="文件已成功备份为 D:\MyWork\代码\C\Test\Addin\MysoftProjectAddIn\Backup\ProjectEditor\My Project\Application.Designer.vb">
+</Event><Event ErrorLevel="0" Project="ProjectEditor" Source="ProjectEditor\My Project\Resources.Designer.vb" Description="文件已成功备份为 D:\MyWork\代码\C\Test\Addin\MysoftProjectAddIn\Backup\ProjectEditor\My Project\Resources.Designer.vb">
+</Event><Event ErrorLevel="0" Project="ProjectEditor" Source="ProjectEditor\My Project\Settings.Designer.vb" Description="文件已成功备份为 D:\MyWork\代码\C\Test\Addin\MysoftProjectAddIn\Backup\ProjectEditor\My Project\Settings.Designer.vb">
+</Event><Event ErrorLevel="0" Project="ProjectEditor" Source="ProjectEditor\My Project\Application.myapp" Description="文件已成功备份为 D:\MyWork\代码\C\Test\Addin\MysoftProjectAddIn\Backup\ProjectEditor\My Project\Application.myapp">
+</Event><Event ErrorLevel="0" Project="ProjectEditor" Source="ProjectEditor\My Project\Settings.settings" Description="文件已成功备份为 D:\MyWork\代码\C\Test\Addin\MysoftProjectAddIn\Backup\ProjectEditor\My Project\Settings.settings">
+</Event><Event ErrorLevel="0" Project="ProjectEditor" Source="ProjectEditor\STDOLE2.TLB" Description="文件已成功备份为 D:\MyWork\代码\C\Test\Addin\MysoftProjectAddIn\Backup\ProjectEditor\STDOLE2.TLB">
+</Event><Event ErrorLevel="0" Project="ProjectEditor" Source="ProjectEditor\ASYCFILT.DLL" Description="文件已成功备份为 D:\MyWork\代码\C\Test\Addin\MysoftProjectAddIn\Backup\ProjectEditor\ASYCFILT.DLL">
+</Event><Event ErrorLevel="0" Project="ProjectEditor" Source="ProjectEditor\COMCAT.DLL" Description="文件已成功备份为 D:\MyWork\代码\C\Test\Addin\MysoftProjectAddIn\Backup\ProjectEditor\COMCAT.DLL">
+</Event><Event ErrorLevel="0" Project="ProjectEditor" Source="ProjectEditor\MSPRPCHS.DLL" Description="文件已成功备份为 D:\MyWork\代码\C\Test\Addin\MysoftProjectAddIn\Backup\ProjectEditor\MSPRPCHS.DLL">
+</Event><Event ErrorLevel="0" Project="ProjectEditor" Source="ProjectEditor\MSSTKPRP.DLL" Description="文件已成功备份为 D:\MyWork\代码\C\Test\Addin\MysoftProjectAddIn\Backup\ProjectEditor\MSSTKPRP.DLL">
+</Event><Event ErrorLevel="0" Project="ProjectEditor" Source="ProjectEditor\msvbvm60.dll" Description="文件已成功备份为 D:\MyWork\代码\C\Test\Addin\MysoftProjectAddIn\Backup\ProjectEditor\msvbvm60.dll">
+</Event><Event ErrorLevel="0" Project="ProjectEditor" Source="ProjectEditor\msxml6.dll" Description="文件已成功备份为 D:\MyWork\代码\C\Test\Addin\MysoftProjectAddIn\Backup\ProjectEditor\msxml6.dll">
+</Event><Event ErrorLevel="0" Project="ProjectEditor" Source="ProjectEditor\msxml6r.dll" Description="文件已成功备份为 D:\MyWork\代码\C\Test\Addin\MysoftProjectAddIn\Backup\ProjectEditor\msxml6r.dll">
+</Event><Event ErrorLevel="0" Project="ProjectEditor" Source="ProjectEditor\OLEAUT32.DLL" Description="文件已成功备份为 D:\MyWork\代码\C\Test\Addin\MysoftProjectAddIn\Backup\ProjectEditor\OLEAUT32.DLL">
+</Event><Event ErrorLevel="0" Project="ProjectEditor" Source="ProjectEditor\OLEPRO32.DLL" Description="文件已成功备份为 D:\MyWork\代码\C\Test\Addin\MysoftProjectAddIn\Backup\ProjectEditor\OLEPRO32.DLL">
+</Event><Event ErrorLevel="0" Project="ProjectEditor" Source="ProjectEditor\ProjectEditor.ocx" Description="文件已成功备份为 D:\MyWork\代码\C\Test\Addin\MysoftProjectAddIn\Backup\ProjectEditor\ProjectEditor.ocx">
+</Event><Event ErrorLevel="0" Project="ProjectEditor" Source="ProjectEditor\VB6CHS.DLL" Description="文件已成功备份为 D:\MyWork\代码\C\Test\Addin\MysoftProjectAddIn\Backup\ProjectEditor\VB6CHS.DLL">
+</Event><Event ErrorLevel="0" Project="ProjectEditor" Source="ProjectEditor\My Project\Resources.resx" Description="文件已成功备份为 D:\MyWork\代码\C\Test\Addin\MysoftProjectAddIn\Backup\ProjectEditor\My Project\Resources.resx">
+</Event><Event ErrorLevel="0" Project="ProjectEditor" Source="ProjectEditor\ProjectEditor.vbproj" Description="项目文件不需要转换。">
+</Event><Event ErrorLevel="3" Project="ProjectEditor" Source="ProjectEditor\ProjectEditor.vbproj" Description="无需转换">
+</Event><Event ErrorLevel="0" Project="" Source="MysoftProjectAddIn.sln" Description="解决方案文件不需要转换。">
+</Event><Event ErrorLevel="3" Project="" Source="MysoftProjectAddIn.sln" Description="无需转换">
+</Event><Event ErrorLevel="0" Project="MysoftProjectAddIn" Source="MysoftProjectAddIn\MysoftProjectAddIn.vbproj" Description="扫描完成: 项目文件不需要升级。">
+</Event></UpgradeLog>

@@ -1,0 +1,51 @@
+<provisioning>
+	<account-provisioning>
+		<intranet-container>
+			<root>OU=ContosoCorp,DC=na,DC=corp,DC=contoso,DC=com</root>
+			<employees>OU=Employees</employees>
+			<disabled>OU=Disabled</disabled>
+			<contacts>OU=Contacts</contacts>
+			<groups>OU=groups</groups>
+			<homeMDB>CN=First Mailbox Store (SG1),CN=First Storage Group,CN=InformationStore,CN=FFL-NA-MSG-01,CN=Servers,CN=First Administrative Group,CN=Administrative Groups,CN=Contoso,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=corp,DC=contoso,DC=com</homeMDB>
+			<fabrikamSMTPdomain>@fabrikam.com</fabrikamSMTPdomain>
+			<ln-certifier>O=fabcorp</ln-certifier>
+			<ln-nab>NAB=names.nsf</ln-nab>
+			<ln-mailserver>ffl-sa-lotus-02/fabcorp</ln-mailserver>
+			<ln-idfilehomedir>C:\LNR6IdFiles</ln-idfilehomedir>
+		</intranet-container>
+		<extranet-container>
+			<root>OU=Accounts,DC=perimeter,DC=contoso,DC=com</root>
+			<employees>OU=Employees</employees>
+			<disabled>OU=Disabled</disabled>
+			<trial-users>OU=Trial Users</trial-users>
+			<groups>OU=groups</groups>
+		</extranet-container>
+		<sunone-container>
+			<root>ou=People,dc=fabrikam,dc=com</root>
+		</sunone-container>
+		<extranet>
+			<ext-upn-suffix>na.corp.contoso.com</ext-upn-suffix>
+			<ext-mail-domain>@contoso.com</ext-mail-domain>
+			<issuing-CA-dn>DC=com,DC=contoso,DC=corp,CN=CONTOSO-CA111</issuing-CA-dn>
+			<CA-subject-prefix>DC=com,DC=contoso,DC=corp,DC=na,OU=ContosoCorp,OU=employees</CA-subject-prefix>
+		</extranet>
+	</account-provisioning>
+	<ma-definitions>
+		<ext-ad-ma>Extranet Active Directory</ext-ad-ma>
+		<ln-ma>Lotus Notes</ln-ma>
+		<int-ad-ma>Intranet Active Directory</int-ad-ma>
+		<so-ma>Sun ONE Directory</so-ma>
+		<ssprov-ma>Self-Service Provisioning</ssprov-ma>
+	</ma-definitions>
+	<user-definitions>
+		<upn>na.corp.contoso.com</upn>
+		<min-password-length>8</min-password-length>
+	</user-definitions>
+	<run-definitions>
+		<first>False</first>
+	</run-definitions>
+	<general-definitions>
+		<defaultManagerEmail>postmaster@contoso.com</defaultManagerEmail>
+		<contractorPrefix>v-</contractorPrefix>
+	</general-definitions>
+</provisioning>

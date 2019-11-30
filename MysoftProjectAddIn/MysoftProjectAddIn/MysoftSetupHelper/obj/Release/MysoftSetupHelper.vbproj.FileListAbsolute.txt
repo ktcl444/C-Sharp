@@ -1,0 +1,9 @@
+D:\MyWork\代码\C\Test\MysoftProjectAddIn\MysoftProjectAddIn\MysoftSetupHelper\bin\Release\MysoftSetupHelper.dll
+D:\MyWork\代码\C\Test\MysoftProjectAddIn\MysoftProjectAddIn\MysoftSetupHelper\bin\Release\MysoftSetupHelper.pdb
+D:\MyWork\代码\C\Test\MysoftProjectAddIn\MysoftProjectAddIn\MysoftSetupHelper\bin\Release\MysoftSetupHelper.xml
+D:\MyWork\代码\C\Test\MysoftProjectAddIn\MysoftProjectAddIn\MysoftSetupHelper\obj\Release\ResolveAssemblyReference.cache
+D:\MyWork\代码\C\Test\MysoftProjectAddIn\MysoftProjectAddIn\MysoftSetupHelper\obj\Release\MysoftSetupHelper.Resources.resources
+D:\MyWork\代码\C\Test\MysoftProjectAddIn\MysoftProjectAddIn\MysoftSetupHelper\obj\Release\MysoftSetupHelper.vbproj.GenerateResource.Cache
+D:\MyWork\代码\C\Test\MysoftProjectAddIn\MysoftProjectAddIn\MysoftSetupHelper\obj\Release\MysoftSetupHelper.dll
+D:\MyWork\代码\C\Test\MysoftProjectAddIn\MysoftProjectAddIn\MysoftSetupHelper\obj\Release\MysoftSetupHelper.xml
+D:\MyWork\代码\C\Test\MysoftProjectAddIn\MysoftProjectAddIn\MysoftSetupHelper\obj\Release\MysoftSetupHelper.pdb

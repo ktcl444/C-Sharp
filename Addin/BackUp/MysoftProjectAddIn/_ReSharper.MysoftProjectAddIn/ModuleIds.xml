@@ -1,0 +1,5 @@
+<Modules>
+  <Module PersistentId="F0DC78DE-35E6-4FC5-8C0C-D2E27FFDFD70" ModuleId="MysoftProjectAddIn" />
+  <Module PersistentId="59179AFA-9C5D-405E-BCCF-7765C845AB79" ModuleId="MysoftSetupHelper" />
+  <Module PersistentId="61680887-22D9-431E-B8F3-B2556B642650" ModuleId="ProjectEditor" />
+</Modules>

@@ -1,0 +1,16 @@
+D:\MyWork\项目\Test\MySetupTest\MyIISManager\obj\Release\ResolveAssemblyReference.cache
+D:\MyWork\项目\Test\MySetupTest\MyIISManager\bin\Release\MyIISManager.dll
+D:\MyWork\项目\Test\MySetupTest\MyIISManager\bin\Release\MyIISManager.pdb
+D:\MyWork\项目\Test\MySetupTest\MyIISManager\obj\Release\MyIISManager.dll
+D:\MyWork\项目\Test\MySetupTest\MyIISManager\obj\Release\MyIISManager.pdb
+D:\MyWork\代码\C#\MySetupTest\MyIISManager\bin\Release\MyIISManager.dll
+D:\MyWork\代码\C#\MySetupTest\MyIISManager\bin\Release\MyIISManager.pdb
+D:\MyWork\代码\C#\MySetupTest\MyIISManager\bin\Release\Microsoft.Web.Administration.dll
+D:\MyWork\代码\C#\MySetupTest\MyIISManager\bin\Release\Interop.ActiveDs.dll
+D:\MyWork\代码\C#\MySetupTest\MyIISManager\bin\Release\Interop.IISOle.dll
+D:\MyWork\代码\C#\MySetupTest\MyIISManager\obj\Release\ResolveAssemblyReference.cache
+D:\MyWork\代码\C#\MySetupTest\MyIISManager\obj\Release\Interop.ActiveDs.dll
+D:\MyWork\代码\C#\MySetupTest\MyIISManager\obj\Release\Interop.IISOle.dll
+D:\MyWork\代码\C#\MySetupTest\MyIISManager\obj\Release\MyIISManager.csproj.ResolveComReference.cache
+D:\MyWork\代码\C#\MySetupTest\MyIISManager\obj\Release\MyIISManager.dll
+D:\MyWork\代码\C#\MySetupTest\MyIISManager\obj\Release\MyIISManager.pdb

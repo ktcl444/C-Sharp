@@ -1,0 +1,42 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+MysoftProjectAddIn
+</name>
+</assembly>
+<members>
+<member name="P:MysoftProjectAddIn.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:MysoftProjectAddIn.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:MysoftProjectAddIn.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:MysoftProjectAddIn.ThisAddIn.#ctor(Microsoft.VisualStudio.Tools.Applications.Runtime.IRuntimeServiceProvider)">
+</member><member name="M:MysoftProjectAddIn.ThisAddIn.Initialize">
+</member><member name="M:MysoftProjectAddIn.ThisAddIn.FinishInitialization">
+</member><member name="M:MysoftProjectAddIn.ThisAddIn.InitializeDataBindings">
+</member><member name="M:MysoftProjectAddIn.ThisAddIn.OnShutdown">
+</member><member name="M:MysoftProjectAddIn.ThisAddIn.InitializeCachedData">
+</member><member name="M:MysoftProjectAddIn.ThisAddIn.InitializeData">
+</member><member name="M:MysoftProjectAddIn.ThisAddIn.BindToData">
+</member><member name="M:MysoftProjectAddIn.ThisAddIn.StartCaching(System.String)">
+</member><member name="M:MysoftProjectAddIn.ThisAddIn.StopCaching(System.String)">
+</member><member name="M:MysoftProjectAddIn.ThisAddIn.IsCached(System.String)">
+</member><member name="M:MysoftProjectAddIn.ThisAddIn.BeginInitialization">
+</member><member name="M:MysoftProjectAddIn.ThisAddIn.EndInitialization">
+</member><member name="M:MysoftProjectAddIn.ThisAddIn.InitializeControls">
+</member><member name="M:MysoftProjectAddIn.ThisAddIn.InitializeComponents">
+</member><member name="M:MysoftProjectAddIn.ThisAddIn.NeedsFill(System.String)">
+</member><member name="T:MysoftProjectAddIn.ThisAddIn">
+</member><member name="T:MysoftProjectAddIn.Globals">
+</member>
+</members>
+</doc>

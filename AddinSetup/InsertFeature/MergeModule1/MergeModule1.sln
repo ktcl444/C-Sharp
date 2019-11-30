@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "MergeModule1", "MergeModule1.vdproj", "{F6563A29-C806-4D44-A2DA-4215D08D3DFE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6563A29-C806-4D44-A2DA-4215D08D3DFE}.Debug|Default.ActiveCfg = Debug
+		{F6563A29-C806-4D44-A2DA-4215D08D3DFE}.Debug|Default.Build.0 = Debug
+		{F6563A29-C806-4D44-A2DA-4215D08D3DFE}.Release|Default.ActiveCfg = Release
+		{F6563A29-C806-4D44-A2DA-4215D08D3DFE}.Release|Default.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

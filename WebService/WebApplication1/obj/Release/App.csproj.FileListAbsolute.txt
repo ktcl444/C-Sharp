@@ -1,0 +1,5 @@
+F:\C\Test\WebService\WebApplication1\bin\WebApplication1.dll
+F:\C\Test\WebService\WebApplication1\bin\WebApplication1.pdb
+F:\C\Test\WebService\WebApplication1\obj\Release\WebApplication1.dll
+F:\C\Test\WebService\WebApplication1\obj\Release\WebApplication1.pdb
+F:\C\Test\WebService\WebApplication1\obj\Release\App.csprojResolveAssemblyReference.cache

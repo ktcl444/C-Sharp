@@ -1,0 +1,10 @@
+D:\Download\Complete%2BVS2008-Setup-Project%2Bwith%2BAdd-In%2Bfor%2BFeature-SelectionTree\Complete VS2008-Setup-Project with Add-In for Feature-SelectionTree\InsertFeature\bin\InsertFeature.dll
+D:\Download\Complete%2BVS2008-Setup-Project%2Bwith%2BAdd-In%2Bfor%2BFeature-SelectionTree\Complete VS2008-Setup-Project with Add-In for Feature-SelectionTree\InsertFeature\bin\InsertFeature.pdb
+D:\Download\Complete%2BVS2008-Setup-Project%2Bwith%2BAdd-In%2Bfor%2BFeature-SelectionTree\Complete VS2008-Setup-Project with Add-In for Feature-SelectionTree\InsertFeature\bin\Interop.WindowsInstaller.dll
+D:\Download\Complete%2BVS2008-Setup-Project%2Bwith%2BAdd-In%2Bfor%2BFeature-SelectionTree\Complete VS2008-Setup-Project with Add-In for Feature-SelectionTree\InsertFeature\obj\Debug\ResolveAssemblyReference.cache
+D:\Download\Complete%2BVS2008-Setup-Project%2Bwith%2BAdd-In%2Bfor%2BFeature-SelectionTree\Complete VS2008-Setup-Project with Add-In for Feature-SelectionTree\InsertFeature\obj\Debug\Interop.WindowsInstaller.dll
+D:\Download\Complete%2BVS2008-Setup-Project%2Bwith%2BAdd-In%2Bfor%2BFeature-SelectionTree\Complete VS2008-Setup-Project with Add-In for Feature-SelectionTree\InsertFeature\obj\Debug\InsertFeature.csproj.ResolveComReference.cache
+D:\Download\Complete%2BVS2008-Setup-Project%2Bwith%2BAdd-In%2Bfor%2BFeature-SelectionTree\Complete VS2008-Setup-Project with Add-In for Feature-SelectionTree\InsertFeature\obj\Debug\InsertFeature.CommandBar.resources
+D:\Download\Complete%2BVS2008-Setup-Project%2Bwith%2BAdd-In%2Bfor%2BFeature-SelectionTree\Complete VS2008-Setup-Project with Add-In for Feature-SelectionTree\InsertFeature\obj\Debug\InsertFeature.csproj.GenerateResource.Cache
+D:\Download\Complete%2BVS2008-Setup-Project%2Bwith%2BAdd-In%2Bfor%2BFeature-SelectionTree\Complete VS2008-Setup-Project with Add-In for Feature-SelectionTree\InsertFeature\obj\Debug\InsertFeature.dll
+D:\Download\Complete%2BVS2008-Setup-Project%2Bwith%2BAdd-In%2Bfor%2BFeature-SelectionTree\Complete VS2008-Setup-Project with Add-In for Feature-SelectionTree\InsertFeature\obj\Debug\InsertFeature.pdb

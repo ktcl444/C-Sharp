@@ -1,0 +1,10 @@
+<rules-extension-properties>
+<account-Sync>
+	<Extranet>
+		<Ext-upn-suffix>@na.corp.contoso.com</Ext-upn-suffix>
+		<ExtMailDomain>@contoso.com</ExtMailDomain>
+		<issuing-CA-dn>DC=com,DC=contoso,DC=corp,CN=ICA</issuing-CA-dn>
+		<CA-subject-prefix>DC=com,DC=contoso,DC=corp,DC=na,OU=ContosoCorp,OU=Employees</CA-subject-prefix>
+	</Extranet>
+    </account-Sync>
+</rules-extension-properties>

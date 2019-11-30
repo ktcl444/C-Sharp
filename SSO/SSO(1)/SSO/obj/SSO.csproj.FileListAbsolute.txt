@@ -1,0 +1,5 @@
+D:\MyWork\代码\C#\SSO(1)\SSO\obj\Debug\ResolveAssemblyReference.cache
+D:\MyWork\代码\C#\SSO(1)\SSO\obj\Debug\SSO.dll
+D:\MyWork\代码\C#\SSO(1)\SSO\obj\Debug\SSO.pdb
+D:\MyWork\代码\C#\SSO(1)\SSO\bin\Debug\SSO.dll
+D:\MyWork\代码\C#\SSO(1)\SSO\bin\Debug\SSO.pdb

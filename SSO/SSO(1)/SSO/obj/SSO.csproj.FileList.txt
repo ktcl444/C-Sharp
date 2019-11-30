@@ -1,0 +1,10 @@
+bin\Debug\SSO.dll
+bin\Debug\SSO.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\SSO.dll
+obj\Debug\SSO.pdb
+bin\Release\SSO.dll
+bin\Release\SSO.pdb
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\SSO.dll
+obj\Release\SSO.pdb

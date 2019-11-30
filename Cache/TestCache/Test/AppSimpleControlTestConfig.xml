@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<AppSimpleControlTestConfig>
+  <appCheckBox id="section2_CheckBox_Ctrl" text="是否有效" value="0|1" display="True|False" disabled="True|False" required="True|False" >
+    <ClientEvents>
+      <ReturnValueChange>
+        <![CDATA[
+      function(s, e) {
+                  alert("CheckBox Checked Changed!\n" );
+                  }
+      ]]>
+      </ReturnValueChange>
+      <ClientValidate>
+        <![CDATA[
+      function(s, e) {
+                  alert("validate true!\n" );
+                  e.returnValue = true;
+                  }
+      ]]>
+      </ClientValidate>
+    </ClientEvents>
+  </appCheckBox>
+  <appHidden id="section2_CheckBox_Ctrl" value="abcdefghi"/>
+  <appRadio id="section2_CheckBox_Ctrl" display="True|False" disabled="True|False" required="True|False" value="" repeatColumns="10" width="95px">
+    <dataSource>
+      <fetch></fetch>
+      <sql></sql>
+      <sp></sp>
+      <ListItem>
+        <option value="1">是</option>
+        <option value="2">否</option>
+        <option value="3">是</option>
+        <option value="4">否</option>
+      </ListItem>
+      <businessService>57F04EBB-9C3C-46eb-96D6-9F545424039B</businessService>
+    </dataSource>
+    <ClientEvents>
+      <ReturnValueChange>
+        <![CDATA[
+      function(s, e) {
+                  alert("TextChanged!\n" );
+                  }
+      ]]>
+      </ReturnValueChange>
+    </ClientEvents>
+  </appRadio>
+  <appSelect id="section2_Select_Ctrl" display="True|False" disabled="True|False" required="True|False" value="" width="95px" fontSize="12" >
+    <dataSource>
+      <fetch></fetch>
+      <sql></sql>
+      <sp></sp>
+      <ListItem>
+        <option value="1">是</option>
+        <option value="0">否</option>
+        <option value="1">是</option>
+        <option value="0">否</option>
+      </ListItem>
+      <businessService>57F04EBB-9C3C-46eb-96D6-9F545424039B</businessService>
+    </dataSource>
+    <ClientEvents>
+      <ReturnValueChange>
+        <![CDATA[
+      function(s, e) {
+                  alert("TextChanged!\n" );
+                  }
+      ]]>
+      </ReturnValueChange>
+    </ClientEvents>
+  </appSelect>
+  <appDate id="section2_CheckBox_Ctrl" value="2009-03-09" display="True|False" disabled="True|False" required="True|False" format="MMYYDD" >
+    <ClientEvents>
+      <ReturnValueChange>
+        <![CDATA[
+      function(s, e) {
+                  alert("TextChanged!\n" );
+                  }
+      ]]>
+      </ReturnValueChange>
+    </ClientEvents>
+  </appDate>
+</AppSimpleControlTestConfig>

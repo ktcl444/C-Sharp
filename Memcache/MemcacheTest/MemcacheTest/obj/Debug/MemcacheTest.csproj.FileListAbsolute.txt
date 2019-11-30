@@ -1,0 +1,9 @@
+F:\C\Test\Memcache\MemcacheTest\MemcacheTest\bin\MemcacheTest.dll
+F:\C\Test\Memcache\MemcacheTest\MemcacheTest\bin\MemcacheTest.pdb
+F:\C\Test\Memcache\MemcacheTest\MemcacheTest\bin\Enyim.Caching.dll
+F:\C\Test\Memcache\MemcacheTest\MemcacheTest\bin\Enyim.Caching.pdb
+F:\C\Test\Memcache\MemcacheTest\MemcacheTest\obj\Debug\MemcacheTest.csprojResolveAssemblyReference.cache
+F:\C\Test\Memcache\MemcacheTest\MemcacheTest\obj\Debug\MemcacheTest.dll
+F:\C\Test\Memcache\MemcacheTest\MemcacheTest\obj\Debug\MemcacheTest.pdb
+F:\C\Test\Memcache\MemcacheTest\MemcacheTest\bin\DataAccess.dll
+F:\C\Test\Memcache\MemcacheTest\MemcacheTest\bin\DataAccess.pdb

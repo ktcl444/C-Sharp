@@ -1,0 +1,17 @@
+D:\MyWork\项目\Test\MySetupTest\MySetupAction\obj\Release\ResolveAssemblyReference.cache
+D:\MyWork\项目\Test\MySetupTest\MySetupAction\bin\Release\MySetupAction.dll
+D:\MyWork\项目\Test\MySetupTest\MySetupAction\bin\Release\MySetupAction.pdb
+D:\MyWork\项目\Test\MySetupTest\MySetupAction\bin\Release\MyIISManager.dll
+D:\MyWork\项目\Test\MySetupTest\MySetupAction\bin\Release\MyIISManager.pdb
+D:\MyWork\项目\Test\MySetupTest\MySetupAction\obj\Release\MySetupAction.dll
+D:\MyWork\项目\Test\MySetupTest\MySetupAction\obj\Release\MySetupAction.pdb
+D:\MyWork\代码\C#\MySetupTest\MySetupAction\bin\Release\MySetupAction.dll
+D:\MyWork\代码\C#\MySetupTest\MySetupAction\bin\Release\MySetupAction.pdb
+D:\MyWork\代码\C#\MySetupTest\MySetupAction\bin\Release\MyIISManager.dll
+D:\MyWork\代码\C#\MySetupTest\MySetupAction\bin\Release\Interop.ActiveDs.dll
+D:\MyWork\代码\C#\MySetupTest\MySetupAction\bin\Release\Interop.IISOle.dll
+D:\MyWork\代码\C#\MySetupTest\MySetupAction\bin\Release\Microsoft.Web.Administration.dll
+D:\MyWork\代码\C#\MySetupTest\MySetupAction\bin\Release\MyIISManager.pdb
+D:\MyWork\代码\C#\MySetupTest\MySetupAction\obj\Release\ResolveAssemblyReference.cache
+D:\MyWork\代码\C#\MySetupTest\MySetupAction\obj\Release\MySetupAction.dll
+D:\MyWork\代码\C#\MySetupTest\MySetupAction\obj\Release\MySetupAction.pdb

@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files\microsoft visual studio 9.0\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="1.36">
+ <Targets>
+  <Target Name="D:\MyWork\TFS\MAP3.0\MAP3.0.11030.0\Map.Web\bin\Map.Web.dll">
+   <Modules>
+    <Module Name="map.web.dll">
+     <Namespaces>
+      <Namespace Name="Map.Web">
+       <Types>
+        <Type Name="_Default" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#configXML" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUnusedPrivateFields" Category="Microsoft.Performance" CheckId="CA1823" Status="Active" Created="2009-04-21 06:12:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning">似乎从未使用过字段 '_Default.configXML' 或只对它进行过赋值。请使用此字段或将它移除。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="Map.Web.Test">
+       <Types>
+        <Type Name="AppDateTimeTest" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Page_Load(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="xmd" TypeName="RemoveUnusedLocals" Category="Microsoft.Performance" CheckId="CA1804" Status="Active" Created="2009-04-21 06:12:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning" Path="D:\MyWork\TFS\MAP3.0\MAP3.0.11030.0\Map.Web\Test" File="AppDateTest.aspx.cs" Line="17">'AppDateTimeTest.Page_Load(object, EventArgs)' 声明类型为 'XmlDocument' 的变量 'xmd'，但从未使用过该变量或只对它进行过赋值。请使用此变量或将它移除。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Cachetest" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#LoadXml(System.Xml.XmlDocument)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2009-04-21 06:12:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="D:\MyWork\TFS\MAP3.0\MAP3.0.11030.0\Map.Web\Test" File="CacheTest.aspx.cs" Line="37">'Cachetest.LoadXml(XmlDocument)' 似乎没有上游 public 或 protected 调用方。</Issue>
+            </Message>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2009-04-21 06:12:20Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning" Path="D:\MyWork\TFS\MAP3.0\MAP3.0.11030.0\Map.Web\Test" File="CacheTest.aspx.cs" Line="37">从未使用 'Cachetest.LoadXml(XmlDocument)' 的“this”参数(Visual Basic 中为“Me”)。根据需要，将成员标记为 static (Visual Basic 中为“Shared”)，或者在方法体或至少一个属性访问器中使用“this”/“Me”。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811">
+   <Name>避免使用未调用的私有代码</Name>
+   <Description>存在对外部不可见的未调用代码，该代码不是已知的运行时入口点。如果错误地引发此冲突，请向 Visual Studio 代码分析团队发送问题报告。</Description>
+   <Resolution Name="Default">{0} 似乎没有上游 public 或 protected 调用方。</Resolution>
+   <Owner />
+   <Url>http://msdn2.microsoft.com/library/ms182264(VS.90).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="PerformanceRules.dll" Version="9.0.0.0" />
+  </Rule>
+  <Rule TypeName="AvoidUnusedPrivateFields" Category="Microsoft.Performance" CheckId="CA1823">
+   <Name>避免未使用的私有字段</Name>
+   <Description>检测到程序集内有似乎未访问过的私有字段。如果错误地引发了此冲突，请向 Visual Studio 代码分析团队发送问题报告。</Description>
+   <Resolution Name="Default">似乎从未使用过字段 {0} 或只对它进行过赋值。请使用此字段或将它移除。</Resolution>
+   <Owner />
+   <Url>http://msdn2.microsoft.com/library/ms245042(VS.90).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="PerformanceRules.dll" Version="9.0.0.0" />
+  </Rule>
+  <Rule TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822">
+   <Name>将成员标记为 static</Name>
+   <Description>不访问实例数据或调用实例方法的方法可标记为 Static (在 Visual Basic 中为 Shared)。这样，编译器会向这些成员发出非虚拟调用站点，以防止在运行时对每个调用进行旨在确保当前对象指针为非 null 的检查。这样可以使对性能比较敏感的代码获得显著的性能提升。在某些情况下，无法访问当前对象实例表明存在正确性问题。</Description>
+   <Resolution Name="Default">从未使用 {0} 的“this”参数(Visual Basic 中为“Me”)。根据需要，将成员标记为 static (Visual Basic 中为“Shared”)，或者在方法体或至少一个属性访问器中使用“this”/“Me”。</Resolution>
+   <Owner />
+   <Url>http://msdn2.microsoft.com/library/ms245046(VS.90).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Warning</MessageLevel>
+   <File Name="PerformanceRules.dll" Version="9.0.0.0" />
+  </Rule>
+  <Rule TypeName="RemoveUnusedLocals" Category="Microsoft.Performance" CheckId="CA1804">
+   <Name>移除未使用的局部变量</Name>
+   <Description>移除方法实现中未使用过的或只赋过值的局部变量。</Description>
+   <Resolution Name="Default">{0} 声明类型为 {2} 的变量 {1}，但从未使用过该变量或只对它进行过赋值。请使用此变量或将它移除。</Resolution>
+   <Owner />
+   <Url>http://msdn2.microsoft.com/library/ms182278(VS.90).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Warning</MessageLevel>
+   <File Name="PerformanceRules.dll" Version="9.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">类别</String>
+  <String Key="Certainty">确定性</String>
+  <String Key="CollapseAll">全部折叠</String>
+  <String Key="CheckId">检查 ID</String>
+  <String Key="Error">错误</String>
+  <String Key="Errors">错误</String>
+  <String Key="ExpandAll">全部展开</String>
+  <String Key="Help">帮助</String>
+  <String Key="Line">行</String>
+  <String Key="Messages">消息</String>
+  <String Key="LocationNotStoredInPdb">[位置未存储在 Pdb 中]</String>
+  <String Key="Project">项目</String>
+  <String Key="Resolution">解析</String>
+  <String Key="Rule">规则</String>
+  <String Key="RuleFile">规则文件</String>
+  <String Key="RuleDescription">规则说明</String>
+  <String Key="Source">源</String>
+  <String Key="Status">状态</String>
+  <String Key="Target">目标</String>
+  <String Key="Warning">警告</String>
+  <String Key="Warnings">警告</String>
+  <String Key="ReportTitle">代码分析报告</String>
+ </Localized>
+</FxCopReport>

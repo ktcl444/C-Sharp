@@ -1,0 +1,79 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer>
+      <setting name="UsedSolutionBuilderID">0</setting>
+    </integer>
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="E1F3D326-5F19-418F-8806-015B0211446A/f:Logout.aspx.cs" caret="179" scrollPosition="0|0" />
+      <File id="E1F3D326-5F19-418F-8806-015B0211446A/f:Validate.aspx" caret="429" scrollPosition="0|0" />
+      <File id="E1F3D326-5F19-418F-8806-015B0211446A/f:Default.aspx" caret="0" scrollPosition="0|0" />
+      <File id="D37E1D0D-69DE-41F5-945A-C58CA7CE376C/f:SSOLogin.aspx" caret="0" scrollPosition="0|0" />
+      <File id="E1F3D326-5F19-418F-8806-015B0211446A/f:MysoftApp.config" caret="944" scrollPosition="0|0" />
+      <File id="E1F3D326-5F19-418F-8806-015B0211446A/d:Configuration/f:Logging.config" caret="3016" scrollPosition="0|9" />
+      <File id="E1F3D326-5F19-418F-8806-015B0211446A/d:Configuration/f:SSO.config" caret="322" scrollPosition="0|0" />
+      <File id="E8CBEE30-4F72-485A-8E3F-E1B2FEE05284/d:App_Code/f:web.config" caret="2311" scrollPosition="0|0" />
+      <File id="E1F3D326-5F19-418F-8806-015B0211446A/f:Default.aspx.cs" caret="350" scrollPosition="0|0" />
+      <File id="E1F3D326-5F19-418F-8806-015B0211446A/f:LogList.aspx.cs" caret="113" scrollPosition="0|0" />
+      <File id="D37E1D0D-69DE-41F5-945A-C58CA7CE376C/f:Default.aspx.cs" caret="801" scrollPosition="0|0" />
+      <File id="D37E1D0D-69DE-41F5-945A-C58CA7CE376C/d:Bin/f:Mysoft.Map.Application.dll.refresh" caret="0" scrollPosition="0|0" />
+      <File id="E1F3D326-5F19-418F-8806-015B0211446A/f:Login.aspx" caret="0" scrollPosition="0|0" />
+      <File id="E1F3D326-5F19-418F-8806-015B0211446A/d:App_Code/f:web.config" caret="0" scrollPosition="0|0" />
+      <File id="D37E1D0D-69DE-41F5-945A-C58CA7CE376C/f:Default.aspx" caret="0" scrollPosition="0|0" />
+      <File id="D37E1D0D-69DE-41F5-945A-C58CA7CE376C/d:App_Code/f:web.config" caret="0" scrollPosition="0|0" />
+      <File id="E1F3D326-5F19-418F-8806-015B0211446A/f:LogList.aspx" caret="0" scrollPosition="0|0" />
+      <File id="E1F3D326-5F19-418F-8806-015B0211446A/f:Login.aspx.cs" caret="698" scrollPosition="0|0" />
+      <File id="E8CBEE30-4F72-485A-8E3F-E1B2FEE05284/f:Default.aspx.cs" caret="526" scrollPosition="0|0" />
+      <File id="E8CBEE30-4F72-485A-8E3F-E1B2FEE05284/f:SSOLogin.aspx" caret="0" scrollPosition="0|0" />
+      <File id="D37E1D0D-69DE-41F5-945A-C58CA7CE376C/f:SSOLogin.aspx.cs" caret="0" scrollPosition="0|0" />
+      <File id="E1F3D326-5F19-418F-8806-015B0211446A/f:Logout.aspx" caret="0" scrollPosition="0|0" />
+      <File id="E1F3D326-5F19-418F-8806-015B0211446A/f:Validate.aspx.cs" caret="226" scrollPosition="0|0" />
+      <File id="6001BCD5-6A91-4C86-AFD4-805A3E824BB8/f:DefaultServer.cs" caret="0" scrollPosition="0|0" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="E1F3D326-5F19-418F-8806-015B0211446A/f:Validate.aspx.cs" caret="13" scrollPosition="0|0" />
+      <File id="D37E1D0D-69DE-41F5-945A-C58CA7CE376C/d:App_Code/f:web.config" caret="3012" scrollPosition="0|0" />
+      <File id="E1F3D326-5F19-418F-8806-015B0211446A/f:LogList.aspx.cs" caret="13" scrollPosition="0|0" />
+      <File id="E1F3D326-5F19-418F-8806-015B0211446A/f:Logout.aspx.cs" caret="13" scrollPosition="0|0" />
+      <File id="E1F3D326-5F19-418F-8806-015B0211446A/f:Login.aspx" caret="679" scrollPosition="0|0" />
+      <File id="E1F3D326-5F19-418F-8806-015B0211446A/f:MysoftApp.config" caret="944" scrollPosition="0|0" />
+      <File id="E1F3D326-5F19-418F-8806-015B0211446A/d:App_Code/f:web.config" caret="2468" scrollPosition="102|0" />
+      <File id="E1F3D326-5F19-418F-8806-015B0211446A/d:Configuration/f:Logging.config" caret="3016" scrollPosition="0|9" />
+      <File id="E1F3D326-5F19-418F-8806-015B0211446A/d:Configuration/f:SSO.config" caret="356" scrollPosition="0|0" />
+      <File id="D37E1D0D-69DE-41F5-945A-C58CA7CE376C/d:App_Code/f:web.config" caret="2464" scrollPosition="0|0" />
+      <File id="D37E1D0D-69DE-41F5-945A-C58CA7CE376C/d:App_Code/f:web.config" caret="2806" scrollPosition="95|0" />
+      <File id="E8CBEE30-4F72-485A-8E3F-E1B2FEE05284/d:App_Code/f:web.config" caret="2851" scrollPosition="0|0" />
+      <File id="E8CBEE30-4F72-485A-8E3F-E1B2FEE05284/d:App_Code/f:web.config" caret="2311" scrollPosition="0|0" />
+      <File id="E1F3D326-5F19-418F-8806-015B0211446A/f:Default.aspx.cs" caret="338" scrollPosition="0|0" />
+      <File id="6001BCD5-6A91-4C86-AFD4-805A3E824BB8/f:DefaultServer.cs" caret="0" scrollPosition="0|227" />
+      <File id="E1F3D326-5F19-418F-8806-015B0211446A/f:Login.aspx.cs" caret="48" scrollPosition="0|0" />
+      <File id="E1F3D326-5F19-418F-8806-015B0211446A/f:LogList.aspx.cs" caret="72" scrollPosition="0|0" />
+      <File id="E8CBEE30-4F72-485A-8E3F-E1B2FEE05284/f:Default.aspx.cs" caret="526" scrollPosition="0|0" />
+      <File id="E8CBEE30-4F72-485A-8E3F-E1B2FEE05284/f:SSOLogin.aspx" caret="0" scrollPosition="0|0" />
+      <File id="D37E1D0D-69DE-41F5-945A-C58CA7CE376C/f:SSOLogin.aspx.cs" caret="0" scrollPosition="0|0" />
+      <File id="E1F3D326-5F19-418F-8806-015B0211446A/f:Logout.aspx" caret="0" scrollPosition="0|0" />
+      <File id="6001BCD5-6A91-4C86-AFD4-805A3E824BB8/f:DefaultServer.cs" caret="2927" scrollPosition="0|24" />
+    </RecentEdits>
+  </RecentFiles>
+  <UnitTestRunner>
+    <CustomStartDirectory>
+    </CustomStartDirectory>
+    <UseShadowCopy>True</UseShadowCopy>
+    <UseCustomFolder>False</UseCustomFolder>
+    <EnableUnitTesting>True</EnableUnitTesting>
+    <Providers />
+  </UnitTestRunner>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="SSO" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

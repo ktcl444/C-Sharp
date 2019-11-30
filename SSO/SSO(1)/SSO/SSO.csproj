@@ -1,0 +1,74 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CB97E928-429E-440B-8B2B-7C46B9B6A163}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SSO</RootNamespace>
+    <AssemblyName>SSO</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DefaultClient\DefaultClient.cs" />
+    <Compile Include="Interface\IClient.cs" />
+    <Compile Include="DefaultClient\LoginRequest.cs" />
+    <Compile Include="DefaultClient\LoginRequestContainer.cs" />
+    <Compile Include="DefaultClient\UserState.cs" />
+    <Compile Include="Encryptor\DESCryption.cs" />
+    <Compile Include="Enum\SecurityType.cs" />
+    <Compile Include="Encryptor\RSACryption.cs" />
+    <Compile Include="DefaultServer\DefaultUser.cs" />
+    <Compile Include="DefaultServer\Helper.cs" />
+    <Compile Include="Interface\ILoginRequest.cs" />
+    <Compile Include="Interface\ILoginRequestContainer.cs" />
+    <Compile Include="Interface\IServer.cs" />
+    <Compile Include="Interface\ISite.cs" />
+    <Compile Include="Interface\IUser.cs" />
+    <Compile Include="Interface\IUserLoginList.cs" />
+    <Compile Include="Interface\IUserStateContainer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="DefaultServer\DefaultSite.cs" />
+    <Compile Include="DefaultServer\DefaultServer.cs" />
+    <Compile Include="DefaultServer\UserLoginLog.cs" />
+    <Compile Include="Helpers\UrlOper.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="DefaultServer\sites.config" />
+    <None Include="DefaultServer\users.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

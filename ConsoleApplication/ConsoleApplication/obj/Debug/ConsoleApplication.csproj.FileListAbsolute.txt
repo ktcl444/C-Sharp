@@ -1,0 +1,5 @@
+d:\Users\kongy\AppData\Local\Temporary Projects\ConsoleApplication\bin\Debug\ConsoleApplication.exe
+d:\Users\kongy\AppData\Local\Temporary Projects\ConsoleApplication\bin\Debug\ConsoleApplication.pdb
+d:\Users\kongy\AppData\Local\Temporary Projects\ConsoleApplication\obj\Debug\ConsoleApplication.csprojResolveAssemblyReference.cache
+d:\Users\kongy\AppData\Local\Temporary Projects\ConsoleApplication\obj\Debug\ConsoleApplication.exe
+d:\Users\kongy\AppData\Local\Temporary Projects\ConsoleApplication\obj\Debug\ConsoleApplication.pdb

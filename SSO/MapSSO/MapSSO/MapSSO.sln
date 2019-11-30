@@ -1,0 +1,98 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSO", "SSO\SSO.csproj", "{6001BCD5-6A91-4C86-AFD4-805A3E824BB8}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "MapClient1", "MapClient1", "{E8CBEE30-4F72-485A-8E3F-E1B2FEE05284}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		ProjectReferences = "{6001BCD5-6A91-4C86-AFD4-805A3E824BB8}|SSO.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/MapClient1"
+		Debug.AspNetCompiler.PhysicalPath = "MapClient1\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\MapClient1\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/MapClient1"
+		Release.AspNetCompiler.PhysicalPath = "MapClient1\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\MapClient1\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1546"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "MapClient2", "MapClient2", "{D37E1D0D-69DE-41F5-945A-C58CA7CE376C}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		ProjectReferences = "{6001BCD5-6A91-4C86-AFD4-805A3E824BB8}|SSO.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/MapClient2"
+		Debug.AspNetCompiler.PhysicalPath = "MapClient2\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\MapClient2\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/MapClient2"
+		Release.AspNetCompiler.PhysicalPath = "MapClient2\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\MapClient2\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1547"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "MapSSOServer", "MapSSOServer", "{E1F3D326-5F19-418F-8806-015B0211446A}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		ProjectReferences = "{6001BCD5-6A91-4C86-AFD4-805A3E824BB8}|SSO.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/MapSSOServer"
+		Debug.AspNetCompiler.PhysicalPath = "MapSSOServer\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\MapSSOServer\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/MapSSOServer"
+		Release.AspNetCompiler.PhysicalPath = "MapSSOServer\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\MapSSOServer\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1548"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6001BCD5-6A91-4C86-AFD4-805A3E824BB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6001BCD5-6A91-4C86-AFD4-805A3E824BB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6001BCD5-6A91-4C86-AFD4-805A3E824BB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6001BCD5-6A91-4C86-AFD4-805A3E824BB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8CBEE30-4F72-485A-8E3F-E1B2FEE05284}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8CBEE30-4F72-485A-8E3F-E1B2FEE05284}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8CBEE30-4F72-485A-8E3F-E1B2FEE05284}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8CBEE30-4F72-485A-8E3F-E1B2FEE05284}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{D37E1D0D-69DE-41F5-945A-C58CA7CE376C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D37E1D0D-69DE-41F5-945A-C58CA7CE376C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D37E1D0D-69DE-41F5-945A-C58CA7CE376C}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{D37E1D0D-69DE-41F5-945A-C58CA7CE376C}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{E1F3D326-5F19-418F-8806-015B0211446A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1F3D326-5F19-418F-8806-015B0211446A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1F3D326-5F19-418F-8806-015B0211446A}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1F3D326-5F19-418F-8806-015B0211446A}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

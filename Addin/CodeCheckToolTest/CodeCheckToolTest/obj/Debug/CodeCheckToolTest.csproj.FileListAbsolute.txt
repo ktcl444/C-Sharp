@@ -1,0 +1,7 @@
+D:\MyWork\代码\C\Test\Addin\CodeCheckToolTest\CodeCheckToolTest\bin\Debug\CodeCheckToolTest.dll
+D:\MyWork\代码\C\Test\Addin\CodeCheckToolTest\CodeCheckToolTest\bin\Debug\CodeCheckToolTest.pdb
+D:\MyWork\代码\C\Test\Addin\CodeCheckToolTest\CodeCheckToolTest\bin\Debug\CodeCheckToolTest.xml
+D:\MyWork\代码\C\Test\Addin\CodeCheckToolTest\CodeCheckToolTest\obj\Debug\ResolveAssemblyReference.cache
+D:\MyWork\代码\C\Test\Addin\CodeCheckToolTest\CodeCheckToolTest\obj\Debug\CodeCheckToolTest.csproj.ResolveComReference.cache
+D:\MyWork\代码\C\Test\Addin\CodeCheckToolTest\CodeCheckToolTest\obj\Debug\CodeCheckToolTest.dll
+D:\MyWork\代码\C\Test\Addin\CodeCheckToolTest\CodeCheckToolTest\obj\Debug\CodeCheckToolTest.pdb

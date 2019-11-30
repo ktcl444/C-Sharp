@@ -1,0 +1,8 @@
+D:\MyWork\代码\C\Test\ByteKBMBConvert\ByteKBMBConvert\bin\Debug\ByteKBMBConvert.exe
+D:\MyWork\代码\C\Test\ByteKBMBConvert\ByteKBMBConvert\bin\Debug\ByteKBMBConvert.pdb
+D:\MyWork\代码\C\Test\ByteKBMBConvert\ByteKBMBConvert\obj\Debug\ResolveAssemblyReference.cache
+D:\MyWork\代码\C\Test\ByteKBMBConvert\ByteKBMBConvert\obj\Debug\ByteKBMBConvert.Form1.resources
+D:\MyWork\代码\C\Test\ByteKBMBConvert\ByteKBMBConvert\obj\Debug\ByteKBMBConvert.Properties.Resources.resources
+D:\MyWork\代码\C\Test\ByteKBMBConvert\ByteKBMBConvert\obj\Debug\ByteKBMBConvert.csproj.GenerateResource.Cache
+D:\MyWork\代码\C\Test\ByteKBMBConvert\ByteKBMBConvert\obj\Debug\ByteKBMBConvert.exe
+D:\MyWork\代码\C\Test\ByteKBMBConvert\ByteKBMBConvert\obj\Debug\ByteKBMBConvert.pdb

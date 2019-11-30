@@ -1,0 +1,5 @@
+D:\MyWork\代码\C\Test\CacheMemoryTest\CacheMemoryTest\bin\CacheMemoryTest.dll
+D:\MyWork\代码\C\Test\CacheMemoryTest\CacheMemoryTest\bin\CacheMemoryTest.pdb
+D:\MyWork\代码\C\Test\CacheMemoryTest\CacheMemoryTest\obj\Release\ResolveAssemblyReference.cache
+D:\MyWork\代码\C\Test\CacheMemoryTest\CacheMemoryTest\obj\Release\CacheMemoryTest.dll
+D:\MyWork\代码\C\Test\CacheMemoryTest\CacheMemoryTest\obj\Release\CacheMemoryTest.pdb

@@ -1,0 +1,7 @@
+D:\MyWork\代码\C#\Test\WebServiceTest\WebService1\obj\Debug\ResolveAssemblyReference.cache
+D:\MyWork\代码\C#\Test\WebServiceTest\WebService1\bin\WebService1.dll
+D:\MyWork\代码\C#\Test\WebServiceTest\WebService1\bin\WebService1.pdb
+D:\MyWork\代码\C#\Test\WebServiceTest\WebService1\bin\ClassLibrary1.dll
+D:\MyWork\代码\C#\Test\WebServiceTest\WebService1\bin\ClassLibrary1.pdb
+D:\MyWork\代码\C#\Test\WebServiceTest\WebService1\obj\Debug\WebService1.dll
+D:\MyWork\代码\C#\Test\WebServiceTest\WebService1\obj\Debug\WebService1.pdb

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="AppLauncherCS">
+</Property><Property Name="解决方案文件" Value="D:\MyWork\代码\C#\SSO Test\AppLauncherCS\AppLauncherCS.sln">
+</Property><Property Name="用户选项文件" Value="D:\MyWork\代码\C#\SSO Test\AppLauncherCS\AppLauncherCS.suo">
+</Property><Property Name="Date" Value="2009年5月11日">
+</Property><Property Name="Time" Value="14:35">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="AppLauncherCS.sln" Description="文件已成功备份为 D:\MyWork\代码\C#\SSO Test\Backup\AppLauncherCS.sln">
+</Event><Event ErrorLevel="0" Project="" Source="AppLauncherCS.suo" Description="文件已成功备份为 D:\MyWork\代码\C#\SSO Test\Backup\AppLauncherCS.suo">
+</Event><Event ErrorLevel="1" Project="AppLauncherCS" Source="http://localhost:30000/Samples/AppLauncherCS.csproj" Description="警告: 正将项目文件备份到与原始解决方案相对路径不同的相对路径中。文件夹层次结构上的差异可能会导致在打开或生成备份的解决方案和项目时出现问题。">
+</Event><Event ErrorLevel="2" Project="http://localhost:30000/Samples/AppLauncherCS.csproj" Source="http://localhost:30000/Samples/AppLauncherCS.csproj" Description="错误: 未能备份网站 http://localhost:30000/Samples">
+</Event><Event ErrorLevel="0" Project="AppLauncherDataCS" Source="AppLauncherDataCS\AppLauncherDataCS.csproj" Description="项目文件已成功备份为 D:\MyWork\代码\C#\SSO Test\Backup\AppLauncherDataCS\AppLauncherDataCS.csproj">
+</Event><Event ErrorLevel="0" Project="AppLauncherDataCS" Source="AppLauncherDataCS\AppLauncherDataCS.csproj.user" Description="项目用户文件成功备份为 D:\MyWork\代码\C#\SSO Test\Backup\AppLauncherDataCS\AppLauncherDataCS.csproj.user">
+</Event><Event ErrorLevel="0" Project="AppLauncherDataCS" Source="AppLauncherDataCS\Apps.cs" Description="文件已成功备份为 D:\MyWork\代码\C#\SSO Test\Backup\AppLauncherDataCS\Apps.cs">
+</Event><Event ErrorLevel="0" Project="AppLauncherDataCS" Source="AppLauncherDataCS\AppToken.cs" Description="文件已成功备份为 D:\MyWork\代码\C#\SSO Test\Backup\AppLauncherDataCS\AppToken.cs">
+</Event><Event ErrorLevel="0" Project="AppLauncherDataCS" Source="AppLauncherDataCS\AppUserRoles.cs" Description="文件已成功备份为 D:\MyWork\代码\C#\SSO Test\Backup\AppLauncherDataCS\AppUserRoles.cs">
+</Event><Event ErrorLevel="0" Project="AppLauncherDataCS" Source="AppLauncherDataCS\AssemblyInfo.cs" Description="文件已成功备份为 D:\MyWork\代码\C#\SSO Test\Backup\AppLauncherDataCS\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="AppLauncherDataCS" Source="AppLauncherDataCS\AppLauncherDataCS.csproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="AppLauncherDataCS" Source="AppLauncherDataCS\AppLauncherDataCS.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="AppLauncherCS.sln" Description="成功转换解决方案">
+</Event><Event ErrorLevel="3" Project="" Source="AppLauncherCS.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="AppLauncherDataCS" Source="AppLauncherDataCS\AppLauncherDataCS.csproj" Description="扫描完成: 项目文件不需要升级。">
+</Event></UpgradeLog>

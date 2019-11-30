@@ -1,0 +1,12 @@
+D:\MyWork\代码\C\Test\Addin\ProjectAddIn1\ProjectAddIn2\bin\Debug\ProjectAddIn2.dll
+D:\MyWork\代码\C\Test\Addin\ProjectAddIn1\ProjectAddIn2\bin\Debug\ProjectAddIn2.pdb
+D:\MyWork\代码\C\Test\Addin\ProjectAddIn1\ProjectAddIn2\bin\Debug\ProjectAddIn2.xml
+D:\MyWork\代码\C\Test\Addin\ProjectAddIn1\ProjectAddIn2\bin\Debug\ProjectAddIn2.dll.manifest
+D:\MyWork\代码\C\Test\Addin\ProjectAddIn1\ProjectAddIn2\bin\Debug\Microsoft.Office.Interop.SmartTag.dll
+D:\MyWork\代码\C\Test\Addin\ProjectAddIn1\ProjectAddIn2\obj\Debug\ResolveAssemblyReference.cache
+D:\MyWork\代码\C\Test\Addin\ProjectAddIn1\ProjectAddIn2\obj\Debug\ProjectAddIn2.Resources.resources
+D:\MyWork\代码\C\Test\Addin\ProjectAddIn1\ProjectAddIn2\obj\Debug\ProjectAddIn2.vbproj.GenerateResource.Cache
+D:\MyWork\代码\C\Test\Addin\ProjectAddIn1\ProjectAddIn2\obj\Debug\ProjectAddIn2.dll
+D:\MyWork\代码\C\Test\Addin\ProjectAddIn1\ProjectAddIn2\obj\Debug\ProjectAddIn2.xml
+D:\MyWork\代码\C\Test\Addin\ProjectAddIn1\ProjectAddIn2\obj\Debug\ProjectAddIn2.pdb
+D:\MyWork\代码\C\Test\Addin\ProjectAddIn1\ProjectAddIn2\obj\Debug\ProjectAddIn2.UserInfoDialog.resources

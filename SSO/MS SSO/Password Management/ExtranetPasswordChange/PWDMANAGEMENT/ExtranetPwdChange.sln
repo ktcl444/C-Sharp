@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtranetPwdLib", "ExtranetPwdLib\ExtranetPwdLib.csproj", "{16EAD40B-AD67-449B-88DD-30BE14069CA1}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtranetPwdChange", "http://localhost/ExtranetPwdChange/ExtranetPwdChange.csproj", "{2538C2F9-3591-49E2-9C17-5007236F1D4B}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{16EAD40B-AD67-449B-88DD-30BE14069CA1}.Debug.ActiveCfg = Debug|.NET
+		{16EAD40B-AD67-449B-88DD-30BE14069CA1}.Debug.Build.0 = Debug|.NET
+		{16EAD40B-AD67-449B-88DD-30BE14069CA1}.Release.ActiveCfg = Release|.NET
+		{16EAD40B-AD67-449B-88DD-30BE14069CA1}.Release.Build.0 = Release|.NET
+		{2538C2F9-3591-49E2-9C17-5007236F1D4B}.Debug.ActiveCfg = Debug|.NET
+		{2538C2F9-3591-49E2-9C17-5007236F1D4B}.Debug.Build.0 = Debug|.NET
+		{2538C2F9-3591-49E2-9C17-5007236F1D4B}.Release.ActiveCfg = Release|.NET
+		{2538C2F9-3591-49E2-9C17-5007236F1D4B}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

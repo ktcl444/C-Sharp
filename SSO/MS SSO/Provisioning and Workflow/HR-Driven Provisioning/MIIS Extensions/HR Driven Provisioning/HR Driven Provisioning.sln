@@ -1,0 +1,79 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ExtranetActiveDirectoryExtension", "..\Extranet Active Directory\ExtranetActiveDirectoryExtension.vbproj", "{65AA243A-CB07-4C44-8F49-5947EFB36AE3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A2FE31B8-93CE-46AF-A342-D2A0B28E314C} = {A2FE31B8-93CE-46AF-A342-D2A0B28E314C}
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "IntranetActiveDirectoryExtension", "..\Intranet Active Directory\IntranetActiveDirectoryExtension.vbproj", "{386A6C5E-E2F3-4203-A531-F03EEC9CFFE6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A2FE31B8-93CE-46AF-A342-D2A0B28E314C} = {A2FE31B8-93CE-46AF-A342-D2A0B28E314C}
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "LotusNotesExtension", "..\Lotus Notes\LotusNotesExtension.vbproj", "{E48344FA-5D69-4B99-B2D4-4E48DF86BE6C}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SAPHRExtension", "..\SAP HR\SAPHRExtension.vbproj", "{E773932E-9552-442F-B417-BBC75B40570C}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ContosoMVExtensions", "..\Contoso MV Extensions\ContosoMVExtensions.vbproj", "{F6CED375-D815-4C11-8B5C-26CB3C53A5C6}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ContosoUtilities", "..\Contoso Utilities\ContosoUtilities.vbproj", "{A2FE31B8-93CE-46AF-A342-D2A0B28E314C}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PasswordGenerator", "..\Contoso Utilities\PasswordGenerator\PasswordGenerator.csproj", "{30C3DAB3-CA28-453E-9077-F017E0788C3A}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SelfServiceProvisioningExtensions", "..\Self-Service Provisioning\SelfServiceProvisioningExtensions.vbproj", "{E773932E-9552-442F-B417-BBC75B40570C}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{65AA243A-CB07-4C44-8F49-5947EFB36AE3}.Debug.ActiveCfg = Debug|.NET
+		{65AA243A-CB07-4C44-8F49-5947EFB36AE3}.Debug.Build.0 = Debug|.NET
+		{65AA243A-CB07-4C44-8F49-5947EFB36AE3}.Release.ActiveCfg = Release|.NET
+		{65AA243A-CB07-4C44-8F49-5947EFB36AE3}.Release.Build.0 = Release|.NET
+		{386A6C5E-E2F3-4203-A531-F03EEC9CFFE6}.Debug.ActiveCfg = Debug|.NET
+		{386A6C5E-E2F3-4203-A531-F03EEC9CFFE6}.Debug.Build.0 = Debug|.NET
+		{386A6C5E-E2F3-4203-A531-F03EEC9CFFE6}.Release.ActiveCfg = Release|.NET
+		{386A6C5E-E2F3-4203-A531-F03EEC9CFFE6}.Release.Build.0 = Release|.NET
+		{E48344FA-5D69-4B99-B2D4-4E48DF86BE6C}.Debug.ActiveCfg = Debug|.NET
+		{E48344FA-5D69-4B99-B2D4-4E48DF86BE6C}.Debug.Build.0 = Debug|.NET
+		{E48344FA-5D69-4B99-B2D4-4E48DF86BE6C}.Release.ActiveCfg = Release|.NET
+		{E48344FA-5D69-4B99-B2D4-4E48DF86BE6C}.Release.Build.0 = Release|.NET
+		{E773932E-9552-442F-B417-BBC75B40570C}.Debug.ActiveCfg = Debug|.NET
+		{E773932E-9552-442F-B417-BBC75B40570C}.Debug.Build.0 = Debug|.NET
+		{E773932E-9552-442F-B417-BBC75B40570C}.Release.ActiveCfg = Release|.NET
+		{E773932E-9552-442F-B417-BBC75B40570C}.Release.Build.0 = Release|.NET
+		{F6CED375-D815-4C11-8B5C-26CB3C53A5C6}.Debug.ActiveCfg = Debug|.NET
+		{F6CED375-D815-4C11-8B5C-26CB3C53A5C6}.Debug.Build.0 = Debug|.NET
+		{F6CED375-D815-4C11-8B5C-26CB3C53A5C6}.Release.ActiveCfg = Release|.NET
+		{F6CED375-D815-4C11-8B5C-26CB3C53A5C6}.Release.Build.0 = Release|.NET
+		{A2FE31B8-93CE-46AF-A342-D2A0B28E314C}.Debug.ActiveCfg = Debug|.NET
+		{A2FE31B8-93CE-46AF-A342-D2A0B28E314C}.Debug.Build.0 = Debug|.NET
+		{A2FE31B8-93CE-46AF-A342-D2A0B28E314C}.Release.ActiveCfg = Release|.NET
+		{A2FE31B8-93CE-46AF-A342-D2A0B28E314C}.Release.Build.0 = Release|.NET
+		{30C3DAB3-CA28-453E-9077-F017E0788C3A}.Debug.ActiveCfg = Debug|.NET
+		{30C3DAB3-CA28-453E-9077-F017E0788C3A}.Debug.Build.0 = Debug|.NET
+		{30C3DAB3-CA28-453E-9077-F017E0788C3A}.Release.ActiveCfg = Release|.NET
+		{30C3DAB3-CA28-453E-9077-F017E0788C3A}.Release.Build.0 = Release|.NET
+		{E773932E-9552-442F-B417-BBC75B40570C}.Debug.ActiveCfg = Debug|.NET
+		{E773932E-9552-442F-B417-BBC75B40570C}.Debug.Build.0 = Debug|.NET
+		{E773932E-9552-442F-B417-BBC75B40570C}.Release.ActiveCfg = Release|.NET
+		{E773932E-9552-442F-B417-BBC75B40570C}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

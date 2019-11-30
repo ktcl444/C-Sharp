@@ -1,0 +1,9 @@
+D:\MyWork\代码\C\Test\MysoftProjectAddIn\MysoftProjectAddIn\ProjectEditor\bin\Release\ProjectEditor.dll
+D:\MyWork\代码\C\Test\MysoftProjectAddIn\MysoftProjectAddIn\ProjectEditor\bin\Release\ProjectEditor.pdb
+D:\MyWork\代码\C\Test\MysoftProjectAddIn\MysoftProjectAddIn\ProjectEditor\bin\Release\ProjectEditor.xml
+D:\MyWork\代码\C\Test\MysoftProjectAddIn\MysoftProjectAddIn\ProjectEditor\obj\Release\ResolveAssemblyReference.cache
+D:\MyWork\代码\C\Test\MysoftProjectAddIn\MysoftProjectAddIn\ProjectEditor\obj\Release\ProjectEditor.Resources.resources
+D:\MyWork\代码\C\Test\MysoftProjectAddIn\MysoftProjectAddIn\ProjectEditor\obj\Release\ProjectEditor.vbproj.GenerateResource.Cache
+D:\MyWork\代码\C\Test\MysoftProjectAddIn\MysoftProjectAddIn\ProjectEditor\obj\Release\ProjectEditor.dll
+D:\MyWork\代码\C\Test\MysoftProjectAddIn\MysoftProjectAddIn\ProjectEditor\obj\Release\ProjectEditor.xml
+D:\MyWork\代码\C\Test\MysoftProjectAddIn\MysoftProjectAddIn\ProjectEditor\obj\Release\ProjectEditor.pdb

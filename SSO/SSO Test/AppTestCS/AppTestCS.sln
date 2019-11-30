@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppTestCS", "http://localhost:30000/AppTestCS/AppTestCS.csproj", "{4A2FB13A-D7C7-4D58-9966-CFC7386C757E}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppLauncherDataCS", "..\AppLauncherCS\AppLauncherDataCS\AppLauncherDataCS.csproj", "{405B4455-95D0-469A-BAE4-4147816FF71B}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{4A2FB13A-D7C7-4D58-9966-CFC7386C757E}.Debug.ActiveCfg = Debug|.NET
+		{4A2FB13A-D7C7-4D58-9966-CFC7386C757E}.Debug.Build.0 = Debug|.NET
+		{4A2FB13A-D7C7-4D58-9966-CFC7386C757E}.Release.ActiveCfg = Release|.NET
+		{4A2FB13A-D7C7-4D58-9966-CFC7386C757E}.Release.Build.0 = Release|.NET
+		{405B4455-95D0-469A-BAE4-4147816FF71B}.Debug.ActiveCfg = Debug|.NET
+		{405B4455-95D0-469A-BAE4-4147816FF71B}.Debug.Build.0 = Debug|.NET
+		{405B4455-95D0-469A-BAE4-4147816FF71B}.Release.ActiveCfg = Release|.NET
+		{405B4455-95D0-469A-BAE4-4147816FF71B}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,5 @@
+F:\C\Test\Memcache\MemcacheTest\Enyim.Caching\obj\Debug\Enyim.Caching.csprojResolveAssemblyReference.cache
+F:\C\Test\Memcache\MemcacheTest\Enyim.Caching\bin\Debug\Enyim.Caching.dll
+F:\C\Test\Memcache\MemcacheTest\Enyim.Caching\bin\Debug\Enyim.Caching.pdb
+F:\C\Test\Memcache\MemcacheTest\Enyim.Caching\obj\Debug\Enyim.Caching.dll
+F:\C\Test\Memcache\MemcacheTest\Enyim.Caching\obj\Debug\Enyim.Caching.pdb

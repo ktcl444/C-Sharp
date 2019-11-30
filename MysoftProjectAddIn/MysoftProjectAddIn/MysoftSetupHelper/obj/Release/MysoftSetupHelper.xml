@@ -1,0 +1,43 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+MysoftSetupHelper
+</name>
+</assembly>
+<members>
+<member name="P:MysoftSetupHelper.MyInstaller.InstallDir">
+	<summary>
+ 安装目录地址
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:MysoftSetupHelper.MyInstaller.GetInstallDir">
+	<summary>
+ 取安装目录地址
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:MysoftSetupHelper.MyInstaller.VstorExists">
+	<summary>
+ 判断 Visual Studio 2005 Tools for Office Second Edition Runtime 是否已经安装
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:MysoftSetupHelper.MyInstaller.ProjectExists">
+	<summary>
+ 判断 Office Project 是否已经安装
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:MysoftSetupHelper.MyInstaller.ExecuteDosCommand(System.String,System.Int32)">
+	<summary>
+ 执行DOS命令，返回DOS命令的输出
+ </summary>
+	<param name="dosCommand">dos命令</param>
+	<param name="milliseconds">等待命令执行的时间（单位：毫秒），如果设定为0，则无限等待</param>
+	<returns>返回输出，如果发生异常，返回空字符串</returns>
+</member>
+</members>
+</doc>

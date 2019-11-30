@@ -1,0 +1,5 @@
+EmployeeID;EmployeeStartDate;EmployeeDepartureDate;EmployeeStatus;EmployeeType;Surname;MiddleName;GivenName;Country;TelephoneNumber;FacsimileTelephoneNumber;Company;Manager;Mobile;Pager;Title;Location;Department;Birthday
+8966401;20040908;0;3;A;Cox;;Oliver;US;650 444 9999;;Contoso;83321;;;Operations Manager;Belleve;Operations;19761030
+4343431;20040908;0;3;A;Gibbins;;Phil;US;655 555 9999;;Fabrikam;83321;;;Marketing Manager;Redmond;Customer Service;19761029
+9998882;20040908;0;3;A;Thorp;;Justin;US;124 555 6666;;Contoso;589765;;;Sales Representative;Palo Alto;Sales;19761028
+4443332;20040908;0;3;A;Roland;;Alex;US;421 333 6666;;Contoso;83321;;;Executive;Palo Alto;Operations;19760927

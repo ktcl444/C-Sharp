@@ -1,0 +1,21 @@
+E:\MY\My Workspaces@NB\My Labs\SSOLab\SSOLab.SSOServer.WebApp\bin\SSOLab.SSOServer.WebApp.dll
+E:\MY\My Workspaces@NB\My Labs\SSOLab\SSOLab.SSOServer.WebApp\bin\SSOLab.SSOServer.WebApp.pdb
+E:\MY\My Workspaces@NB\My Labs\SSOLab\SSOLab.SSOServer.WebApp\obj\Debug\ResolveAssemblyReference.cache
+E:\MY\My Workspaces@NB\My Labs\SSOLab\SSOLab.SSOServer.WebApp\obj\Debug\SSOLab.SSOServer.WebApp.dll
+E:\MY\My Workspaces@NB\My Labs\SSOLab\SSOLab.SSOServer.WebApp\obj\Debug\SSOLab.SSOServer.WebApp.pdb
+E:\MY\My Workspaces@NB\My Labs\SSOLab\SSOLab.SSOServer.WebApp\bin\SSOLab.SSOServer.Components.dll
+E:\MY\My Workspaces@NB\My Labs\SSOLab\SSOLab.SSOServer.WebApp\bin\SSOLab.SSOServer.Components.pdb
+E:\downcode\SSOLab\SSOLab.SSOServer.WebApp\bin\SSOLab.SSOServer.WebApp.dll
+E:\downcode\SSOLab\SSOLab.SSOServer.WebApp\bin\SSOLab.SSOServer.WebApp.pdb
+E:\downcode\SSOLab\SSOLab.SSOServer.WebApp\bin\SSOLab.SSOServer.Components.dll
+E:\downcode\SSOLab\SSOLab.SSOServer.WebApp\bin\SSOLab.SSOServer.Components.pdb
+E:\downcode\SSOLab\SSOLab.SSOServer.WebApp\obj\Debug\ResolveAssemblyReference.cache
+E:\downcode\SSOLab\SSOLab.SSOServer.WebApp\obj\Debug\SSOLab.SSOServer.WebApp.dll
+E:\downcode\SSOLab\SSOLab.SSOServer.WebApp\obj\Debug\SSOLab.SSOServer.WebApp.pdb
+D:\MyWork\代码\C#\SSOLab\SSOLab.SSOServer.WebApp\bin\SSOLab.SSOServer.WebApp.dll
+D:\MyWork\代码\C#\SSOLab\SSOLab.SSOServer.WebApp\bin\SSOLab.SSOServer.WebApp.pdb
+D:\MyWork\代码\C#\SSOLab\SSOLab.SSOServer.WebApp\bin\SSOLab.SSOServer.Components.dll
+D:\MyWork\代码\C#\SSOLab\SSOLab.SSOServer.WebApp\bin\SSOLab.SSOServer.Components.pdb
+D:\MyWork\代码\C#\SSOLab\SSOLab.SSOServer.WebApp\obj\Debug\ResolveAssemblyReference.cache
+D:\MyWork\代码\C#\SSOLab\SSOLab.SSOServer.WebApp\obj\Debug\SSOLab.SSOServer.WebApp.dll
+D:\MyWork\代码\C#\SSOLab\SSOLab.SSOServer.WebApp\obj\Debug\SSOLab.SSOServer.WebApp.pdb

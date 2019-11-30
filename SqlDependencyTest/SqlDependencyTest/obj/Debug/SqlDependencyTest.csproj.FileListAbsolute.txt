@@ -1,0 +1,15 @@
+D:\MyWork\代码\C#\Test\SqlDependencyTest\SqlDependencyTest\bin\SqlDependencyTest.dll
+D:\MyWork\代码\C#\Test\SqlDependencyTest\SqlDependencyTest\bin\SqlDependencyTest.pdb
+D:\MyWork\代码\C#\Test\SqlDependencyTest\SqlDependencyTest\obj\Debug\ResolveAssemblyReference.cache
+D:\MyWork\代码\C#\Test\SqlDependencyTest\SqlDependencyTest\obj\Debug\SqlDependencyTest.dll
+D:\MyWork\代码\C#\Test\SqlDependencyTest\SqlDependencyTest\obj\Debug\SqlDependencyTest.pdb
+D:\MyWork\代码\C\Test\SqlDependencyTest\SqlDependencyTest\bin\SqlDependencyTest.dll
+D:\MyWork\代码\C\Test\SqlDependencyTest\SqlDependencyTest\bin\SqlDependencyTest.pdb
+D:\MyWork\代码\C\Test\SqlDependencyTest\SqlDependencyTest\obj\Debug\ResolveAssemblyReference.cache
+D:\MyWork\代码\C\Test\SqlDependencyTest\SqlDependencyTest\obj\Debug\SqlDependencyTest.dll
+D:\MyWork\代码\C\Test\SqlDependencyTest\SqlDependencyTest\obj\Debug\SqlDependencyTest.pdb
+F:\C\Test\SqlDependencyTest\SqlDependencyTest\bin\SqlDependencyTest.dll
+F:\C\Test\SqlDependencyTest\SqlDependencyTest\bin\SqlDependencyTest.pdb
+F:\C\Test\SqlDependencyTest\SqlDependencyTest\obj\Debug\ResolveAssemblyReference.cache
+F:\C\Test\SqlDependencyTest\SqlDependencyTest\obj\Debug\SqlDependencyTest.dll
+F:\C\Test\SqlDependencyTest\SqlDependencyTest\obj\Debug\SqlDependencyTest.pdb

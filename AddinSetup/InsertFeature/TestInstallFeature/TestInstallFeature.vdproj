@@ -1,0 +1,1827 @@
+﻿"DeployProject"
+{
+"VSVersion" = "3:800"
+"ProjectType" = "8:{978C614F-708E-4E1A-B201-565925725DBA}"
+"IsWebType" = "8:FALSE"
+"ProjectName" = "8:TestInstallFeature"
+"LanguageId" = "3:1033"
+"CodePage" = "3:1252"
+"UILanguageId" = "3:1033"
+"SccProjectName" = "8:"
+"SccLocalPath" = "8:"
+"SccAuxPath" = "8:"
+"SccProvider" = "8:"
+    "Hierarchy"
+    {
+        "Entry"
+        {
+        "MsmKey" = "8:_4B89802539AB4B5B94955013F3AAC215"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_8D14464191904F3FACF9C9FC4FD3F7A1"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_F8C1FDC0ED9A45B292B04D782E769153"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+    }
+    "Configurations"
+    {
+        "Debug"
+        {
+        "DisplayName" = "8:Debug"
+        "IsDebugOnly" = "11:TRUE"
+        "IsReleaseOnly" = "11:FALSE"
+        "OutputFilename" = "8:Debug\\TestInstallFeature.msi"
+        "PackageFilesAs" = "3:2"
+        "PackageFileSize" = "3:-2147483648"
+        "CabType" = "3:1"
+        "Compression" = "3:2"
+        "SignOutput" = "11:FALSE"
+        "CertificateFile" = "8:"
+        "PrivateKeyFile" = "8:"
+        "TimeStampServer" = "8:"
+        "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Net.Framework.3.5"
+                    {
+                    "Name" = "8:.NET Framework 3.5"
+                    "ProductCode" = "8:Microsoft.Net.Framework.3.5"
+                    }
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Windows.Installer.3.1"
+                    {
+                    "Name" = "8:Windows Installer 3.1"
+                    "ProductCode" = "8:Microsoft.Windows.Installer.3.1"
+                    }
+                }
+            }
+        }
+        "Release"
+        {
+        "DisplayName" = "8:Release"
+        "IsDebugOnly" = "11:FALSE"
+        "IsReleaseOnly" = "11:TRUE"
+        "OutputFilename" = "8:Release\\TestInstallFeature.msi"
+        "PackageFilesAs" = "3:2"
+        "PackageFileSize" = "3:-2147483648"
+        "CabType" = "3:1"
+        "Compression" = "3:2"
+        "SignOutput" = "11:FALSE"
+        "CertificateFile" = "8:"
+        "PrivateKeyFile" = "8:"
+        "TimeStampServer" = "8:"
+        "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Net.Framework.3.5"
+                    {
+                    "Name" = "8:.NET Framework 3.5"
+                    "ProductCode" = "8:Microsoft.Net.Framework.3.5"
+                    }
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Windows.Installer.3.1"
+                    {
+                    "Name" = "8:Windows Installer 3.1"
+                    "ProductCode" = "8:Microsoft.Windows.Installer.3.1"
+                    }
+                }
+            }
+        }
+    }
+    "Deployable"
+    {
+        "CustomAction"
+        {
+        }
+        "DefaultFeature"
+        {
+        "Name" = "8:DefaultFeature"
+        "Title" = "8:"
+        "Description" = "8:"
+        }
+        "ExternalPersistence"
+        {
+            "LaunchCondition"
+            {
+                "{A06ECF26-33A3-4562-8140-9B0E340D4F24}:_4224C83F3A034DE9B9F08FFFF19BB73A"
+                {
+                "Name" = "8:.NET Framework"
+                "Message" = "8:[VSDNETMSG]"
+                "Version" = "8:3.5.30729"
+                "AllowLaterVersions" = "11:FALSE"
+                "InstallUrl" = "8:http://go.microsoft.com/fwlink/?LinkId=76617"
+                }
+            }
+        }
+        "File"
+        {
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_F8C1FDC0ED9A45B292B04D782E769153"
+            {
+            "SourcePath" = "8:File4.txt"
+            "TargetName" = "8:File4.txt"
+            "Tag" = "8:"
+            "Folder" = "8:_F711D0301C594AA69FC1F11DC0D29A7C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+        }
+        "FileType"
+        {
+        }
+        "Folder"
+        {
+            "{1525181F-901A-416C-8A58-119130FE478E}:_045AF0AD4A5F44E0B87B9F102DDC3410"
+            {
+            "Name" = "8:#1916"
+            "AlwaysCreate" = "11:FALSE"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Property" = "8:DesktopFolder"
+                "Folders"
+                {
+                }
+            }
+            "{1525181F-901A-416C-8A58-119130FE478E}:_8F7B418B04A1444C88D7C31161B27AC5"
+            {
+            "Name" = "8:#1919"
+            "AlwaysCreate" = "11:FALSE"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Property" = "8:ProgramMenuFolder"
+                "Folders"
+                {
+                }
+            }
+            "{3C67513D-01DD-4637-8A68-80971EB9504F}:_F711D0301C594AA69FC1F11DC0D29A7C"
+            {
+            "DefaultLocation" = "8:D:\\tmp\\TestFeature"
+            "Name" = "8:#1925"
+            "AlwaysCreate" = "11:FALSE"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Property" = "8:TARGETDIR"
+                "Folders"
+                {
+                }
+            }
+        }
+        "LaunchCondition"
+        {
+        }
+        "Locator"
+        {
+        }
+        "MsiBootstrapper"
+        {
+        "LangId" = "3:1033"
+        "RequiresElevation" = "11:FALSE"
+        }
+        "Product"
+        {
+        "Name" = "8:Microsoft Visual Studio"
+        "ProductName" = "8:TestInstallFeature"
+        "ProductCode" = "8:{0FEE9A0E-21D2-4F3C-A7B8-CC24A09D2E1F}"
+        "PackageCode" = "8:{0CBE9C2A-A0DD-400B-8904-F3E85F324F07}"
+        "UpgradeCode" = "8:{C9378733-AACB-449B-A5C8-E14FB328C672}"
+        "RestartWWWService" = "11:FALSE"
+        "RemovePreviousVersions" = "11:FALSE"
+        "DetectNewerInstalledVersion" = "11:TRUE"
+        "InstallAllUsers" = "11:FALSE"
+        "ProductVersion" = "8:1.0.0"
+        "Manufacturer" = "8:Standardfirmenname"
+        "ARPHELPTELEPHONE" = "8:"
+        "ARPHELPLINK" = "8:"
+        "Title" = "8:TestInstallFeature"
+        "Subject" = "8:"
+        "ARPCONTACT" = "8:Standardfirmenname"
+        "Keywords" = "8:"
+        "ARPCOMMENTS" = "8:"
+        "ARPURLINFOABOUT" = "8:"
+        "ARPPRODUCTICON" = "8:"
+        "ARPIconIndex" = "3:0"
+        "SearchPath" = "8:"
+        "UseSystemSearchPath" = "11:TRUE"
+        "TargetPlatform" = "3:0"
+        "PreBuildEvent" = "8:"
+        "PostBuildEvent" = "8:"
+        "RunPostBuildEvent" = "3:0"
+        }
+        "Registry"
+        {
+            "HKLM"
+            {
+                "Keys"
+                {
+                    "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_4616D39B31F6448FA030CCA0FDFC01F1"
+                    {
+                    "Name" = "8:Software"
+                    "Condition" = "8:"
+                    "AlwaysCreate" = "11:FALSE"
+                    "DeleteAtUninstall" = "11:FALSE"
+                    "Transitive" = "11:FALSE"
+                        "Keys"
+                        {
+                            "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_D2344DD405E846CBA587C1CEF343E163"
+                            {
+                            "Name" = "8:[Manufacturer]"
+                            "Condition" = "8:"
+                            "AlwaysCreate" = "11:FALSE"
+                            "DeleteAtUninstall" = "11:FALSE"
+                            "Transitive" = "11:FALSE"
+                                "Keys"
+                                {
+                                }
+                                "Values"
+                                {
+                                }
+                            }
+                        }
+                        "Values"
+                        {
+                        }
+                    }
+                }
+            }
+            "HKCU"
+            {
+                "Keys"
+                {
+                    "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_AA8A725978514593A46078D758189893"
+                    {
+                    "Name" = "8:Software"
+                    "Condition" = "8:"
+                    "AlwaysCreate" = "11:FALSE"
+                    "DeleteAtUninstall" = "11:FALSE"
+                    "Transitive" = "11:FALSE"
+                        "Keys"
+                        {
+                            "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_9D4A785126AE4AB68B57D1DD5F843764"
+                            {
+                            "Name" = "8:[Manufacturer]"
+                            "Condition" = "8:"
+                            "AlwaysCreate" = "11:FALSE"
+                            "DeleteAtUninstall" = "11:FALSE"
+                            "Transitive" = "11:FALSE"
+                                "Keys"
+                                {
+                                }
+                                "Values"
+                                {
+                                }
+                            }
+                        }
+                        "Values"
+                        {
+                        }
+                    }
+                }
+            }
+            "HKCR"
+            {
+                "Keys"
+                {
+                }
+            }
+            "HKU"
+            {
+                "Keys"
+                {
+                }
+            }
+            "HKPU"
+            {
+                "Keys"
+                {
+                }
+            }
+        }
+        "Sequences"
+        {
+        }
+        "Shortcut"
+        {
+        }
+        "UserInterface"
+        {
+            "{2479F3F5-0309-486D-8047-8187E2CE5BA0}:_23D6B2BAC2274583A3CAA105653DB81E"
+            {
+            "UseDynamicProperties" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "SourcePath" = "8:<VsdDialogDir>\\VsdBasicDialogs.wim"
+            }
+            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_2807E717D63E49D5A28D276375F04218"
+            {
+            "Name" = "8:#1900"
+            "Sequence" = "3:1"
+            "Attributes" = "3:1"
+                "Dialogs"
+                {
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_86D151C382CD4681B703854479162E2E"
+                    {
+                    "Sequence" = "3:300"
+                    "DisplayName" = "8:Selection Feature"
+                    "UseDynamicProperties" = "11:TRUE"
+                    "IsDependency" = "11:FALSE"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdSelectionTreeDlg.wid"
+                        "Properties"
+                        {
+                            "BannerBitmap"
+                            {
+                            "Name" = "8:BannerBitmap"
+                            "DisplayName" = "8:#1001"
+                            "Description" = "8:#1101"
+                            "Type" = "3:8"
+                            "ContextData" = "8:Bitmap"
+                            "Attributes" = "3:4"
+                            "Setting" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Feature1ValueAttributes"
+                            {
+                            "Name" = "8:Feature1ValueAttributes"
+                            "DisplayName" = "8:Feature 1 Attributes"
+                            "Description" = "8:Attributes des Feature"
+                            "Type" = "3:3"
+                            "ContextData" = "8:"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:1"
+                            "Value" = "8:0"
+                            "DefaultValue" = "8:0"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Feature1ValueDesciption"
+                            {
+                            "Name" = "8:Feature1ValueDesciption"
+                            "DisplayName" = "8:Feature 1 Description"
+                            "Description" = "8:Beschreibung des Feature"
+                            "Type" = "3:3"
+                            "ContextData" = "8:"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:1"
+                            "Value" = "8:Beschreibung Feature 1"
+                            "DefaultValue" = "8:Beschreibung Feature 1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Feature1ValueDirectory"
+                            {
+                            "Name" = "8:Feature1ValueDirectory"
+                            "DisplayName" = "8:Feature 1 Directory"
+                            "Description" = "8:Directory des Feature"
+                            "Type" = "3:3"
+                            "ContextData" = "8:"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:1"
+                            "Value" = "8:TARGETDIR"
+                            "DefaultValue" = "8:TARGETDIR"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Feature1ValueDisplay"
+                            {
+                            "Name" = "8:Feature1ValueDisplay"
+                            "DisplayName" = "8:Feature 1 Display"
+                            "Description" = "8:Wie soll das Feature angezeigt werden?"
+                            "Type" = "3:5"
+                            "ContextData" = "8:2;unsichtbar/wird aber installiert=0;expandiert=1;eingeklappt=2"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:0"
+                            "Value" = "3:1"
+                            "DefaultValue" = "3:2"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Feature1ValueFiles"
+                            {
+                            "Name" = "8:Feature1ValueFiles"
+                            "DisplayName" = "8:Feature 1 Files"
+                            "Description" = "8:Dateiname oder Guid der Komponente"
+                            "Type" = "3:3"
+                            "ContextData" = "8:"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:2"
+                            "Value" = "8:EB741E7ED0E344BE8F20F51F9D018FA0"
+                            "DefaultValue" = "8:kein Feature"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Feature1ValueLevel"
+                            {
+                            "Name" = "8:Feature1ValueLevel"
+                            "DisplayName" = "8:Feature 1 Level"
+                            "Description" = "8:Level des Feature"
+                            "Type" = "3:5"
+                            "ContextData" = "8:1;unsichtbar/nicht installiert=0;verfügbar=1;nicht verfügbar=2"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:0"
+                            "Value" = "3:1"
+                            "DefaultValue" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Feature1ValueParent"
+                            {
+                            "Name" = "8:Feature1ValueParent"
+                            "DisplayName" = "8:Feature 1 Parent"
+                            "Description" = "8:Feature soll Feature X untergeordnet sein."
+                            "Type" = "3:5"
+                            "ContextData" = "8:0;Nein=0;Feature 2=2;Feature 3=3;Feature 4=4;Feature 5=5;Feature 6=6;Feature 7=7;Feature 8=8;Feature 9=9"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:0"
+                            "Value" = "3:0"
+                            "DefaultValue" = "3:0"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Feature1ValueTitle"
+                            {
+                            "Name" = "8:Feature1ValueTitle"
+                            "DisplayName" = "8:Feature 1 Titel"
+                            "Description" = "8:Angezeigter Name des Feature"
+                            "Type" = "3:3"
+                            "ContextData" = "8:"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:1"
+                            "Value" = "8:Titel 1"
+                            "DefaultValue" = "8:Titel 1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Feature2ValueAttributes"
+                            {
+                            "Name" = "8:Feature2ValueAttributes"
+                            "DisplayName" = "8:Feature 2 Attributes"
+                            "Description" = "8:Attributes des Feature"
+                            "Type" = "3:3"
+                            "ContextData" = "8:"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:1"
+                            "Value" = "8:0"
+                            "DefaultValue" = "8:0"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Feature2ValueDesciption"
+                            {
+                            "Name" = "8:Feature2ValueDesciption"
+                            "DisplayName" = "8:Feature 2 Description"
+                            "Description" = "8:Beschreibung des Feature"
+                            "Type" = "3:3"
+                            "ContextData" = "8:"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:1"
+                            "Value" = "8:Beschreibung Feature 2"
+                            "DefaultValue" = "8:Beschreibung Feature 2"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Feature2ValueDirectory"
+                            {
+                            "Name" = "8:Feature2ValueDirectory"
+                            "DisplayName" = "8:Feature 2 Directory"
+                            "Description" = "8:Directory des Feature"
+                            "Type" = "3:3"
+                            "ContextData" = "8:"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:1"
+                            "Value" = "8:TARGETDIR"
+                            "DefaultValue" = "8:TARGETDIR"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Feature2ValueDisplay"
+                            {
+                            "Name" = "8:Feature2ValueDisplay"
+                            "DisplayName" = "8:Feature 2 Display"
+                            "Description" = "8:Wie soll das Feature angezeigt werden?"
+                            "Type" = "3:5"
+                            "ContextData" = "8:4;unsichtbar/wird aber installiert=0;expandiert=3;eingeklappt=4"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:0"
+                            "Value" = "3:4"
+                            "DefaultValue" = "3:4"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Feature2ValueFiles"
+                            {
+                            "Name" = "8:Feature2ValueFiles"
+                            "DisplayName" = "8:Feature 2 Files"
+                            "Description" = "8:Dateiname oder Guid der Komponente"
+                            "Type" = "3:3"
+                            "ContextData" = "8:"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:2"
+                            "Value" = "8:ABFA3C47A0ED49EFA0AB5CA009485F19"
+                            "DefaultValue" = "8:kein Feature"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Feature2ValueLevel"
+                            {
+                            "Name" = "8:Feature2ValueLevel"
+                            "DisplayName" = "8:Feature 2 Level"
+                            "Description" = "8:Level des Feature"
+                            "Type" = "3:5"
+                            "ContextData" = "8:1;unsichtbar/nicht installiert=0;verfügbar=1;nicht verfügbar=2"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:0"
+                            "Value" = "3:2"
+                            "DefaultValue" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Feature2ValueParent"
+                            {
+                            "Name" = "8:Feature2ValueParent"
+                            "DisplayName" = "8:Feature 2 Parent"
+                            "Description" = "8:Feature soll Feature X untergeordnet sein."
+                            "Type" = "3:5"
+                            "ContextData" = "8:0;Nein=0;Feature 1=1;Feature 3=3;Feature 4=4;Feature 5=5;Feature 6=6;Feature 7=7;Feature 8=8;Feature 9=9"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:0"
+                            "Value" = "3:1"
+                            "DefaultValue" = "3:0"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Feature2ValueTitle"
+                            {
+                            "Name" = "8:Feature2ValueTitle"
+                            "DisplayName" = "8:Feature 2 Titel"
+                            "Description" = "8:Angezeigter Name des Feature"
+                            "Type" = "3:3"
+                            "ContextData" = "8:"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:1"
+                            "Value" = "8:Titel 2"
+                            "DefaultValue" = "8:Titel 2"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Feature3ValueAttributes"
+                            {
+                            "Name" = "8:Feature3ValueAttributes"
+                            "DisplayName" = "8:Feature 3 Attributes"
+                            "Description" = "8:Attributes des Feature"
+                            "Type" = "3:3"
+                            "ContextData" = "8:"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:1"
+                            "Value" = "8:0"
+                            "DefaultValue" = "8:0"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Feature3ValueDesciption"
+                            {
+                            "Name" = "8:Feature3ValueDesciption"
+                            "DisplayName" = "8:Feature 3 Description"
+                            "Description" = "8:Beschreibung des Feature"
+                            "Type" = "3:3"
+                            "ContextData" = "8:"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:1"
+                            "Value" = "8:Beschreinung Feature 3"
+                            "DefaultValue" = "8:Beschreinung Feature 3"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Feature3ValueDirectory"
+                            {
+                            "Name" = "8:Feature3ValueDirectory"
+                            "DisplayName" = "8:Feature 3 Directory"
+                            "Description" = "8:Directory des Feature"
+                            "Type" = "3:3"
+                            "ContextData" = "8:"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:1"
+                            "Value" = "8:TARGETDIR"
+                            "DefaultValue" = "8:TARGETDIR"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Feature3ValueDisplay"
+                            {
+                            "Name" = "8:Feature3ValueDisplay"
+                            "DisplayName" = "8:Feature 3 Display"
+                            "Description" = "8:Wie soll das Feature angezeigt werden?"
+                            "Type" = "3:5"
+                            "ContextData" = "8:6;unsichtbar/wird aber installiert=0;expandiert=5;eingeklappt=6"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:0"
+                            "Value" = "3:6"
+                            "DefaultValue" = "3:6"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Feature3ValueFiles"
+                            {
+                            "Name" = "8:Feature3ValueFiles"
+                            "DisplayName" = "8:Feature 3 Files"
+                            "Description" = "8:Dateiname oder Guid der Komponente"
+                            "Type" = "3:3"
+                            "ContextData" = "8:"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:2"
+                            "Value" = "8:File4.txt"
+                            "DefaultValue" = "8:kein Feature"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Feature3ValueLevel"
+                            {
+                            "Name" = "8:Feature3ValueLevel"
+                            "DisplayName" = "8:Feature 3 Level"
+                            "Description" = "8:Level des Feature"
+                            "Type" = "3:5"
+                            "ContextData" = "8:1;unsichtbar/nicht installiert=0;verfügbar=1;nicht verfügbar=2"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:0"
+                            "Value" = "3:1"
+                            "DefaultValue" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Feature3ValueParent"
+                            {
+                            "Name" = "8:Feature3ValueParent"
+                            "DisplayName" = "8:Feature 3 Parent"
+                            "Description" = "8:Feature soll Feature X untergeordnet sein."
+                            "Type" = "3:5"
+                            "ContextData" = "8:0;Nein=0;Feature 1=1;Feature 2=2;Feature 4=4;Feature 5=5;Feature 6=6;Feature 7=7;Feature 8=8;Feature 9=9"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:0"
+                            "Value" = "3:0"
+                            "DefaultValue" = "3:0"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Feature3ValueTitle"
+                            {
+                            "Name" = "8:Feature3ValueTitle"
+                            "DisplayName" = "8:Feature 3 Titel"
+                            "Description" = "8:Angezeigter Name des Feature"
+                            "Type" = "3:3"
+                            "ContextData" = "8:"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:1"
+                            "Value" = "8:Titel 3"
+                            "DefaultValue" = "8:Titel 3"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Feature4ValueAttributes"
+                            {
+                            "Name" = "8:Feature4ValueAttributes"
+                            "DisplayName" = "8:Feature 4 Attributes"
+                            "Description" = "8:Attributes des Feature"
+                            "Type" = "3:3"
+                            "ContextData" = "8:"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:1"
+                            "Value" = "8:0"
+                            "DefaultValue" = "8:0"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Feature4ValueDesciption"
+                            {
+                            "Name" = "8:Feature4ValueDesciption"
+                            "DisplayName" = "8:Feature 4 Description"
+                            "Description" = "8:Beschreibung des Feature"
+                            "Type" = "3:3"
+                            "ContextData" = "8:"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:1"
+                            "Value" = "8:Beschreibung Feature 4"
+                            "DefaultValue" = "8:Beschreibung Feature 4"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Feature4ValueDirectory"
+                            {
+                            "Name" = "8:Feature4ValueDirectory"
+                            "DisplayName" = "8:Feature 4 Directory"
+                            "Description" = "8:Directory des Feature"
+                            "Type" = "3:3"
+                            "ContextData" = "8:"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:1"
+                            "Value" = "8:TARGETDIR"
+                            "DefaultValue" = "8:TARGETDIR"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Feature4ValueDisplay"
+                            {
+                            "Name" = "8:Feature4ValueDisplay"
+                            "DisplayName" = "8:Feature 4 Display"
+                            "Description" = "8:Wie soll das Feature angezeigt werden?"
+                            "Type" = "3:5"
+                            "ContextData" = "8:8;unsichtbar/wird aber installiert=0;expandiert=7;eingeklappt=8"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:0"
+                            "Value" = "3:8"
+                            "DefaultValue" = "3:8"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Feature4ValueFiles"
+                            {
+                            "Name" = "8:Feature4ValueFiles"
+                            "DisplayName" = "8:Feature 4 Files"
+                            "Description" = "8:Dateiname oder Guid der Komponente"
+                            "Type" = "3:3"
+                            "ContextData" = "8:"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:1"
+                            "Value" = "8:kein Feature"
+                            "DefaultValue" = "8:kein Feature"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Feature4ValueLevel"
+                            {
+                            "Name" = "8:Feature4ValueLevel"
+                            "DisplayName" = "8:Feature 4 Level"
+                            "Description" = "8:Level des Feature"
+                            "Type" = "3:5"
+                            "ContextData" = "8:1;unsichtbar/nicht installiert=0;verfügbar=1;nicht verfügbar=2"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:0"
+                            "Value" = "3:1"
+                            "DefaultValue" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Feature4ValueParent"
+                            {
+                            "Name" = "8:Feature4ValueParent"
+                            "DisplayName" = "8:Feature 4 Parent"
+                            "Description" = "8:Feature soll Feature X untergeordnet sein."
+                            "Type" = "3:5"
+                            "ContextData" = "8:0;Nein=0;Feature 1=1;Feature 2=2;Feature 3=3;Feature 5=5;Feature 6=6;Feature 7=7;Feature 8=8;Feature 9=9"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:0"
+                            "Value" = "3:0"
+                            "DefaultValue" = "3:0"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Feature4ValueTitle"
+                            {
+                            "Name" = "8:Feature4ValueTitle"
+                            "DisplayName" = "8:Feature 4 Titel"
+                            "Description" = "8:Angezeigter Name des Feature"
+                            "Type" = "3:3"
+                            "ContextData" = "8:"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:1"
+                            "Value" = "8:Titel 4"
+                            "DefaultValue" = "8:Titel 4"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Feature5ValueAttributes"
+                            {
+                            "Name" = "8:Feature5ValueAttributes"
+                            "DisplayName" = "8:Feature 5 Attributes"
+                            "Description" = "8:Attributes des Feature"
+                            "Type" = "3:3"
+                            "ContextData" = "8:"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:1"
+                            "Value" = "8:0"
+                            "DefaultValue" = "8:0"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Feature5ValueDesciption"
+                            {
+                            "Name" = "8:Feature5ValueDesciption"
+                            "DisplayName" = "8:Feature 5 Description"
+                            "Description" = "8:Beschreibung des Feature"
+                            "Type" = "3:3"
+                            "ContextData" = "8:"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:1"
+                            "Value" = "8:Beschreibung Feature 5"
+                            "DefaultValue" = "8:Beschreibung Feature 5"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Feature5ValueDirectory"
+                            {
+                            "Name" = "8:Feature5ValueDirectory"
+                            "DisplayName" = "8:Feature 5 Directory"
+                            "Description" = "8:Directory des Feature"
+                            "Type" = "3:3"
+                            "ContextData" = "8:"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:1"
+                            "Value" = "8:TARGETDIR"
+                            "DefaultValue" = "8:TARGETDIR"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Feature5ValueDisplay"
+                            {
+                            "Name" = "8:Feature5ValueDisplay"
+                            "DisplayName" = "8:Feature 5 Display"
+                            "Description" = "8:Wie soll das Feature angezeigt werden?"
+                            "Type" = "3:5"
+                            "ContextData" = "8:10;unsichtbar/wird aber installiert=0;expandiert=9;eingeklappt=10"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:0"
+                            "Value" = "3:10"
+                            "DefaultValue" = "3:10"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Feature5ValueFiles"
+                            {
+                            "Name" = "8:Feature5ValueFiles"
+                            "DisplayName" = "8:Feature 5 Files"
+                            "Description" = "8:Dateiname oder Guid der Komponente"
+                            "Type" = "3:3"
+                            "ContextData" = "8:"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:1"
+                            "Value" = "8:kein Feature"
+                            "DefaultValue" = "8:kein Feature"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Feature5ValueLevel"
+                            {
+                            "Name" = "8:Feature5ValueLevel"
+                            "DisplayName" = "8:Feature 5 Level"
+                            "Description" = "8:Level des Feature"
+                            "Type" = "3:5"
+                            "ContextData" = "8:1;unsichtbar/nicht installiert=0;verfügbar=1;nicht verfügbar=2"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:0"
+                            "Value" = "3:1"
+                            "DefaultValue" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Feature5ValueParent"
+                            {
+                            "Name" = "8:Feature5ValueParent"
+                            "DisplayName" = "8:Feature 5 Parent"
+                            "Description" = "8:Feature soll Feature X untergeordnet sein."
+                            "Type" = "3:5"
+                            "ContextData" = "8:0;Nein=0;Feature 1=1;Feature 2=2;Feature 3=3;Feature 4=4;Feature 6=6;Feature 7=7;Feature 8=8;Feature 9=9"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:0"
+                            "Value" = "3:0"
+                            "DefaultValue" = "3:0"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Feature5ValueTitle"
+                            {
+                            "Name" = "8:Feature5ValueTitle"
+                            "DisplayName" = "8:Feature 5 Titel"
+                            "Description" = "8:Angezeigter Name des Feature"
+                            "Type" = "3:3"
+                            "ContextData" = "8:"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:1"
+                            "Value" = "8:Titel 5"
+                            "DefaultValue" = "8:Titel 5"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Feature6ValueAttributes"
+                            {
+                            "Name" = "8:Feature6ValueAttributes"
+                            "DisplayName" = "8:Feature 6 Attributes"
+                            "Description" = "8:Attributes des Feature"
+                            "Type" = "3:3"
+                            "ContextData" = "8:"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:1"
+                            "Value" = "8:0"
+                            "DefaultValue" = "8:0"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Feature6ValueDesciption"
+                            {
+                            "Name" = "8:Feature6ValueDesciption"
+                            "DisplayName" = "8:Feature 6 Description"
+                            "Description" = "8:Beschreibung des Feature"
+                            "Type" = "3:3"
+                            "ContextData" = "8:"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:1"
+                            "Value" = "8:Beschreibung Feature 6"
+                            "DefaultValue" = "8:Beschreibung Feature 6"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Feature6ValueDirectory"
+                            {
+                            "Name" = "8:Feature6ValueDirectory"
+                            "DisplayName" = "8:Feature 6 Directory"
+                            "Description" = "8:Directory des Feature"
+                            "Type" = "3:3"
+                            "ContextData" = "8:"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:1"
+                            "Value" = "8:TARGETDIR"
+                            "DefaultValue" = "8:TARGETDIR"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Feature6ValueDisplay"
+                            {
+                            "Name" = "8:Feature6ValueDisplay"
+                            "DisplayName" = "8:Feature 6 Display"
+                            "Description" = "8:Wie soll das Feature angezeigt werden?"
+                            "Type" = "3:5"
+                            "ContextData" = "8:12;unsichtbar/wird aber installiert=0;expandiert=11;eingeklappt=12"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:0"
+                            "Value" = "3:12"
+                            "DefaultValue" = "3:12"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Feature6ValueFiles"
+                            {
+                            "Name" = "8:Feature6ValueFiles"
+                            "DisplayName" = "8:Feature 6 Files"
+                            "Description" = "8:Dateiname oder Guid der Komponente"
+                            "Type" = "3:3"
+                            "ContextData" = "8:"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:1"
+                            "Value" = "8:kein Feature"
+                            "DefaultValue" = "8:kein Feature"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Feature6ValueLevel"
+                            {
+                            "Name" = "8:Feature6ValueLevel"
+                            "DisplayName" = "8:Feature 6 Level"
+                            "Description" = "8:Level des Feature"
+                            "Type" = "3:5"
+                            "ContextData" = "8:1;unsichtbar/nicht installiert=0;verfügbar=1;nicht verfügbar=2"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:0"
+                            "Value" = "3:1"
+                            "DefaultValue" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Feature6ValueParent"
+                            {
+                            "Name" = "8:Feature6ValueParent"
+                            "DisplayName" = "8:Feature 6 Parent"
+                            "Description" = "8:Feature soll Feature X untergeordnet sein."
+                            "Type" = "3:5"
+                            "ContextData" = "8:0;Nein=0;Feature 1=1;Feature 2=2;Feature 3=3;Feature 4=4;Feature 5=5;Feature 7=7;Feature 8=8;Feature 9=9"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:0"
+                            "Value" = "3:0"
+                            "DefaultValue" = "3:0"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Feature6ValueTitle"
+                            {
+                            "Name" = "8:Feature6ValueTitle"
+                            "DisplayName" = "8:Feature 6 Titel"
+                            "Description" = "8:Angezeigter Name des Feature"
+                            "Type" = "3:3"
+                            "ContextData" = "8:"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:1"
+                            "Value" = "8:Titel 6"
+                            "DefaultValue" = "8:Titel 6"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Feature7ValueAttributes"
+                            {
+                            "Name" = "8:Feature7ValueAttributes"
+                            "DisplayName" = "8:Feature 7 Attributes"
+                            "Description" = "8:Attributes des Feature"
+                            "Type" = "3:3"
+                            "ContextData" = "8:"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:1"
+                            "Value" = "8:0"
+                            "DefaultValue" = "8:0"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Feature7ValueDesciption"
+                            {
+                            "Name" = "8:Feature7ValueDesciption"
+                            "DisplayName" = "8:Feature 7 Description"
+                            "Description" = "8:Beschreibung des Feature"
+                            "Type" = "3:3"
+                            "ContextData" = "8:"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:1"
+                            "Value" = "8:Beschreibung Feature 7"
+                            "DefaultValue" = "8:Beschreibung Feature 7"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Feature7ValueDirectory"
+                            {
+                            "Name" = "8:Feature7ValueDirectory"
+                            "DisplayName" = "8:Feature 7 Directory"
+                            "Description" = "8:Directory des Feature"
+                            "Type" = "3:3"
+                            "ContextData" = "8:"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:1"
+                            "Value" = "8:TARGETDIR"
+                            "DefaultValue" = "8:TARGETDIR"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Feature7ValueDisplay"
+                            {
+                            "Name" = "8:Feature7ValueDisplay"
+                            "DisplayName" = "8:Feature 7 Display"
+                            "Description" = "8:Wie soll das Feature angezeigt werden?"
+                            "Type" = "3:5"
+                            "ContextData" = "8:14;unsichtbar/wird aber installiert=0;expandiert=13;eingeklappt=14"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:0"
+                            "Value" = "3:14"
+                            "DefaultValue" = "3:14"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Feature7ValueFiles"
+                            {
+                            "Name" = "8:Feature7ValueFiles"
+                            "DisplayName" = "8:Feature 7 Files"
+                            "Description" = "8:Dateiname oder Guid der Komponente"
+                            "Type" = "3:3"
+                            "ContextData" = "8:"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:1"
+                            "Value" = "8:kein Feature"
+                            "DefaultValue" = "8:kein Feature"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Feature7ValueLevel"
+                            {
+                            "Name" = "8:Feature7ValueLevel"
+                            "DisplayName" = "8:Feature 7 Level"
+                            "Description" = "8:Level des Feature"
+                            "Type" = "3:5"
+                            "ContextData" = "8:1;unsichtbar/nicht installiert=0;verfügbar=1;nicht verfügbar=2"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:0"
+                            "Value" = "3:1"
+                            "DefaultValue" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Feature7ValueParent"
+                            {
+                            "Name" = "8:Feature7ValueParent"
+                            "DisplayName" = "8:Feature 7 Parent"
+                            "Description" = "8:Feature soll Feature X untergeordnet sein."
+                            "Type" = "3:5"
+                            "ContextData" = "8:0;Nein=0;Feature 1=1;Feature 2=2;Feature 3=3;Feature 4=4;Feature 5=5;Feature 6=6;Feature 8=8;Feature 9=9"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:0"
+                            "Value" = "3:0"
+                            "DefaultValue" = "3:0"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Feature7ValueTitle"
+                            {
+                            "Name" = "8:Feature7ValueTitle"
+                            "DisplayName" = "8:Feature 7 Titel"
+                            "Description" = "8:Angezeigter Name des Feature"
+                            "Type" = "3:3"
+                            "ContextData" = "8:"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:1"
+                            "Value" = "8:Titel 7"
+                            "DefaultValue" = "8:Titel 7"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Feature8ValueAttributes"
+                            {
+                            "Name" = "8:Feature8ValueAttributes"
+                            "DisplayName" = "8:Feature 8 Attributes"
+                            "Description" = "8:Attributes des Feature"
+                            "Type" = "3:3"
+                            "ContextData" = "8:"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:1"
+                            "Value" = "8:0"
+                            "DefaultValue" = "8:0"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Feature8ValueDesciption"
+                            {
+                            "Name" = "8:Feature8ValueDesciption"
+                            "DisplayName" = "8:Feature 8 Description"
+                            "Description" = "8:Beschreibung des Feature"
+                            "Type" = "3:3"
+                            "ContextData" = "8:"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:1"
+                            "Value" = "8:Beschreibung Feature 8"
+                            "DefaultValue" = "8:Beschreibung Feature 8"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Feature8ValueDirectory"
+                            {
+                            "Name" = "8:Feature8ValueDirectory"
+                            "DisplayName" = "8:Feature 8 Directory"
+                            "Description" = "8:Directory des Feature"
+                            "Type" = "3:3"
+                            "ContextData" = "8:"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:1"
+                            "Value" = "8:TARGETDIR"
+                            "DefaultValue" = "8:TARGETDIR"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Feature8ValueDisplay"
+                            {
+                            "Name" = "8:Feature8ValueDisplay"
+                            "DisplayName" = "8:Feature 8 Display"
+                            "Description" = "8:Wie soll das Feature angezeigt werden?"
+                            "Type" = "3:5"
+                            "ContextData" = "8:16;unsichtbar/wird aber installiert=0;expandiert=16;eingeklappt=16"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:0"
+                            "Value" = "3:16"
+                            "DefaultValue" = "3:16"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Feature8ValueFiles"
+                            {
+                            "Name" = "8:Feature8ValueFiles"
+                            "DisplayName" = "8:Feature 8 Files"
+                            "Description" = "8:Dateiname oder Guid der Komponente"
+                            "Type" = "3:3"
+                            "ContextData" = "8:"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:1"
+                            "Value" = "8:kein Feature"
+                            "DefaultValue" = "8:kein Feature"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Feature8ValueLevel"
+                            {
+                            "Name" = "8:Feature8ValueLevel"
+                            "DisplayName" = "8:Feature 8 Level"
+                            "Description" = "8:Level des Feature"
+                            "Type" = "3:5"
+                            "ContextData" = "8:1;unsichtbar/nicht installiert=0;verfügbar=1;nicht verfügbar=2"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:0"
+                            "Value" = "3:1"
+                            "DefaultValue" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Feature8ValueParent"
+                            {
+                            "Name" = "8:Feature8ValueParent"
+                            "DisplayName" = "8:Feature 8 Parent"
+                            "Description" = "8:Feature soll Feature X untergeordnet sein."
+                            "Type" = "3:5"
+                            "ContextData" = "8:0;Nein=0;Feature 1=1;Feature 2=2;Feature 3=3;Feature 4=4;Feature 5=5;Feature 6=6;Feature 7=7;Feature 9=9"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:0"
+                            "Value" = "3:0"
+                            "DefaultValue" = "3:0"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Feature8ValueTitle"
+                            {
+                            "Name" = "8:Feature8ValueTitle"
+                            "DisplayName" = "8:Feature 8 Titel"
+                            "Description" = "8:Angezeigter Name des Feature"
+                            "Type" = "3:3"
+                            "ContextData" = "8:"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:1"
+                            "Value" = "8:Titel 8"
+                            "DefaultValue" = "8:Titel 8"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Feature9ValueAttributes"
+                            {
+                            "Name" = "8:Feature9ValueAttributes"
+                            "DisplayName" = "8:Feature 9 Attributes"
+                            "Description" = "8:Attributes des Feature"
+                            "Type" = "3:3"
+                            "ContextData" = "8:"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:1"
+                            "Value" = "8:0"
+                            "DefaultValue" = "8:0"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Feature9ValueDesciption"
+                            {
+                            "Name" = "8:Feature9ValueDesciption"
+                            "DisplayName" = "8:Feature 9 Description"
+                            "Description" = "8:Beschreibung des Feature"
+                            "Type" = "3:3"
+                            "ContextData" = "8:"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:1"
+                            "Value" = "8:Beschreibung Feature 9"
+                            "DefaultValue" = "8:Beschreibung Feature 9"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Feature9ValueDirectory"
+                            {
+                            "Name" = "8:Feature9ValueDirectory"
+                            "DisplayName" = "8:Feature 9 Directory"
+                            "Description" = "8:Directory des Feature"
+                            "Type" = "3:3"
+                            "ContextData" = "8:"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:1"
+                            "Value" = "8:TARGETDIR"
+                            "DefaultValue" = "8:TARGETDIR"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Feature9ValueDisplay"
+                            {
+                            "Name" = "8:Feature9ValueDisplay"
+                            "DisplayName" = "8:Feature 9 Display"
+                            "Description" = "8:Wie soll das Feature angezeigt werden?"
+                            "Type" = "3:5"
+                            "ContextData" = "8:18;unsichtbar/wird aber installiert=0;expandiert=17;eingeklappt=18"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:0"
+                            "Value" = "3:18"
+                            "DefaultValue" = "3:18"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Feature9ValueFiles"
+                            {
+                            "Name" = "8:Feature9ValueFiles"
+                            "DisplayName" = "8:Feature 9 Files"
+                            "Description" = "8:Dateiname oder Guid der Komponente"
+                            "Type" = "3:3"
+                            "ContextData" = "8:"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:1"
+                            "Value" = "8:kein Feature"
+                            "DefaultValue" = "8:kein Feature"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Feature9ValueLevel"
+                            {
+                            "Name" = "8:Feature9ValueLevel"
+                            "DisplayName" = "8:Feature 9 Level"
+                            "Description" = "8:Level des Feature"
+                            "Type" = "3:5"
+                            "ContextData" = "8:1;unsichtbar/nicht installiert=0;verfügbar=1;nicht verfügbar=2"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:0"
+                            "Value" = "3:1"
+                            "DefaultValue" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Feature9ValueParent"
+                            {
+                            "Name" = "8:Feature9ValueParent"
+                            "DisplayName" = "8:Feature 9 Parent"
+                            "Description" = "8:Feature soll Feature X untergeordnet sein."
+                            "Type" = "3:5"
+                            "ContextData" = "8:0;Nein=0;Feature 1=1;Feature 2=2;Feature 3=3;Feature 4=4;Feature 5=5;Feature 6=6;Feature 7=7;Feature 8=8"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:0"
+                            "Value" = "3:0"
+                            "DefaultValue" = "3:0"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Feature9ValueTitle"
+                            {
+                            "Name" = "8:Feature9ValueTitle"
+                            "DisplayName" = "8:Feature 9 Titel"
+                            "Description" = "8:Angezeigter Name des Feature"
+                            "Type" = "3:3"
+                            "ContextData" = "8:"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:1"
+                            "Value" = "8:Titel 9"
+                            "DefaultValue" = "8:Titel 9"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "FeatureValueCount"
+                            {
+                            "Name" = "8:FeatureValueCount"
+                            "DisplayName" = "8:Benutzte Features"
+                            "Description" = "8:Anzahl der Features die verwendet werden."
+                            "Type" = "3:5"
+                            "ContextData" = "8:9;1 Feature=1;2 Feature=2;3 Feature=3;4 Feature=4;5 Feature=5;6 Feature=6;7 Feature=7;8 Feature=8;9 Feature=9"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:0"
+                            "Value" = "3:3"
+                            "DefaultValue" = "3:9"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                        }
+                    }
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_9F66986658AD4B73B4F5CD901EDF1762"
+                    {
+                    "Sequence" = "3:400"
+                    "DisplayName" = "8:Installation bestätigen"
+                    "UseDynamicProperties" = "11:TRUE"
+                    "IsDependency" = "11:FALSE"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdConfirmDlg.wid"
+                        "Properties"
+                        {
+                            "BannerBitmap"
+                            {
+                            "Name" = "8:BannerBitmap"
+                            "DisplayName" = "8:#1001"
+                            "Description" = "8:#1101"
+                            "Type" = "3:8"
+                            "ContextData" = "8:Bitmap"
+                            "Attributes" = "3:4"
+                            "Setting" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                        }
+                    }
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_A44460F667B942CE9CE1218C2FB5DF7B"
+                    {
+                    "Sequence" = "3:200"
+                    "DisplayName" = "8:Installationsordner"
+                    "UseDynamicProperties" = "11:TRUE"
+                    "IsDependency" = "11:FALSE"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdFolderDlg.wid"
+                        "Properties"
+                        {
+                            "BannerBitmap"
+                            {
+                            "Name" = "8:BannerBitmap"
+                            "DisplayName" = "8:#1001"
+                            "Description" = "8:#1101"
+                            "Type" = "3:8"
+                            "ContextData" = "8:Bitmap"
+                            "Attributes" = "3:4"
+                            "Setting" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "InstallAllUsersVisible"
+                            {
+                            "Name" = "8:InstallAllUsersVisible"
+                            "DisplayName" = "8:#1059"
+                            "Description" = "8:#1159"
+                            "Type" = "3:5"
+                            "ContextData" = "8:1;True=1;False=0"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:0"
+                            "Value" = "3:1"
+                            "DefaultValue" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                        }
+                    }
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_ABAE53865BF04940B1EDDB35B41F7083"
+                    {
+                    "Sequence" = "3:100"
+                    "DisplayName" = "8:Splash"
+                    "UseDynamicProperties" = "11:TRUE"
+                    "IsDependency" = "11:FALSE"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdSplashDlg.wid"
+                        "Properties"
+                        {
+                            "SplashBitmap"
+                            {
+                            "Name" = "8:SplashBitmap"
+                            "DisplayName" = "8:#1013"
+                            "Description" = "8:#1113"
+                            "Type" = "3:8"
+                            "ContextData" = "8:Bitmap"
+                            "Attributes" = "3:4"
+                            "Setting" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Sunken"
+                            {
+                            "Name" = "8:Sunken"
+                            "DisplayName" = "8:#1007"
+                            "Description" = "8:#1107"
+                            "Type" = "3:5"
+                            "ContextData" = "8:4;True=4;False=0"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:0"
+                            "Value" = "3:4"
+                            "DefaultValue" = "3:4"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                        }
+                    }
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_E83E12858F3C4E1981F8AD6EB4DA00F7"
+                    {
+                    "Sequence" = "3:110"
+                    "DisplayName" = "8:Willkommen"
+                    "UseDynamicProperties" = "11:TRUE"
+                    "IsDependency" = "11:FALSE"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdWelcomeDlg.wid"
+                        "Properties"
+                        {
+                            "BannerBitmap"
+                            {
+                            "Name" = "8:BannerBitmap"
+                            "DisplayName" = "8:#1001"
+                            "Description" = "8:#1101"
+                            "Type" = "3:8"
+                            "ContextData" = "8:Bitmap"
+                            "Attributes" = "3:4"
+                            "Setting" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "CopyrightWarning"
+                            {
+                            "Name" = "8:CopyrightWarning"
+                            "DisplayName" = "8:#1002"
+                            "Description" = "8:#1102"
+                            "Type" = "3:3"
+                            "ContextData" = "8:"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:1"
+                            "Value" = "8:#1202"
+                            "DefaultValue" = "8:#1202"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Welcome"
+                            {
+                            "Name" = "8:Welcome"
+                            "DisplayName" = "8:#1003"
+                            "Description" = "8:#1103"
+                            "Type" = "3:3"
+                            "ContextData" = "8:"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:1"
+                            "Value" = "8:#1203"
+                            "DefaultValue" = "8:#1203"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                        }
+                    }
+                }
+            }
+            "{2479F3F5-0309-486D-8047-8187E2CE5BA0}:_4928F24FE5F54E42BD5F99FE110723DA"
+            {
+            "UseDynamicProperties" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "SourcePath" = "8:<VsdDialogDir>\\VsdUserInterface.wim"
+            }
+            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_6FEA18688D7C4B38A06A4A3E38EE5B39"
+            {
+            "Name" = "8:#1902"
+            "Sequence" = "3:1"
+            "Attributes" = "3:3"
+                "Dialogs"
+                {
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_8E258E4AC316424982B870D74BF86A40"
+                    {
+                    "Sequence" = "3:100"
+                    "DisplayName" = "8:Fertig"
+                    "UseDynamicProperties" = "11:TRUE"
+                    "IsDependency" = "11:FALSE"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdFinishedDlg.wid"
+                        "Properties"
+                        {
+                            "BannerBitmap"
+                            {
+                            "Name" = "8:BannerBitmap"
+                            "DisplayName" = "8:#1001"
+                            "Description" = "8:#1101"
+                            "Type" = "3:8"
+                            "ContextData" = "8:Bitmap"
+                            "Attributes" = "3:4"
+                            "Setting" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "UpdateText"
+                            {
+                            "Name" = "8:UpdateText"
+                            "DisplayName" = "8:#1058"
+                            "Description" = "8:#1158"
+                            "Type" = "3:15"
+                            "ContextData" = "8:"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:1"
+                            "Value" = "8:#1258"
+                            "DefaultValue" = "8:#1258"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                        }
+                    }
+                }
+            }
+            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_9D4D90ED430347EE946A3AAC9017F77A"
+            {
+            "Name" = "8:#1902"
+            "Sequence" = "3:2"
+            "Attributes" = "3:3"
+                "Dialogs"
+                {
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_2E5FD7BA28C3408B83235BD34D39ED89"
+                    {
+                    "Sequence" = "3:100"
+                    "DisplayName" = "8:Fertig"
+                    "UseDynamicProperties" = "11:TRUE"
+                    "IsDependency" = "11:FALSE"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdAdminFinishedDlg.wid"
+                        "Properties"
+                        {
+                            "BannerBitmap"
+                            {
+                            "Name" = "8:BannerBitmap"
+                            "DisplayName" = "8:#1001"
+                            "Description" = "8:#1101"
+                            "Type" = "3:8"
+                            "ContextData" = "8:Bitmap"
+                            "Attributes" = "3:4"
+                            "Setting" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                        }
+                    }
+                }
+            }
+            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_D6B885DACC444739A2664718004EC633"
+            {
+            "Name" = "8:#1900"
+            "Sequence" = "3:2"
+            "Attributes" = "3:1"
+                "Dialogs"
+                {
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_120108B16DD54FFFA39FDDE50BE16D47"
+                    {
+                    "Sequence" = "3:110"
+                    "DisplayName" = "8:Willkommen"
+                    "UseDynamicProperties" = "11:TRUE"
+                    "IsDependency" = "11:FALSE"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdAdminWelcomeDlg.wid"
+                        "Properties"
+                        {
+                            "BannerBitmap"
+                            {
+                            "Name" = "8:BannerBitmap"
+                            "DisplayName" = "8:#1001"
+                            "Description" = "8:#1101"
+                            "Type" = "3:8"
+                            "ContextData" = "8:Bitmap"
+                            "Attributes" = "3:4"
+                            "Setting" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "CopyrightWarning"
+                            {
+                            "Name" = "8:CopyrightWarning"
+                            "DisplayName" = "8:#1002"
+                            "Description" = "8:#1102"
+                            "Type" = "3:3"
+                            "ContextData" = "8:"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:1"
+                            "Value" = "8:#1202"
+                            "DefaultValue" = "8:#1202"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Welcome"
+                            {
+                            "Name" = "8:Welcome"
+                            "DisplayName" = "8:#1003"
+                            "Description" = "8:#1103"
+                            "Type" = "3:3"
+                            "ContextData" = "8:"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:1"
+                            "Value" = "8:#1203"
+                            "DefaultValue" = "8:#1203"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                        }
+                    }
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_CCCD758D1CA6402FA6682F4ACB33CD3A"
+                    {
+                    "Sequence" = "3:200"
+                    "DisplayName" = "8:Installationsordner"
+                    "UseDynamicProperties" = "11:TRUE"
+                    "IsDependency" = "11:FALSE"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdAdminFolderDlg.wid"
+                        "Properties"
+                        {
+                            "BannerBitmap"
+                            {
+                            "Name" = "8:BannerBitmap"
+                            "DisplayName" = "8:#1001"
+                            "Description" = "8:#1101"
+                            "Type" = "3:8"
+                            "ContextData" = "8:Bitmap"
+                            "Attributes" = "3:4"
+                            "Setting" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                        }
+                    }
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_CF8ED6E42EED42ED86770D615983E32C"
+                    {
+                    "Sequence" = "3:100"
+                    "DisplayName" = "8:Splash"
+                    "UseDynamicProperties" = "11:TRUE"
+                    "IsDependency" = "11:FALSE"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdAdminSplashDlg.wid"
+                        "Properties"
+                        {
+                            "SplashBitmap"
+                            {
+                            "Name" = "8:SplashBitmap"
+                            "DisplayName" = "8:#1013"
+                            "Description" = "8:#1113"
+                            "Type" = "3:8"
+                            "ContextData" = "8:Bitmap"
+                            "Attributes" = "3:4"
+                            "Setting" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Sunken"
+                            {
+                            "Name" = "8:Sunken"
+                            "DisplayName" = "8:#1007"
+                            "Description" = "8:#1107"
+                            "Type" = "3:5"
+                            "ContextData" = "8:4;True=4;False=0"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:0"
+                            "Value" = "3:4"
+                            "DefaultValue" = "3:4"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                        }
+                    }
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_F9DC03E13F334003AC9260BE5FCB5E43"
+                    {
+                    "Sequence" = "3:300"
+                    "DisplayName" = "8:Installation bestätigen"
+                    "UseDynamicProperties" = "11:TRUE"
+                    "IsDependency" = "11:FALSE"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdAdminConfirmDlg.wid"
+                        "Properties"
+                        {
+                            "BannerBitmap"
+                            {
+                            "Name" = "8:BannerBitmap"
+                            "DisplayName" = "8:#1001"
+                            "Description" = "8:#1101"
+                            "Type" = "3:8"
+                            "ContextData" = "8:Bitmap"
+                            "Attributes" = "3:4"
+                            "Setting" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                        }
+                    }
+                }
+            }
+            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_DD2CF0D95F934A528695F4431A3B8CA2"
+            {
+            "Name" = "8:#1901"
+            "Sequence" = "3:1"
+            "Attributes" = "3:2"
+                "Dialogs"
+                {
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_BEA25C8307AC416D944B7992D6FE9F57"
+                    {
+                    "Sequence" = "3:100"
+                    "DisplayName" = "8:Status"
+                    "UseDynamicProperties" = "11:TRUE"
+                    "IsDependency" = "11:FALSE"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdProgressDlg.wid"
+                        "Properties"
+                        {
+                            "BannerBitmap"
+                            {
+                            "Name" = "8:BannerBitmap"
+                            "DisplayName" = "8:#1001"
+                            "Description" = "8:#1101"
+                            "Type" = "3:8"
+                            "ContextData" = "8:Bitmap"
+                            "Attributes" = "3:4"
+                            "Setting" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "ShowProgress"
+                            {
+                            "Name" = "8:ShowProgress"
+                            "DisplayName" = "8:#1009"
+                            "Description" = "8:#1109"
+                            "Type" = "3:5"
+                            "ContextData" = "8:1;True=1;False=0"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:0"
+                            "Value" = "3:1"
+                            "DefaultValue" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                        }
+                    }
+                }
+            }
+            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_F45678C72735448EAA5463EDC4128C0E"
+            {
+            "Name" = "8:#1901"
+            "Sequence" = "3:2"
+            "Attributes" = "3:2"
+                "Dialogs"
+                {
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_33689D1615804E5185FEF2355AE5E9F7"
+                    {
+                    "Sequence" = "3:100"
+                    "DisplayName" = "8:Status"
+                    "UseDynamicProperties" = "11:TRUE"
+                    "IsDependency" = "11:FALSE"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdAdminProgressDlg.wid"
+                        "Properties"
+                        {
+                            "BannerBitmap"
+                            {
+                            "Name" = "8:BannerBitmap"
+                            "DisplayName" = "8:#1001"
+                            "Description" = "8:#1101"
+                            "Type" = "3:8"
+                            "ContextData" = "8:Bitmap"
+                            "Attributes" = "3:4"
+                            "Setting" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "ShowProgress"
+                            {
+                            "Name" = "8:ShowProgress"
+                            "DisplayName" = "8:#1009"
+                            "Description" = "8:#1109"
+                            "Type" = "3:5"
+                            "ContextData" = "8:1;True=1;False=0"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:0"
+                            "Value" = "3:1"
+                            "DefaultValue" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        "MergeModule"
+        {
+            "{CEE29DC0-9FBA-4B99-8D47-5BC643D9B626}:_4B89802539AB4B5B94955013F3AAC215"
+            {
+            "UseDynamicProperties" = "11:TRUE"
+            "IsDependency" = "11:FALSE"
+            "SourcePath" = "8:..\\MergeModule1\\Debug\\MergeModule1.msm"
+                "Properties"
+                {
+                    "_E44F4C3D80EE4A50BBCBF8F34898115A.EB741E7ED0E344BE8F20F51F9D018FA0"
+                    {
+                    "Name" = "8:_E44F4C3D80EE4A50BBCBF8F34898115A.EB741E7ED0E344BE8F20F51F9D018FA0"
+                    "DisplayName" = "8:Alternativer Modulzielordner"
+                    "Description" = "8:"
+                    "Type" = "3:32769"
+                    "ContextData" = "8:_RetargetableFolder"
+                    "Attributes" = "3:6"
+                    "Setting" = "3:1"
+                    "UsePlugInResources" = "11:FALSE"
+                    }
+                }
+            "LanguageId" = "3:1031"
+            "Exclude" = "11:FALSE"
+            "Folder" = "8:"
+            "Feature" = "8:"
+            "IsolateTo" = "8:"
+            }
+            "{CEE29DC0-9FBA-4B99-8D47-5BC643D9B626}:_8D14464191904F3FACF9C9FC4FD3F7A1"
+            {
+            "UseDynamicProperties" = "11:TRUE"
+            "IsDependency" = "11:FALSE"
+            "SourcePath" = "8:..\\MergeModule2\\Debug\\MergeModule2.msm"
+                "Properties"
+                {
+                    "_DA1CA6985AAB4E8DB925ADB2E2B9E832.ABFA3C47A0ED49EFA0AB5CA009485F19"
+                    {
+                    "Name" = "8:_DA1CA6985AAB4E8DB925ADB2E2B9E832.ABFA3C47A0ED49EFA0AB5CA009485F19"
+                    "DisplayName" = "8:Alternativer Modulzielordner"
+                    "Description" = "8:"
+                    "Type" = "3:32769"
+                    "ContextData" = "8:_RetargetableFolder"
+                    "Attributes" = "3:6"
+                    "Setting" = "3:1"
+                    "UsePlugInResources" = "11:FALSE"
+                    }
+                }
+            "LanguageId" = "3:1031"
+            "Exclude" = "11:FALSE"
+            "Folder" = "8:"
+            "Feature" = "8:"
+            "IsolateTo" = "8:"
+            }
+        }
+        "ProjectOutput"
+        {
+        }
+    }
+}

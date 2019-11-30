@@ -1,0 +1,12 @@
+D:\MyWork\代码\C#\Test\DocToPDF\DocToPDF\obj\Debug\ResolveAssemblyReference.cache
+D:\MyWork\代码\C#\Test\DocToPDF\DocToPDF\obj\Debug\Interop.ACRODISTXLib.dll
+D:\MyWork\代码\C#\Test\DocToPDF\DocToPDF\obj\Debug\DocToPDF.csproj.ResolveComReference.cache
+D:\MyWork\代码\C#\Test\DocToPDF\DocToPDF\obj\Debug\DocToPDF.Form1.resources
+D:\MyWork\代码\C#\Test\DocToPDF\DocToPDF\obj\Debug\DocToPDF.Properties.Resources.resources
+D:\MyWork\代码\C#\Test\DocToPDF\DocToPDF\obj\Debug\DocToPDF.csproj.GenerateResource.Cache
+D:\MyWork\代码\C#\Test\DocToPDF\DocToPDF\bin\Debug\DocToPDF.exe
+D:\MyWork\代码\C#\Test\DocToPDF\DocToPDF\bin\Debug\DocToPDF.pdb
+D:\MyWork\代码\C#\Test\DocToPDF\DocToPDF\bin\Debug\PortableOpenOffice.dll
+D:\MyWork\代码\C#\Test\DocToPDF\DocToPDF\bin\Debug\Interop.ACRODISTXLib.dll
+D:\MyWork\代码\C#\Test\DocToPDF\DocToPDF\obj\Debug\DocToPDF.exe
+D:\MyWork\代码\C#\Test\DocToPDF\DocToPDF\obj\Debug\DocToPDF.pdb

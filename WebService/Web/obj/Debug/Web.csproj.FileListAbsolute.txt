@@ -1,0 +1,8 @@
+F:\C\Test\WebService\Web\bin\Web.dll
+F:\C\Test\WebService\Web\bin\Web.pdb
+F:\C\Test\WebService\Web\obj\Debug\Web.csprojResolveAssemblyReference.cache
+F:\C\Test\WebService\Web\obj\Debug\Web.dll
+F:\C\Test\WebService\Web\obj\Debug\Web.pdb
+F:\C\Test\WebService\Web\bin\WebApplication1.dll
+F:\C\Test\WebService\Web\bin\WebApplication1.pdb
+F:\C\Test\WebService\Web\bin\Mysoft.MAP2.Ajax.dll

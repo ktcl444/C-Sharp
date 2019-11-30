@@ -1,0 +1,10 @@
+D:\MyWork\代码\C#\Test\IIS7Manager\IIS7Manager\bin\Debug\IIS7Manager.exe
+D:\MyWork\代码\C#\Test\IIS7Manager\IIS7Manager\bin\Debug\IIS7Manager.pdb
+D:\MyWork\代码\C#\Test\IIS7Manager\IIS7Manager\bin\Debug\Interop.ActiveDs.dll
+D:\MyWork\代码\C#\Test\IIS7Manager\IIS7Manager\bin\Debug\Interop.IISOle.dll
+D:\MyWork\代码\C#\Test\IIS7Manager\IIS7Manager\bin\Debug\Microsoft.Web.Administration.dll
+D:\MyWork\代码\C#\Test\IIS7Manager\IIS7Manager\bin\Debug\MyIISManager.dll
+D:\MyWork\代码\C#\Test\IIS7Manager\IIS7Manager\bin\Debug\MyIISManager.pdb
+D:\MyWork\代码\C#\Test\IIS7Manager\IIS7Manager\obj\Debug\ResolveAssemblyReference.cache
+D:\MyWork\代码\C#\Test\IIS7Manager\IIS7Manager\obj\Debug\IIS7Manager.exe
+D:\MyWork\代码\C#\Test\IIS7Manager\IIS7Manager\obj\Debug\IIS7Manager.pdb

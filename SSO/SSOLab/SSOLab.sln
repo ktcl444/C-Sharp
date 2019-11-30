@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSOLab.SSOServer.WebApp", "SSOLab.SSOServer.WebApp\SSOLab.SSOServer.WebApp.csproj", "{5588987E-9AFD-48B8-B2AA-32539CE95D59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSOLab.App1.WebApp", "SSOLab.App1.WebApp\SSOLab.App1.WebApp.csproj", "{B3754C97-CB1B-442B-BA13-96CBCCF4772B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSOLab.App2.WebApp", "SSOLab.App2.WebApp\SSOLab.App2.WebApp.csproj", "{CD413A2E-CEB6-4E24-91E0-DA221E7DEEEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSOLab.Portal.WebApp", "SSOLab.Portal.WebApp\SSOLab.Portal.WebApp.csproj", "{3A61321D-025E-46E9-AA86-A5ADC8423CF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSOLab.SSOServer.Components", "SSOLab.SSOServer.Components\SSOLab.SSOServer.Components.csproj", "{886C9CB0-E661-4479-87AE-D3514A4B59BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5588987E-9AFD-48B8-B2AA-32539CE95D59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5588987E-9AFD-48B8-B2AA-32539CE95D59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5588987E-9AFD-48B8-B2AA-32539CE95D59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5588987E-9AFD-48B8-B2AA-32539CE95D59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3754C97-CB1B-442B-BA13-96CBCCF4772B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3754C97-CB1B-442B-BA13-96CBCCF4772B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3754C97-CB1B-442B-BA13-96CBCCF4772B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3754C97-CB1B-442B-BA13-96CBCCF4772B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD413A2E-CEB6-4E24-91E0-DA221E7DEEEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD413A2E-CEB6-4E24-91E0-DA221E7DEEEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD413A2E-CEB6-4E24-91E0-DA221E7DEEEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD413A2E-CEB6-4E24-91E0-DA221E7DEEEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A61321D-025E-46E9-AA86-A5ADC8423CF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A61321D-025E-46E9-AA86-A5ADC8423CF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A61321D-025E-46E9-AA86-A5ADC8423CF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A61321D-025E-46E9-AA86-A5ADC8423CF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{886C9CB0-E661-4479-87AE-D3514A4B59BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{886C9CB0-E661-4479-87AE-D3514A4B59BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{886C9CB0-E661-4479-87AE-D3514A4B59BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{886C9CB0-E661-4479-87AE-D3514A4B59BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

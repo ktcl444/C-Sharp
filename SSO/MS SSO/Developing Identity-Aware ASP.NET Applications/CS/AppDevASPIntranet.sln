@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppDevASPIntranet", "http://localhost/AppDevASPIntranet/AppDevASPIntranet.csproj", "{84D6B278-6B33-4E46-B28B-708E33701451}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "AppDevASPIntranetSetup", "AppDevASPIntranetSetup\AppDevASPIntranetSetup.vdproj", "{F0005437-A846-4944-A0D3-EE113FD63F0C}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppDevAspLib", "AppDevAspLib\AppDevAspLib.csproj", "{16EAD40B-AD67-449B-88DD-30BE14069CA1}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{84D6B278-6B33-4E46-B28B-708E33701451}.Debug.ActiveCfg = Debug|.NET
+		{84D6B278-6B33-4E46-B28B-708E33701451}.Debug.Build.0 = Debug|.NET
+		{84D6B278-6B33-4E46-B28B-708E33701451}.Release.ActiveCfg = Release|.NET
+		{84D6B278-6B33-4E46-B28B-708E33701451}.Release.Build.0 = Release|.NET
+		{F0005437-A846-4944-A0D3-EE113FD63F0C}.Debug.ActiveCfg = Debug
+		{F0005437-A846-4944-A0D3-EE113FD63F0C}.Release.ActiveCfg = Release
+		{16EAD40B-AD67-449B-88DD-30BE14069CA1}.Debug.ActiveCfg = Debug|.NET
+		{16EAD40B-AD67-449B-88DD-30BE14069CA1}.Debug.Build.0 = Debug|.NET
+		{16EAD40B-AD67-449B-88DD-30BE14069CA1}.Release.ActiveCfg = Release|.NET
+		{16EAD40B-AD67-449B-88DD-30BE14069CA1}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

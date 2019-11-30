@@ -1,0 +1,11 @@
+E:\C\Test\ExcelTest\ExcelTest\ExcelTest\bin\Debug\ExcelTest.exe
+E:\C\Test\ExcelTest\ExcelTest\ExcelTest\bin\Debug\ExcelTest.pdb
+E:\C\Test\ExcelTest\ExcelTest\ExcelTest\bin\Debug\Microsoft.Office.Interop.Excel.dll
+E:\C\Test\ExcelTest\ExcelTest\ExcelTest\bin\Debug\Microsoft.Vbe.Interop.dll
+E:\C\Test\ExcelTest\ExcelTest\ExcelTest\bin\Debug\office.dll
+E:\C\Test\ExcelTest\ExcelTest\ExcelTest\obj\Debug\ResolveAssemblyReference.cache
+E:\C\Test\ExcelTest\ExcelTest\ExcelTest\obj\Debug\ExcelTest.Form1.resources
+E:\C\Test\ExcelTest\ExcelTest\ExcelTest\obj\Debug\ExcelTest.Properties.Resources.resources
+E:\C\Test\ExcelTest\ExcelTest\ExcelTest\obj\Debug\ExcelTest.csproj.GenerateResource.Cache
+E:\C\Test\ExcelTest\ExcelTest\ExcelTest\obj\Debug\ExcelTest.exe
+E:\C\Test\ExcelTest\ExcelTest\ExcelTest\obj\Debug\ExcelTest.pdb

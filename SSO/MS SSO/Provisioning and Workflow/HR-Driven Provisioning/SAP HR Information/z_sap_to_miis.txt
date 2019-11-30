@@ -1,0 +1,1181 @@
+*&---------------------------------------------------------------------*
+*& Report  z_sap_to_miis                                               *
+*&---------------------------------------------------------------------*
+* VERSION HISTORY                                                      *
+*                                                                      *
+* AUTHOR      DATE      CORRECTION         DESCRIPTION                 *
+* --------  ----------  ----------  -----------------------------------*
+*&---------------------------------------------------------------------*
+* SBBROWN   21.12.2004  Local object  initial development
+*&---------------------------------------------------------------------*
+REPORT z_sap_to_miis .
+*&--------------------------------------------------------------------*
+*&      Tables                                                        *
+*&--------------------------------------------------------------------*
+TABLES : pa0001,  "HR Master Record: Infotype 0001 (Org. Assignment)
+         t001,    "Company Codes
+         pa0000,  "HR Master Record: Infotype 0000 (Actions)
+         t528t,   "Position Texts
+         t001p,   "Personnel Area/Subarea
+         t527x,   "Organizational Units
+         pa0006,  "HR Master Record: Infotype 0006 (Addresses)
+         hrp1000. "Infotype 1000 DB Table
+*&--------------------------------------------------------------------*
+*&      Selection Screen Variables                                    *
+*&--------------------------------------------------------------------*
+
+SELECTION-SCREEN BEGIN OF BLOCK edata WITH FRAME TITLE text-001.
+SELECT-OPTIONS : s_pernr  FOR pa0001-pernr,  "  NO-EXTENSION,
+                 s_bukrs  FOR pa0001-bukrs,  "  NO-EXTENSION,
+                 s_tvarv FOR pa0001-persg  NO-DISPLAY  ,
+                 s_massn  FOR pa0000-massn  NO-DISPLAY  .
+PARAMETERS : p_exdata     TYPE c AS CHECKBOX ,
+             p_efile(128) TYPE c OBLIGATORY  ,
+             p_afile(128) TYPE c OBLIGATORY  .
+SELECTION-SCREEN END OF BLOCK edata         .
+
+*&--------------------------------------------------------------------*
+*&      Type Declarations for InternalTables                          *
+*&--------------------------------------------------------------------*
+
+TYPES: BEGIN OF t_errfile        ,
+        line(100)  TYPE c         ,
+       END OF t_errfile           .
+
+* type declaration for collection all the pernrs
+TYPES : BEGIN OF t_pernr         ,
+         pernr LIKE pa0001-pernr  ,
+        END OF t_pernr            .
+
+* types for Retrieving the reporting manager details
+TYPES : BEGIN OF t_reptto        ,
+         pernr LIKE pa0001-pernr  ,
+         varyf LIKE hrp1001-varyf ,
+        END OF t_reptto           .
+
+TYPES : BEGIN OF t_reptsto        ,
+         varyf LIKE hrp1001-varyf ,
+         objid LIKE hrp1001-objid ,
+        END OF t_reptsto           .
+
+TYPES : BEGIN OF t_objid         ,
+         pernr LIKE pa0001-pernr  ,
+         objid LIKE hrp1001-objid ,
+        END OF t_objid            .
+
+* type declaration for employee company, and employee group
+TYPES : BEGIN OF t_extract,
+         pernr LIKE pa0001-pernr,
+         persg LIKE pa0001-persg,
+         persk LIKE pa0001-persk,
+         bukrs LIKE pa0001-bukrs,
+         butxt LIKE t001-butxt,
+         btrtl LIKE pa0001-btrtl,
+         orgeh LIKE pa0001-orgeh,
+         orgtx LIKE hrp1000-stext,
+         plans LIKE pa0001-plans,
+         stext LIKE hrp1000-stext,
+         werks LIKE pa0001-werks,
+         btext LIKE t001p-btext,
+        END OF t_extract.
+
+*type declaration for employee contact information
+TYPES: BEGIN OF t_contact,
+        pernr LIKE pa0006-pernr,
+        land1 LIKE pa0006-land1,
+        telnr LIKE pa0006-telnr,
+        num01 LIKE pa0006-num01,
+        num02 LIKE pa0006-num02,
+        num03 LIKE pa0006-num02,
+       END OF t_contact.
+
+*type declaration for employee status
+TYPES:  BEGIN OF t_status,
+         pernr LIKE pa0000-pernr,
+         stat2 LIKE pa0000-stat2,
+         endda LIKE pa0000-endda,
+         begda LIKE pa0000-begda,
+        END OF t_status.
+
+* type declaration for employee information
+TYPES: BEGIN OF t_details          ,
+        pernr LIKE pa0002-pernr    ,
+        vorna LIKE pa0002-vorna    ,
+        nachn LIKE pa0002-nachn    ,
+        nach2 LIKE pa0002-nach2    ,
+        gbdat LIKE pa0002-gbdat    ,
+       END OF t_details            .
+
+* Type declaration for the output file
+TYPES : BEGIN OF t_flatfile,
+         pernr     LIKE pa0001-pernr,   "Employee ID
+         begda     LIKE pa0001-begda,   "Emp Start Date
+         endda     LIKE pa0001-begda,   "Emp Depart Date
+         stat2     LIKE pa0000-stat2,   "Emp Status
+         persg     LIKE pa0001-persg,   "Emp Type
+         nachn     LIKE pa0002-nachn,   "Surname
+         nach2     LIKE pa0002-nach2,   "MiddleName
+         vorna     LIKE pa0002-vorna,   "GivenName
+         land1     LIKE pa0006-land1,   "Country
+         telnr     LIKE pa0006-telnr,   "Telephone
+         num01     LIKE pa0006-num01,   "Fax
+         butxt     LIKE t001-butxt,     "Company
+         repts     LIKE pa0001-pernr,   "Manager
+         num02     LIKE pa0006-num02,   "Mobile
+         num03     LIKE pa0006-num03,   "Pager
+         stext     LIKE hrp1000-stext,  "Title
+         btext     LIKE t001p-btext,    "Location
+         orgtx     LIKE hrp1000-stext,  "Department
+         gbdat     LIKE pa0002-gbdat,   "Birth Date
+        END OF t_flatfile               .
+
+*&--------------------------------------------------------------------*
+*&      Data Variables                                                *
+*&--------------------------------------------------------------------*
+*This is the header for the output file
+DATA : BEGIN OF wa_hflatfile OCCURS 0  ,
+        pernr(20) VALUE 'EmployeeID',
+        begda(20) VALUE 'EmployeeStartDate',
+        endda(25) VALUE 'EmployeeDepartureDate',
+        stat2(20) VALUE 'EmployeeStatus',
+        persg(35) VALUE 'EmployeeType',
+        nachn(15) VALUE 'Surname',
+        nach2(15) VALUE 'MiddleName',
+        vorna(15) VALUE 'GivenName',
+        land1(10) VALUE 'Country',
+        telnr(20) VALUE 'TelephoneNumber',
+        num01(30) VALUE 'FacsimileTelephoneNumber',
+        butxt(10) VALUE 'Company',
+        repts(15) VALUE 'Manager',
+        num02(15) VALUE 'Mobile',
+        num03(15) VALUE 'Pager',
+        stext(15) VALUE 'Title',
+        btext(15) VALUE 'Location',
+        orgtx(15) VALUE 'Department',
+        gbdat(15) VALUE 'Birthday',
+       END OF wa_hflatfile.
+
+DATA: outrec(300) TYPE c.  "hold details plus delimiter for output
+
+DATA:
+      wa_endda LIKE pa0000-endda,   "hold the employee depart date
+      wa_begda LIKE pa0000-begda.   "hold the employee start date
+
+DATA : c_date   TYPE date,
+       v_rcount TYPE i,
+       v_str(6) TYPE c.
+
+DATA: v_pflag TYPE c.    "flag for incorrect PERNR
+DATA: v_cflag TYPE c.    "flag for incorrect BUKRS
+
+
+*&--------------------------------------------------------------------*
+*&      Constants                                                     *
+*&--------------------------------------------------------------------*
+CONSTANTS : c_varemp(15) TYPE c VALUE 'ZHR_MIIS_EMP',   "TVARV variable
+                           "for employee types to extract (PA0001-PERSG)
+            c_massn(15)  TYPE c VALUE 'ZHR_MIIS_MASSN', "TVARV variable
+                                    "for departure actions(PA0000-MASSN)
+            c_massns(2)  TYPE c VALUE '01',    "Hire action to get date
+            c_flag(1)    TYPE c VALUE 'X',     "flag for compare
+            c_ersign(1)  TYPE c VALUE 'A',
+            c_erelat(3)  TYPE c VALUE '002',
+            c_eotype(1)  TYPE c VALUE 'S',
+            c_relat(3)   TYPE c VALUE '008',
+            c_addbk(4)   TYPE c VALUE '9018',
+            c_addrs(4)   TYPE c VALUE '9001',
+            delim        TYPE c VALUE ';'.       "delimiter for file
+
+*&--------------------------------------------------------------------*
+*&      Declarations InternalTables                                   *
+*&--------------------------------------------------------------------*
+DATA : i_pernr      TYPE STANDARD TABLE OF t_pernr,
+       i_dpernr     TYPE STANDARD TABLE OF t_pernr,
+       i_rpernr     TYPE STANDARD TABLE OF t_pernr,
+       i_details    TYPE STANDARD TABLE OF t_details,
+       i_extract    TYPE STANDARD TABLE OF t_extract WITH HEADER LINE,
+       i_contact    TYPE STANDARD TABLE OF t_contact,
+       i_status     TYPE STANDARD TABLE OF t_status WITH HEADER LINE,
+       i_objid      TYPE STANDARD TABLE OF t_objid,
+       i_reptto     TYPE STANDARD TABLE OF t_reptto,
+       i_reptsto    TYPE STANDARD TABLE OF t_reptsto,
+       i_flatfile   TYPE STANDARD TABLE OF t_flatfile WITH HEADER LINE,
+       i_errfile    TYPE STANDARD TABLE OF t_errfile.
+
+*&--------------------------------------------------------------------*
+*&      Declarations workarea                                         *
+*&--------------------------------------------------------------------*
+DATA : wa_pernr     TYPE t_pernr,
+
+       wa_details   TYPE t_details,
+       wa_extract   TYPE t_extract,
+       wa_contact   TYPE t_contact,
+       wa_status    TYPE t_status,
+       wa_objid     TYPE t_objid,
+       wa_reptto    TYPE t_reptto,
+       wa_reptsto   TYPE t_reptsto,
+       wa_flatfile  TYPE t_flatfile,
+       wa_errfile   TYPE t_errfile.
+
+*&--------------------------------------------------------------------*
+*&      INITIALIZATION                                            *
+*&--------------------------------------------------------------------*
+
+INITIALIZATION.
+* assign the current date
+  MOVE sy-datum TO c_date.
+
+AT SELECTION-SCREEN.
+* validating the Personnel number, company code
+  PERFORM f_screen_validate.
+
+*&--------------------------------------------------------------------*
+*&      Start of Selection                                            *
+*&--------------------------------------------------------------------*
+START-OF-SELECTION.
+*/Validate File and Path
+  PERFORM path_file_validate.
+* if the screen validation fails then stop the processing
+  IF v_pflag NE c_flag.
+* selecting the variant values from TVARV
+    PERFORM f_variant_value.
+* Retrieving the pernr
+    PERFORM f_pernr_extract.
+* fill the extracted data into the internal table
+    PERFORM f_fill_data.
+* create the output file and audit file
+    PERFORM create_output.
+    CLEAR wa_errfile.
+  ENDIF.
+*&--------------------------------------------------------------------*
+*&     END-OF-SELECTION                                               *
+*&--------------------------------------------------------------------*
+END-OF-SELECTION.
+* freeing the memory
+  PERFORM f_free_memory.
+*&--------------------------------------------------------------------*
+*&      Form  F_VARIANT_VALUE                                         *
+*&--------------------------------------------------------------------*
+*       Subroutine to extract the values of the variant               *
+*---------------------------------------------------------------------*
+FORM f_variant_value.
+* retrieving the variants of  ZHR_MIIS_EMP
+* This is used to select specific employee types - the extract will
+* only select employees where the type (PERSG) is included in the
+* values stored in the TVARV table with name = ZHR_MIIS_EMP
+  SELECT sign opti low high FROM tvarv INTO TABLE s_tvarv
+        WHERE name = c_varemp.
+  IF sy-subrc NE 0.
+    CLEAR wa_errfile.
+    MOVE text-002 TO wa_errfile-line.
+    APPEND wa_errfile TO i_errfile.
+  ENDIF.
+* retrieving the variants of  ZHR_MIIS_MASSN
+* This is the type of action, used to select departure date for the
+* output file.  The extract will only select departure dates for
+* employees where the Type (PERSG) is not equal to Active and the
+* Action (MASSN) is in the values stored in the TVARV table
+* with name = ZHR_MIIS_MASSN
+  SELECT sign opti low high FROM tvarv INTO TABLE s_massn
+        WHERE name = c_massn.
+  IF sy-subrc NE 0.
+    CLEAR wa_errfile.
+    MOVE text-003 TO wa_errfile-line.
+    APPEND wa_errfile TO i_errfile.
+  ENDIF.
+
+ENDFORM.                    "F_VARIANT_VALUE
+
+*&--------------------------------------------------------------------*
+*&      Form  F_PERNR_EXTRACT                                         *
+*&--------------------------------------------------------------------*
+*       Subroutine to retrieving the Personnel numbers                *
+*       These PERNR will be used to extract the detail data           *
+*---------------------------------------------------------------------*
+FORM f_pernr_extract.
+  IF p_exdata NE c_flag. "It's not a full extract
+* when the user provides the personnel numbers
+    IF NOT s_pernr[] IS INITIAL .
+      SELECT pernr FROM pa0001 INTO TABLE i_pernr
+                     WHERE begda LE c_date
+                     AND   endda GE c_date
+                     AND   pernr IN s_pernr.
+
+      APPEND LINES OF i_pernr TO i_rpernr.
+      SORT i_rpernr BY pernr.
+      DELETE ADJACENT DUPLICATES FROM i_rpernr COMPARING pernr.
+      REFRESH i_pernr.
+    ENDIF.
+* when company code is entered
+    IF NOT s_bukrs[] IS INITIAL.
+      SELECT pernr FROM pa0001 INTO TABLE i_pernr
+                      WHERE begda LE c_date
+                      AND   endda GE c_date
+                      AND   bukrs IN s_bukrs.
+
+      APPEND LINES OF i_pernr TO i_rpernr.
+      SORT i_rpernr BY pernr.
+      DELETE ADJACENT DUPLICATES FROM i_rpernr COMPARING pernr.
+      REFRESH i_pernr.
+    ENDIF.
+* both the pernr and company code are null in selection screen
+* For infotype 0001
+* This will retrieve PERNRs with change or create dates
+* equal to today - effectively extracts a delta if run daily.
+    IF s_pernr[] IS INITIAL AND  s_bukrs[] IS INITIAL .
+
+      SELECT pernr FROM pa0001 INTO TABLE i_pernr
+                      WHERE begda LE c_date
+                      AND endda GE c_date
+                      AND aedtm EQ c_date.
+
+      APPEND LINES OF i_pernr TO i_rpernr.
+      REFRESH i_pernr.
+
+      SELECT pernr FROM pa0001 INTO TABLE i_pernr
+               WHERE begda EQ c_date.
+
+      APPEND LINES OF i_pernr TO i_rpernr.
+      SORT i_rpernr BY pernr.
+      DELETE ADJACENT DUPLICATES FROM i_rpernr COMPARING pernr.
+      REFRESH i_pernr.
+    ENDIF. "S_PERNR[] IS INITIAL and S_BUKRS[] IS  INITIAL check .
+
+* Collecting the Personnel number
+    PERFORM f_collect_pernr.
+
+* based on the retrieved pernr the detail data is extracted
+    PERFORM f_data_extract.
+* If full extract is selected skip all above and do full extract.
+  ELSE.
+    PERFORM f_full_data_extract.
+  ENDIF.   " p_exdata check
+
+ENDFORM.                    "F_PERNR_EXTRACT
+
+*&--------------------------------------------------------------------*
+*&      Form  F_DATA_EXTRACT                                          *
+*&--------------------------------------------------------------------*
+*   Subroutine to extract the data for the extracted personnel number *
+*---------------------------------------------------------------------*
+FORM f_data_extract.
+* As all the extracted pernr are collected in i_pernr
+  IF NOT i_pernr[] IS INITIAL.
+* data extract
+* employee group and company details from IT0001
+    SELECT pa0001~pernr pa0001~persg pa0001~persk pa0001~bukrs
+    t001~butxt pa0001~btrtl pa0001~orgeh pa0001~plans pa0001~werks
+         INTO
+         (i_extract-pernr, i_extract-persg, i_extract-persk,
+          i_extract-bukrs, i_extract-butxt, i_extract-btrtl,
+          i_extract-orgeh, i_extract-plans, i_extract-werks)
+         FROM  pa0001
+         INNER JOIN t001
+         ON pa0001~bukrs = t001~bukrs
+         FOR ALL ENTRIES IN i_pernr
+         WHERE pa0001~begda LE c_date
+           AND pa0001~endda GE c_date
+           AND pa0001~pernr = i_pernr-pernr.
+      APPEND i_extract.
+      CLEAR i_extract.
+    ENDSELECT.
+* Retrieve department name
+    LOOP AT i_extract.
+      CLEAR:  hrp1000, hrp1000-stext.
+      SELECT stext INTO hrp1000-stext
+      FROM hrp1000
+      WHERE objid = i_extract-orgeh
+        AND langu = 'E'
+        AND otype = 'O'
+        AND plvar = '01'.
+      ENDSELECT.
+      IF sy-subrc = 0.
+        i_extract-orgtx = hrp1000-stext.
+      ENDIF.
+* Retrieve Title
+      CLEAR: hrp1000, hrp1000-stext.
+      SELECT stext INTO hrp1000-stext
+      FROM hrp1000
+      WHERE objid = i_extract-plans
+        AND langu = 'E'
+        AND otype = 'S'
+        AND plvar = '01'.
+      ENDSELECT.
+      IF sy-subrc = 0.
+        i_extract-stext = hrp1000-stext.
+      ENDIF.
+* Retrieve Location
+      CLEAR: t001p, t001p-btext.
+      SELECT btext INTO t001p-btext
+      FROM t001p
+      WHERE btrtl = i_extract-btrtl
+        AND werks = i_extract-werks.
+      ENDSELECT.
+      IF sy-subrc = 0.
+        i_extract-btext = t001p-btext.
+      ENDIF.
+      MODIFY i_extract.
+    ENDLOOP.
+
+* infotype 0000
+* Retrieve Employee Status
+    SELECT pernr stat2
+        INTO TABLE i_status
+        FROM pa0000
+        FOR ALL ENTRIES IN i_pernr
+        WHERE begda LE c_date
+          AND endda GE c_date
+          AND pernr = i_pernr-pernr.
+* Retrieve employee depart date
+    LOOP AT i_status
+          WHERE stat2 NE '3'.
+      SELECT begda INTO wa_endda
+        FROM pa0000
+        WHERE pernr = i_status-pernr
+          AND massn IN s_massn.
+      ENDSELECT.
+      IF sy-subrc = 0.
+        i_status-endda = wa_endda.
+        MODIFY i_status.
+      ENDIF.
+      CLEAR wa_endda.
+    ENDLOOP.
+* Retrieve employee start date
+    LOOP AT i_status.
+      SELECT begda INTO wa_begda
+       FROM pa0000
+       WHERE pernr EQ i_status-pernr
+         AND massn EQ c_massns.
+      ENDSELECT.
+      IF sy-subrc = 0.
+        i_status-begda = wa_begda.
+        MODIFY i_status.
+      ENDIF.
+      CLEAR wa_begda.
+    ENDLOOP.
+
+*infotype 0006
+* employee contact information
+    SELECT pernr land1 telnr num01 num02 num03
+       INTO TABLE i_contact
+       FROM pa0006
+       FOR ALL ENTRIES IN i_pernr
+       WHERE begda LE c_date
+         AND endda GE c_date
+         AND pernr = i_pernr-pernr.
+
+* infotype 0002
+* employee details - name, birthdate
+    SELECT pernr vorna nachn nach2 gbdat
+                FROM pa0002 INTO TABLE i_details
+                FOR ALL ENTRIES IN i_pernr
+                WHERE begda LE c_date
+                  AND endda GE c_date
+                  AND pernr = i_pernr-pernr.
+
+* infotype ITI1001
+* Employee reporting manager
+    SELECT pa0001~pernr varyf  INTO TABLE i_reptto
+          FROM hrp1001 INNER JOIN pa0001
+          ON ( hrp1001~objid EQ pa0001~plans )
+          FOR ALL ENTRIES IN i_pernr
+          WHERE hrp1001~begda LE c_date
+            AND hrp1001~endda GE c_date
+            AND hrp1001~rsign EQ c_ersign
+            AND hrp1001~relat EQ c_erelat
+            AND hrp1001~otype EQ c_eotype
+            AND pa0001~begda LE c_date
+            AND pa0001~endda GE c_date
+            AND pa0001~pernr = i_pernr-pernr
+            AND pa0001~persg IN s_tvarv.
+    CLEAR : wa_reptto,wa_objid.
+    LOOP AT i_reptto INTO wa_reptto.
+      MOVE wa_reptto-pernr TO wa_objid-pernr.
+      MOVE wa_reptto-varyf+2(8) TO wa_objid-objid.
+      APPEND wa_objid TO i_objid.
+    ENDLOOP.
+    IF NOT i_objid IS INITIAL.
+      SELECT varyf objid INTO TABLE i_reptsto
+            FROM hrp1001
+            FOR ALL ENTRIES IN  i_objid
+            WHERE hrp1001~objid = i_objid-objid
+              AND hrp1001~begda LE c_date
+              AND hrp1001~endda GE c_date
+              AND hrp1001~rsign EQ c_ersign
+              AND hrp1001~relat EQ c_relat.
+    ENDIF.
+  ENDIF.
+ENDFORM.                    "F_DATA_EXTRACT
+
+*&--------------------------------------------------------------------*
+*&      Form  F_FILL_DATA                                             *
+*&--------------------------------------------------------------------*
+*       filling the data to the final internal table                  *
+*---------------------------------------------------------------------*
+FORM f_fill_data.
+  IF NOT i_pernr[] IS INITIAL.
+* sorting all the internal table
+    SORT i_pernr     BY pernr.
+    SORT i_extract   BY pernr.
+    SORT i_details   BY pernr.
+    SORT i_objid     BY pernr.
+    SORT i_contact   BY pernr.
+    SORT i_reptsto   BY objid.
+    SORT i_reptto    BY pernr.
+    SORT i_status    BY pernr.
+
+* looping through the retrieved pernrs
+    LOOP AT i_pernr INTO wa_pernr.
+
+* Retrieving employee company,employee group details
+* Strip leading zeros from Employee Number
+      CALL FUNCTION 'CONVERSION_EXIT_ALPHA_OUTPUT'
+           EXPORTING
+                input  = wa_pernr-pernr
+           IMPORTING
+                output = wa_flatfile-pernr.
+*      MOVE wa_pernr-pernr TO wa_flatfile-pernr.
+      READ TABLE i_extract INTO wa_extract
+              WITH KEY pernr = wa_pernr-pernr
+              BINARY SEARCH.
+      IF sy-subrc EQ 0.
+* Moving employee company,location,title
+        MOVE wa_extract-persg TO wa_flatfile-persg.
+        MOVE wa_extract-butxt TO wa_flatfile-butxt.
+        MOVE wa_extract-orgtx TO wa_flatfile-orgtx.
+        MOVE wa_extract-stext TO wa_flatfile-stext.
+        MOVE wa_extract-btext TO wa_flatfile-btext.
+      ENDIF.
+
+* retrieving employee contact information
+      READ TABLE i_contact INTO wa_contact
+            WITH KEY pernr = wa_pernr-pernr
+                       BINARY SEARCH.
+      IF sy-subrc EQ 0.
+* Moving employee contact info
+        MOVE wa_contact-land1 TO wa_flatfile-land1.
+        MOVE wa_contact-telnr TO wa_flatfile-telnr.
+        MOVE wa_contact-num01 TO wa_flatfile-num01.
+        MOVE wa_contact-num02 TO wa_flatfile-num02.
+        MOVE wa_contact-num03 TO wa_flatfile-num03.
+      ENDIF.
+
+* Retrieving employee status
+      READ TABLE i_status INTO wa_status
+         WITH KEY pernr = wa_pernr-pernr
+                BINARY SEARCH.
+      IF sy-subrc EQ 0.
+* Moving employee status
+        MOVE wa_status-stat2 TO wa_flatfile-stat2.
+        MOVE wa_status-endda TO wa_flatfile-endda.
+        MOVE wa_status-begda TO wa_flatfile-begda.
+      ENDIF.
+
+* Retrieving employee  details
+      READ TABLE i_details INTO wa_details
+              WITH KEY pernr = wa_pernr-pernr
+                          BINARY SEARCH.
+      IF sy-subrc EQ 0.
+* Moving employee  details
+        MOVE wa_details-vorna TO wa_flatfile-vorna.
+        MOVE wa_details-nachn TO wa_flatfile-nachn.
+        MOVE wa_details-nach2 TO wa_flatfile-nach2.
+        MOVE wa_details-gbdat TO wa_flatfile-gbdat.
+      ENDIF.
+
+* Retrieving employee reporting manager details
+      READ TABLE i_objid INTO wa_objid
+              WITH KEY pernr = wa_pernr-pernr
+              BINARY SEARCH.
+      IF sy-subrc EQ 0.
+        READ TABLE i_reptsto INTO wa_reptsto
+              WITH KEY objid = wa_objid-objid
+              BINARY SEARCH.
+        IF sy-subrc EQ 0.
+*Moving reporting manager details - and stripping leading
+*zeros from reporting manager number
+          CALL FUNCTION 'CONVERSION_EXIT_ALPHA_OUTPUT'
+               EXPORTING
+                    input  = wa_reptsto-varyf+2(8)
+               IMPORTING
+                    output = wa_flatfile-repts.
+*          MOVE wa_reptsto-varyf+2(8) TO wa_flatfile-repts.
+        ENDIF.
+      ENDIF.
+
+* Appending the total details which are moved
+      APPEND wa_flatfile TO i_flatfile.
+      CLEAR: wa_flatfile,wa_pernr,wa_extract,wa_details,
+             wa_objid,wa_reptsto, wa_contact.
+    ENDLOOP.
+  ENDIF.
+* Retrieving the total number of records extracted
+  DESCRIBE TABLE i_pernr LINES v_rcount.
+ENDFORM.                    "F_FILL_DATA
+
+*&--------------------------------------------------------------------*
+*&      Form  F_FREE_MEMORY                                           *
+*&--------------------------------------------------------------------*
+*  Subroutine to free the memory and if errors then sending to Email  *
+*---------------------------------------------------------------------*
+FORM f_free_memory.
+* freeing the memory
+  FREE : i_pernr[],
+         i_dpernr[],
+         i_rpernr[],
+         i_details[],
+         i_extract[],
+         i_contact[],
+         i_status[],
+         i_objid[],
+         i_reptto[],
+         i_reptsto[],
+         i_flatfile[],
+         i_errfile[].
+
+ENDFORM.                    "F_FREE_MEMORY
+
+*&--------------------------------------------------------------------*
+*&      Form  F_COLLECT_PERNR                                         *
+*&--------------------------------------------------------------------*
+*       Subroutine to collect all the personnel number                *
+*---------------------------------------------------------------------*
+FORM f_collect_pernr.
+* For infotype 0001
+  REFRESH i_dpernr[].
+  IF NOT i_rpernr[] IS INITIAL.
+
+    SELECT pernr FROM pa0001 INTO TABLE i_pernr
+               FOR ALL ENTRIES IN i_rpernr
+                     WHERE begda LE c_date
+                     AND   endda GE c_date
+                     AND   aedtm EQ c_date
+                     AND   pernr EQ i_rpernr-pernr.
+    APPEND LINES OF i_pernr TO i_dpernr.
+    REFRESH i_pernr.
+
+    SELECT pernr FROM pa0001 INTO TABLE i_pernr
+           FOR ALL ENTRIES IN i_rpernr
+              WHERE begda EQ c_date
+                AND pernr EQ i_rpernr-pernr.
+    APPEND LINES OF i_pernr TO i_dpernr.
+    REFRESH i_pernr.
+
+* For infotype 0002
+    SELECT pernr FROM pa0002 INTO  TABLE i_pernr
+       FOR ALL ENTRIES IN i_rpernr
+           WHERE begda LE c_date
+             AND endda GE c_date
+             AND aedtm EQ c_date
+             AND pernr EQ i_rpernr-pernr.
+    APPEND LINES OF i_pernr TO i_dpernr.
+    REFRESH i_pernr.
+
+    SELECT pernr FROM pa0002 INTO TABLE i_pernr
+            FOR ALL ENTRIES IN i_rpernr
+            WHERE begda EQ c_date
+              AND pernr EQ i_rpernr-pernr.
+    APPEND LINES OF i_pernr TO i_dpernr.
+    REFRESH i_pernr.
+
+* For infotype 0105
+    SELECT pernr FROM pa0105 INTO TABLE i_pernr
+        FOR ALL ENTRIES IN i_rpernr
+            WHERE begda LE c_date
+              AND endda GE c_date
+              AND aedtm EQ c_date
+              AND pernr EQ i_rpernr-pernr.
+    APPEND LINES OF i_pernr TO i_dpernr.
+    REFRESH i_pernr.
+
+    SELECT pernr FROM pa0105 INTO TABLE i_pernr
+        FOR ALL ENTRIES IN i_rpernr
+             WHERE begda EQ c_date
+               AND pernr EQ i_rpernr-pernr.
+    APPEND LINES OF i_pernr TO i_dpernr.
+    REFRESH i_pernr.
+
+* for infotype 0006
+    SELECT pernr FROM pa0006 INTO  TABLE i_pernr
+       FOR ALL ENTRIES IN i_rpernr
+           WHERE begda LE c_date
+             AND endda GE c_date
+             AND aedtm EQ c_date
+             AND pernr EQ i_rpernr-pernr.
+    APPEND LINES OF i_pernr TO i_dpernr.
+    REFRESH i_pernr.
+
+    SELECT pernr FROM pa0006 INTO  TABLE i_pernr
+        FOR ALL ENTRIES IN i_rpernr
+             WHERE begda EQ c_date
+               AND pernr EQ i_rpernr-pernr.
+    APPEND LINES OF i_pernr TO i_dpernr.
+    REFRESH i_pernr.
+
+* for infotype 0000
+    SELECT pernr FROM pa0000 INTO  TABLE i_pernr
+       FOR ALL ENTRIES IN i_rpernr
+           WHERE begda LE c_date
+             AND endda GE c_date
+             AND aedtm EQ c_date
+             AND pernr EQ i_rpernr-pernr.
+    APPEND LINES OF i_pernr TO i_dpernr.
+    REFRESH i_pernr.
+
+    SELECT pernr FROM pa0000 INTO  TABLE i_pernr
+        FOR ALL ENTRIES IN i_rpernr
+             WHERE begda EQ c_date
+               AND pernr EQ i_rpernr-pernr.
+    APPEND LINES OF i_pernr TO i_dpernr.
+    REFRESH i_pernr.
+
+* For infotype 1001
+    SELECT pa0001~pernr INTO TABLE i_pernr
+        FROM pa0001  JOIN hrp1001
+        ON ( pa0001~plans EQ hrp1001~objid )
+        FOR ALL ENTRIES IN i_rpernr
+        WHERE hrp1001~begda LE c_date
+          AND hrp1001~endda GE c_date
+          AND hrp1001~aedtm EQ c_date
+          AND hrp1001~rsign EQ c_ersign
+          AND hrp1001~relat EQ c_erelat
+          AND hrp1001~otype EQ c_eotype
+          AND pa0001~begda LE c_date
+          AND pa0001~endda GE c_date
+          AND pernr EQ i_rpernr-pernr.
+    APPEND LINES OF i_pernr TO i_dpernr.
+    REFRESH i_pernr.
+
+    SELECT pa0001~pernr INTO TABLE i_pernr
+        FROM pa0001  JOIN hrp1001
+        ON ( pa0001~plans EQ hrp1001~objid )
+        FOR ALL ENTRIES IN i_rpernr
+        WHERE hrp1001~begda EQ c_date
+          AND hrp1001~rsign EQ c_ersign
+          AND hrp1001~relat EQ c_erelat
+          AND hrp1001~otype EQ c_eotype
+          AND pa0001~begda LE c_date
+          AND pa0001~endda GE c_date
+          AND pernr EQ i_rpernr-pernr.
+    APPEND LINES OF i_pernr TO i_dpernr.
+    REFRESH i_pernr.
+  ENDIF.   "for check on i_rpernr[]
+  SORT i_dpernr BY pernr.
+  DELETE ADJACENT DUPLICATES FROM i_dpernr COMPARING pernr.
+  REFRESH i_pernr.
+* append all the collected values to i_pernr for further processing
+  APPEND LINES OF i_dpernr TO i_pernr.
+ENDFORM.                    "F_COLLECT_PERNR
+
+*&--------------------------------------------------------------------*
+*&      Form  F_FULL_DATA_EXTRACT                                     *
+*&--------------------------------------------------------------------*
+*       Subroutine to extract the full data                           *
+*---------------------------------------------------------------------*
+FORM f_full_data_extract.
+*/ Collect Personnel numbers which fit selection criteria
+* when the user provides the personnel numbers
+  IF NOT s_pernr[] IS INITIAL .
+    SELECT pernr FROM pa0001 INTO TABLE i_pernr
+                   WHERE begda LE c_date
+                   AND   endda GE c_date
+                   AND   pernr IN s_pernr.
+    APPEND LINES OF i_pernr TO i_rpernr.
+    SORT i_rpernr BY pernr.
+    DELETE ADJACENT DUPLICATES FROM i_rpernr COMPARING pernr.
+    REFRESH i_pernr.
+  ENDIF.
+* when company code is entered
+  IF NOT s_bukrs[] IS INITIAL.
+    SELECT pernr FROM pa0001 INTO TABLE i_pernr
+                    WHERE begda LE c_date
+                    AND   endda GE c_date
+                    AND   bukrs IN s_bukrs.
+    APPEND LINES OF i_pernr TO i_rpernr.
+    SORT i_rpernr BY pernr.
+    DELETE ADJACENT DUPLICATES FROM i_rpernr COMPARING pernr.
+    REFRESH i_pernr.
+  ENDIF.
+* both the pernr and company code are null in selection screen
+* For infotype 0001
+* This will retrieve all active PERNRs
+  IF s_pernr[] IS INITIAL AND  s_bukrs[] IS INITIAL .
+
+    SELECT pernr FROM pa0001 INTO TABLE i_pernr
+                    WHERE begda LE c_date
+                    AND endda GE c_date.
+    APPEND LINES OF i_pernr TO i_rpernr.
+    REFRESH i_pernr.
+    APPEND LINES OF i_pernr TO i_rpernr.
+    SORT i_rpernr BY pernr.
+    DELETE ADJACENT DUPLICATES FROM i_rpernr COMPARING pernr.
+    REFRESH i_pernr.
+  ENDIF. "S_PERNR[] IS INITIAL and S_BUKRS[] IS  INITIAL check .
+
+* infotype 0001
+  IF NOT i_rpernr[] IS INITIAL.
+    SELECT pa0001~pernr pa0001~persg pa0001~persk pa0001~bukrs
+      t001~butxt pa0001~btrtl pa0001~orgeh pa0001~plans pa0001~werks
+           INTO
+           (i_extract-pernr, i_extract-persg, i_extract-persk,
+            i_extract-bukrs, i_extract-butxt, i_extract-btrtl,
+            i_extract-orgeh, i_extract-plans, i_extract-werks)
+           FROM  pa0001
+           INNER JOIN t001
+           ON pa0001~bukrs = t001~bukrs
+           FOR ALL ENTRIES IN i_rpernr
+           WHERE pa0001~begda LE c_date
+             AND pa0001~endda GE c_date
+             AND pa0001~pernr = i_rpernr-pernr.
+      APPEND i_extract.
+      CLEAR i_extract.
+    ENDSELECT.
+* Retrieve department name
+    LOOP AT i_extract.
+      CLEAR:  hrp1000, hrp1000-stext.
+      SELECT stext INTO hrp1000-stext
+      FROM hrp1000
+      WHERE objid = i_extract-orgeh
+        AND langu = 'E'
+        AND otype = 'O'
+        AND plvar = '01'.
+      ENDSELECT.
+      IF sy-subrc = 0.
+        i_extract-orgtx = hrp1000-stext.
+      ENDIF.
+* Retrieve Title
+      CLEAR: hrp1000, hrp1000-stext.
+      SELECT stext INTO hrp1000-stext
+      FROM hrp1000
+      WHERE objid = i_extract-plans
+        AND langu = 'E'
+        AND otype = 'S'
+        AND plvar = '01'.
+      ENDSELECT.
+      IF sy-subrc = 0.
+        i_extract-stext = hrp1000-stext.
+      ENDIF.
+* Retrieve Location
+      CLEAR: t001p, t001p-btext.
+      SELECT btext INTO t001p-btext
+      FROM t001p
+      WHERE btrtl = i_extract-btrtl
+        AND werks = i_extract-werks.
+      ENDSELECT.
+      IF sy-subrc = 0.
+        i_extract-btext = t001p-btext.
+      ENDIF.
+      MODIFY i_extract.
+    ENDLOOP.
+
+*infotype 0006
+* employee contact information
+    SELECT pernr land1 telnr num01 num02 num03
+       INTO TABLE i_contact
+       FROM pa0006
+       FOR ALL ENTRIES IN i_rpernr
+        WHERE begda LE c_date
+         AND endda GE c_date
+         AND pernr = i_rpernr-pernr.
+
+*infotype 0000
+* Retrieve Employee Status
+    SELECT pernr stat2
+        INTO TABLE i_status
+        FROM pa0000
+        FOR ALL ENTRIES IN i_rpernr
+        WHERE begda LE c_date
+          AND endda GE c_date
+          AND pernr = i_rpernr-pernr.
+* Retrieve employee depart date
+    LOOP AT i_status
+          WHERE stat2 NE '3'.
+      SELECT begda INTO wa_endda
+        FROM pa0000
+        WHERE pernr = i_status-pernr
+          AND massn IN s_massn.
+      ENDSELECT.
+      IF sy-subrc = 0.
+        i_status-endda = wa_endda.
+        MODIFY i_status.
+      ENDIF.
+      CLEAR wa_endda.
+    ENDLOOP.
+* Retrieve employee start date
+    LOOP AT i_status.
+      SELECT begda INTO wa_begda
+        FROM pa0000
+        WHERE pernr EQ i_status-pernr
+         AND  massn EQ c_massns.
+      ENDSELECT.
+      IF sy-subrc = 0.
+        i_status-begda = wa_begda.
+        MODIFY i_status.
+      ENDIF.
+      CLEAR wa_begda.
+    ENDLOOP.
+
+* infotype 0002 employee details
+    SELECT pernr vorna nachn nach2 gbdat
+                FROM pa0002 INTO TABLE i_details
+                FOR ALL ENTRIES IN i_rpernr
+                WHERE begda LE c_date
+                AND endda GE c_date
+                AND pernr = i_rpernr-pernr.
+
+* infotype ITI1001
+* Employee reporting manager
+    SELECT pa0001~pernr varyf  INTO TABLE i_reptto
+          FROM hrp1001 JOIN pa0001
+          ON ( hrp1001~objid EQ pa0001~plans )
+          FOR ALL ENTRIES IN i_rpernr
+          WHERE hrp1001~begda LE c_date
+          AND hrp1001~endda GE c_date
+          AND hrp1001~rsign EQ c_ersign
+          AND hrp1001~relat EQ c_erelat
+          AND hrp1001~otype EQ c_eotype
+          AND pa0001~begda LE c_date
+          AND pa0001~endda GE c_date
+          AND pa0001~persg IN s_tvarv
+          AND pa0001~pernr = i_rpernr-pernr.
+    CLEAR : wa_reptto,wa_objid.
+    LOOP AT i_reptto INTO wa_reptto.
+      MOVE wa_reptto-pernr TO wa_objid-pernr.
+      MOVE wa_reptto-varyf+2(8) TO wa_objid-objid.
+      APPEND wa_objid TO i_objid.
+    ENDLOOP.
+    IF NOT i_objid[] IS INITIAL.
+      SELECT varyf objid INTO TABLE i_reptsto
+            FROM hrp1001
+            FOR ALL ENTRIES IN  i_objid
+            WHERE hrp1001~objid = i_objid-objid
+            AND hrp1001~begda LE c_date
+            AND hrp1001~endda GE c_date
+            AND hrp1001~rsign EQ c_ersign
+            AND hrp1001~relat EQ c_relat.
+    ENDIF.
+
+    LOOP AT i_extract INTO wa_extract.
+      MOVE wa_extract-pernr TO wa_pernr-pernr.
+      COLLECT wa_pernr INTO i_pernr.
+      CLEAR wa_pernr.
+    ENDLOOP.
+
+    LOOP AT i_details INTO wa_details.
+      MOVE wa_details-pernr TO wa_pernr-pernr.
+      COLLECT wa_pernr INTO i_pernr.
+      CLEAR wa_pernr.
+    ENDLOOP.
+
+    LOOP AT i_reptto INTO wa_reptto.
+      MOVE wa_reptto-pernr TO wa_pernr-pernr.
+      COLLECT wa_pernr INTO i_pernr.
+      CLEAR wa_pernr.
+    ENDLOOP.
+  ENDIF.   " for check on i_rpernr[]
+ENDFORM.                    "F_FULL_DATA_EXTRACT
+
+*&---------------------------------------------------------------------*
+*&      Form  F_SCREEN_VALIDATE                                        *
+*&---------------------------------------------------------------------*
+* validating the screen parameters personnel number and company code
+* if they do not exist in the master table PA0001 and T001 tables
+* return Information message is passed and stops further processing
+*----------------------------------------------------------------------*
+
+FORM f_screen_validate.
+  CLEAR :v_pflag,v_cflag.
+  IF NOT s_pernr[] IS INITIAL.
+    IF NOT s_pernr-low IS INITIAL.
+      SELECT SINGLE pernr FROM pa0001 INTO pa0001-pernr
+                    WHERE pernr EQ s_pernr-low.
+      IF sy-subrc NE 0.
+        MOVE c_flag TO v_pflag.
+      ENDIF.
+    ENDIF.
+    IF NOT s_pernr-high IS INITIAL.
+      SELECT SINGLE pernr FROM pa0001 INTO pa0001-pernr
+                WHERE pernr EQ s_pernr-high.
+      IF sy-subrc NE 0.
+        MOVE c_flag TO v_pflag.
+      ENDIF.
+    ENDIF.
+  ENDIF.
+  IF NOT s_bukrs[] IS INITIAL.
+    IF NOT s_bukrs-low IS INITIAL.
+      SELECT SINGLE bukrs FROM t001 INTO t001-bukrs
+            WHERE bukrs EQ s_bukrs-low.
+      IF sy-subrc NE 0.
+        MOVE c_flag TO v_cflag.
+      ENDIF.
+    ENDIF.
+    IF NOT s_bukrs-high IS INITIAL.
+      SELECT SINGLE bukrs FROM t001 INTO t001-bukrs
+              WHERE bukrs EQ s_bukrs-high.
+      IF sy-subrc NE 0.
+        MOVE c_flag TO v_cflag.
+      ENDIF.
+    ENDIF.
+  ENDIF.
+  IF v_pflag EQ c_flag.
+    MESSAGE i010(ad) WITH text-022.
+  ENDIF.
+  IF v_cflag EQ c_flag.
+    MESSAGE i010(ad) WITH text-023.
+  ENDIF.
+  IF v_cflag EQ c_flag OR v_pflag EQ c_flag.
+    MOVE c_flag TO v_pflag.
+  ENDIF.
+
+ENDFORM.                    "F_SCREEN_VALIDATE
+
+*&---------------------------------------------------------------------*
+*&      Form  create_output
+*&---------------------------------------------------------------------*
+*       create output file with proper delimiter
+*----------------------------------------------------------------------*
+*  -->  p1        text
+*  <--  p2        text
+*----------------------------------------------------------------------*
+FORM create_output .
+  IF NOT i_flatfile[] IS INITIAL.
+    DESCRIBE TABLE i_flatfile LINES v_rcount.
+    OPEN DATASET p_efile FOR OUTPUT IN TEXT MODE.
+    IF sy-subrc NE 0.
+      WRITE text-005.
+      EXIT.
+    ELSE.
+      PERFORM add_delimiter2 USING wa_hflatfile
+                         CHANGING outrec.
+      TRANSFER outrec TO p_efile.
+      LOOP AT i_flatfile.
+        PERFORM add_delimiter USING i_flatfile
+                              CHANGING outrec.
+        TRANSFER outrec TO p_efile.
+      ENDLOOP.   "i_flatfile
+      CLOSE DATASET p_efile.
+    ENDIF.
+    PERFORM create_audit.
+  ENDIF.  "check on i_flatfile
+ENDFORM.                    " create_output
+*---------------------------------------------------------------------*
+*       FORM ADD_DELIMITER                                            *
+*---------------------------------------------------------------------*
+*   this routine simply adds the delimiter to the output file         *
+*---------------------------------------------------------------------*
+*  -->  RECORD                                                        *
+*  -->  P_OUTREC                                                      *
+*---------------------------------------------------------------------*
+FORM add_delimiter USING record  STRUCTURE i_flatfile
+                CHANGING _outrec.
+  DATA:
+    index TYPE i.
+
+  FIELD-SYMBOLS:
+    <field>.
+
+  CLEAR _outrec.
+  DO.
+    ADD 1 TO index.
+    ASSIGN COMPONENT index OF STRUCTURE record TO <field>.
+    IF sy-subrc > 0.
+      EXIT.
+    ELSEIF index > 1.
+      CONCATENATE _outrec delim INTO _outrec.
+    ENDIF.
+    CONCATENATE _outrec <field> INTO _outrec.
+  ENDDO.
+ENDFORM.                               " ADD_DELIMITER
+*---------------------------------------------------------------------*
+*       FORM ADD_DELIMITER2                                           *
+*---------------------------------------------------------------------*
+*   this routine simply adds the delimiter to the output file header  *
+*---------------------------------------------------------------------*
+*  -->  RECORD                                                        *
+*  -->  P_OUTREC                                                      *
+*---------------------------------------------------------------------*
+FORM add_delimiter2 USING record  STRUCTURE wa_hflatfile
+                    CHANGING _outrec.
+  DATA:
+    index TYPE i.
+
+  FIELD-SYMBOLS:
+    <field>.
+
+  CLEAR _outrec.
+  DO.
+    ADD 1 TO index.
+    ASSIGN COMPONENT index OF STRUCTURE record TO <field>.
+    IF sy-subrc > 0.
+      EXIT.
+    ELSEIF index > 1.
+      CONCATENATE _outrec delim INTO _outrec.
+    ENDIF.
+    CONCATENATE _outrec <field> INTO _outrec.
+  ENDDO.
+ENDFORM.                               " ADD_DELIMITER
+
+*&---------------------------------------------------------------------*
+*&      Form  create_audit
+*&---------------------------------------------------------------------*
+*       Create the audit table
+*----------------------------------------------------------------------*
+*  -->  p1        text
+*  <--  p2        text
+*----------------------------------------------------------------------*
+FORM create_audit .
+* file for audit related file
+
+* opening the data set for creating the file
+  OPEN DATASET p_afile FOR OUTPUT IN TEXT MODE.
+  IF sy-subrc EQ 0.
+    MOVE v_rcount TO v_str.
+* writing the contents to the file
+    TRANSFER v_str TO p_afile.
+  ELSE.
+    WRITE text-005.
+  ENDIF.
+* closing the file
+  CLOSE DATASET p_afile.
+
+ENDFORM.                    " create_audit
+*&---------------------------------------------------------------------*
+*&      Form  path_file_validate
+*&---------------------------------------------------------------------*
+*       text
+*----------------------------------------------------------------------*
+*  -->  p1        text
+*  <--  p2        text
+*----------------------------------------------------------------------*
+FORM path_file_validate.
+* Check path and file
+  IF p_afile(2) <> '\\' AND p_afile(2) <> 'c:' AND p_afile(2) <> 'C:'.
+    CLEAR wa_errfile.
+    WRITE text-009.
+    MOVE text-009 TO wa_errfile-line.
+    APPEND wa_errfile TO  i_errfile.
+    EXIT.
+  ENDIF.
+  IF p_efile(2) <> '\\' AND p_efile(2) <> 'c:' AND p_efile(2) <> 'C:'.
+    CLEAR wa_errfile.
+    WRITE text-009.
+    MOVE text-009 TO wa_errfile-line.
+    APPEND wa_errfile TO  i_errfile.
+    EXIT.
+  ENDIF.
+  OPEN DATASET p_afile FOR OUTPUT IN TEXT MODE.
+  IF sy-subrc NE 0.
+    WRITE text-005.
+    EXIT.
+  ELSE.
+    CLOSE DATASET p_afile.
+  ENDIF.
+  OPEN DATASET p_efile FOR OUTPUT IN TEXT MODE.
+  IF sy-subrc NE 0.
+    WRITE text-005.
+    EXIT.
+  ELSE.
+    CLOSE DATASET p_efile.
+  ENDIF.
+
+ENDFORM.                    " path_file_validate

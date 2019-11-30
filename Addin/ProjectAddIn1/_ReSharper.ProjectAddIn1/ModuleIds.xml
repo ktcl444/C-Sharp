@@ -1,0 +1,5 @@
+<Modules>
+  <Module PersistentId="47236A83-27A2-40B5-8D6A-D3AF9309B623" ModuleId="ProjectAddIn1" />
+  <Module PersistentId="337A7E04-63BD-45A0-B323-776BEAD3469B" ModuleId="ProjectAddIn2" />
+  <Module PersistentId="CACD3971-CBDB-4447-AC62-49914814DD07" ModuleId="ClassLibrary1" />
+</Modules>

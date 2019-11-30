@@ -1,0 +1,15 @@
+E:\MY\My Workspaces@NB\My Labs\SSOLab\SSOLab.SSOServer.Components\obj\Debug\ResolveAssemblyReference.cache
+E:\MY\My Workspaces@NB\My Labs\SSOLab\SSOLab.SSOServer.Components\bin\Debug\SSOLab.SSOServer.Components.dll
+E:\MY\My Workspaces@NB\My Labs\SSOLab\SSOLab.SSOServer.Components\bin\Debug\SSOLab.SSOServer.Components.pdb
+E:\MY\My Workspaces@NB\My Labs\SSOLab\SSOLab.SSOServer.Components\obj\Debug\SSOLab.SSOServer.Components.dll
+E:\MY\My Workspaces@NB\My Labs\SSOLab\SSOLab.SSOServer.Components\obj\Debug\SSOLab.SSOServer.Components.pdb
+E:\downcode\SSOLab\SSOLab.SSOServer.Components\bin\Debug\SSOLab.SSOServer.Components.dll
+E:\downcode\SSOLab\SSOLab.SSOServer.Components\bin\Debug\SSOLab.SSOServer.Components.pdb
+E:\downcode\SSOLab\SSOLab.SSOServer.Components\obj\Debug\ResolveAssemblyReference.cache
+E:\downcode\SSOLab\SSOLab.SSOServer.Components\obj\Debug\SSOLab.SSOServer.Components.dll
+E:\downcode\SSOLab\SSOLab.SSOServer.Components\obj\Debug\SSOLab.SSOServer.Components.pdb
+D:\MyWork\代码\C#\SSOLab\SSOLab.SSOServer.Components\bin\Debug\SSOLab.SSOServer.Components.dll
+D:\MyWork\代码\C#\SSOLab\SSOLab.SSOServer.Components\bin\Debug\SSOLab.SSOServer.Components.pdb
+D:\MyWork\代码\C#\SSOLab\SSOLab.SSOServer.Components\obj\Debug\ResolveAssemblyReference.cache
+D:\MyWork\代码\C#\SSOLab\SSOLab.SSOServer.Components\obj\Debug\SSOLab.SSOServer.Components.dll
+D:\MyWork\代码\C#\SSOLab\SSOLab.SSOServer.Components\obj\Debug\SSOLab.SSOServer.Components.pdb

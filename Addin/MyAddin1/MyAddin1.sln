@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyAddin1", "MyAddin1.csproj", "{D7214E51-63AA-41DA-81DF-700D65645C9C}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup1", "..\Setup1\Setup1.vdproj", "{187FEF86-2925-4482-8A74-9042DA2B08BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7214E51-63AA-41DA-81DF-700D65645C9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7214E51-63AA-41DA-81DF-700D65645C9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7214E51-63AA-41DA-81DF-700D65645C9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7214E51-63AA-41DA-81DF-700D65645C9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{187FEF86-2925-4482-8A74-9042DA2B08BF}.Debug|Any CPU.ActiveCfg = Debug
+		{187FEF86-2925-4482-8A74-9042DA2B08BF}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

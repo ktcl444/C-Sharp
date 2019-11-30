@@ -1,0 +1,45 @@
+body
+{
+}
+.IdentityModelInfoText
+{
+	font-size: 12pt;
+	color: Black;
+	font-family: verdana;
+}
+.IdentityInfoText
+{
+	font-size: 12pt;
+	color: blue;
+	font-family: verdana;
+}
+.HeaderText
+{
+	font-size: 18pt;
+	color: blue;
+	font-family: verdana;
+}
+.LabelText
+{
+	font-size: 14pt;
+	color: Black;
+	font-family: verdana;
+}
+.LabelHelpText
+{
+	font-size: 10pt;
+	color: Black;
+	font-family: verdana;
+}
+.ButtonText
+{
+	font-size: 14pt;
+	color: Black;
+	font-family: verdana;
+}
+.ErrorText
+{
+	font-size: 14pt;
+	color: Red;
+	font-family: verdana;
+}

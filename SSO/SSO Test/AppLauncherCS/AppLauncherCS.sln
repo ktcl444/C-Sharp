@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppLauncherCS", "http://localhost:30000/AppLauncherCS/AppLauncherCS.csproj", "{381FBA0C-9129-4F02-A8DD-3141D5ED2884}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppLauncherDataCS", "AppLauncherDataCS\AppLauncherDataCS.csproj", "{405B4455-95D0-469A-BAE4-4147816FF71B}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{381FBA0C-9129-4F02-A8DD-3141D5ED2884}.Debug.ActiveCfg = Debug|.NET
+		{381FBA0C-9129-4F02-A8DD-3141D5ED2884}.Debug.Build.0 = Debug|.NET
+		{381FBA0C-9129-4F02-A8DD-3141D5ED2884}.Release.ActiveCfg = Release|.NET
+		{381FBA0C-9129-4F02-A8DD-3141D5ED2884}.Release.Build.0 = Release|.NET
+		{405B4455-95D0-469A-BAE4-4147816FF71B}.Debug.ActiveCfg = Debug|.NET
+		{405B4455-95D0-469A-BAE4-4147816FF71B}.Debug.Build.0 = Debug|.NET
+		{405B4455-95D0-469A-BAE4-4147816FF71B}.Release.ActiveCfg = Release|.NET
+		{405B4455-95D0-469A-BAE4-4147816FF71B}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

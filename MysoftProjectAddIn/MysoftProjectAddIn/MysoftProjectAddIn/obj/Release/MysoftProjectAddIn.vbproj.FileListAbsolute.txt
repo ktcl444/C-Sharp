@@ -1,0 +1,12 @@
+D:\MyWork\代码\C\Test\MysoftProjectAddIn\MysoftProjectAddIn\MysoftProjectAddIn\bin\Release\MysoftProjectAddIn.dll
+D:\MyWork\代码\C\Test\MysoftProjectAddIn\MysoftProjectAddIn\MysoftProjectAddIn\bin\Release\MysoftProjectAddIn.pdb
+D:\MyWork\代码\C\Test\MysoftProjectAddIn\MysoftProjectAddIn\MysoftProjectAddIn\bin\Release\MysoftProjectAddIn.xml
+D:\MyWork\代码\C\Test\MysoftProjectAddIn\MysoftProjectAddIn\MysoftProjectAddIn\bin\Release\MysoftProjectAddIn.dll.manifest
+D:\MyWork\代码\C\Test\MysoftProjectAddIn\MysoftProjectAddIn\MysoftProjectAddIn\bin\Release\Microsoft.Office.Interop.SmartTag.dll
+D:\MyWork\代码\C\Test\MysoftProjectAddIn\MysoftProjectAddIn\MysoftProjectAddIn\obj\Release\ResolveAssemblyReference.cache
+D:\MyWork\代码\C\Test\MysoftProjectAddIn\MysoftProjectAddIn\MysoftProjectAddIn\obj\Release\MysoftProjectAddIn.UserInfoDialog.resources
+D:\MyWork\代码\C\Test\MysoftProjectAddIn\MysoftProjectAddIn\MysoftProjectAddIn\obj\Release\MysoftProjectAddIn.Resources.resources
+D:\MyWork\代码\C\Test\MysoftProjectAddIn\MysoftProjectAddIn\MysoftProjectAddIn\obj\Release\MysoftProjectAddIn.vbproj.GenerateResource.Cache
+D:\MyWork\代码\C\Test\MysoftProjectAddIn\MysoftProjectAddIn\MysoftProjectAddIn\obj\Release\MysoftProjectAddIn.dll
+D:\MyWork\代码\C\Test\MysoftProjectAddIn\MysoftProjectAddIn\MysoftProjectAddIn\obj\Release\MysoftProjectAddIn.xml
+D:\MyWork\代码\C\Test\MysoftProjectAddIn\MysoftProjectAddIn\MysoftProjectAddIn\obj\Release\MysoftProjectAddIn.pdb

@@ -1,0 +1,34 @@
+<!-- Contoso Extranet sample using forms authentication vdir -->
+<location path="Default Web Site/AppDevASPExtranet">
+	<system.web>
+		<authentication mode="Forms">
+			<forms loginUrl="FormsLogon.aspx" name="adAuthCookie" timeout="60" path="/"></forms>
+		</authentication>
+		<authorization>
+			<deny users="?" />
+			<allow users="*" />
+		</authorization>
+	</system.web>
+</location>
+
+<!-- Contoso Extranet sample using X.509 client cert authentication -->
+<location path="Default Web Site/AppDevASPExtranetB2E">
+	<system.web>
+		<authentication mode="Windows"/>
+		<authorization>
+			<deny users="?" />
+			<allow users="*" />
+		</authorization>
+	</system.web>
+</location>
+
+<!-- Contoso Extranet sample using Passport authentication -->
+<location path="Default Web Site/AppDevASPExtranetB2C">
+	<system.web>
+		<authentication mode="Passport"/>
+		<authorization>
+			<deny users="?" />
+			<allow users="*" />
+		</authorization>
+	</system.web>
+</location>

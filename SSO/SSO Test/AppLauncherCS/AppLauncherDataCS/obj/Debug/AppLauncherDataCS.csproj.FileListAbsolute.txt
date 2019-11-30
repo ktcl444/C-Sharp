@@ -1,0 +1,5 @@
+D:\MyWork\代码\C#\SSO Test\AppLauncherCS\AppLauncherDataCS\bin\Debug\AppLauncherDataCS.dll
+D:\MyWork\代码\C#\SSO Test\AppLauncherCS\AppLauncherDataCS\bin\Debug\AppLauncherDataCS.pdb
+D:\MyWork\代码\C#\SSO Test\AppLauncherCS\AppLauncherDataCS\obj\Debug\ResolveAssemblyReference.cache
+D:\MyWork\代码\C#\SSO Test\AppLauncherCS\AppLauncherDataCS\obj\Debug\AppLauncherDataCS.dll
+D:\MyWork\代码\C#\SSO Test\AppLauncherCS\AppLauncherDataCS\obj\Debug\AppLauncherDataCS.pdb

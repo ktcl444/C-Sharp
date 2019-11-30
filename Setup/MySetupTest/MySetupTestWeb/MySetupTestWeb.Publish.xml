@@ -1,0 +1,14 @@
+<publishData>
+  <publishTarget publishUrl="c:\Test\">
+    <file relUrl="bin/MySetupTestWeb.pdb" publishTime="01/15/2009 09:22:01" />
+    <file relUrl="bin/MySetupTestWeb.dll" publishTime="01/15/2009 09:22:01" />
+    <file relUrl="Default.aspx" publishTime="01/14/2009 10:21:17" />
+    <file relUrl="Web.config" publishTime="01/14/2009 11:19:03" />
+  </publishTarget>
+  <publishTarget publishUrl="D:\Test\">
+    <file relUrl="bin/MySetupTestWeb.pdb" publishTime="01/14/2009 10:34:15" />
+    <file relUrl="bin/MySetupTestWeb.dll" publishTime="01/14/2009 10:34:16" />
+    <file relUrl="Default.aspx" publishTime="01/14/2009 10:21:17" />
+    <file relUrl="Web.config" publishTime="01/14/2009 10:16:40" />
+  </publishTarget>
+</publishData>
